@@ -1,0 +1,62 @@
+{
+  "stages": [
+    {
+      "project_id": "souls-offering",
+      "stage": 4,
+      "title": "Honor The Fallen",
+      "map": "buried-city",
+      "description": "Honor the fallen by setting off fireworks.",
+      "objective_root": "souls-offering-s4-root",
+      "objectives": [
+        {
+          "id": "souls-offering-s4-root",
+          "kind": "sequence",
+          "children": [
+            "souls-offering-s4-o1",
+            "souls-offering-s4-o2"
+          ],
+          "round_constraint": null,
+          "action": null,
+          "amount": null,
+          "description": null,
+          "maps": [
+            "buried-city"
+          ],
+          "poi_ids": [],
+          "item_ids": [],
+          "maps_provenance": null
+        },
+        {
+          "id": "souls-offering-s4-o1",
+          "kind": "atomic",
+          "children": [],
+          "round_constraint": null,
+          "action": null,
+          "amount": 300,
+          "description": "Deal Damage to ARCs in Santa Maria Houses",
+          "maps": [
+            "buried-city"
+          ],
+          "poi_ids": [],
+          "item_ids": [],
+          "maps_provenance": null
+        },
+        {
+          "id": "souls-offering-s4-o2",
+          "kind": "atomic",
+          "children": [],
+          "round_constraint": null,
+          "action": null,
+          "amount": null,
+          "description": "Set off Fireworks",
+          "maps": [
+            "buried-city"
+          ],
+          "poi_ids": [],
+          "item_ids": [],
+          "maps_provenance": null
+        }
+      ]
+    }
+  ]
+}

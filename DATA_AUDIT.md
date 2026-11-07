@@ -70,6 +70,14 @@ legendary) and the wiki has one.
 - **Heavy Shield:** charge 90 since 2.3.0. MetaForge still says 80; the wiki's infobox
   is used instead.
 
+## Checked in game, 2026-11-07
+
+- **Soul's Offering, stage 4 ("Honor The Fallen")** is a mission, not a materials stage:
+  deal 300 damage to ARCs in Santa Maria Houses (Buried City), then set off fireworks. No
+  source lists it, so it's in `overlays/project_tasks_overlay.json`. The game showed 8 days
+  left on 2026-11-07, while the wiki's end date (2026-11-16) gives 9 to 10. Check the end
+  date when the event closes.
+
 ## To do in game
 
 Key pages link to their doors by matching map marker names. These keys have no

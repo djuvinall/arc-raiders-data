@@ -1,0 +1,17 @@
+{
+  "_note": "Project stages played as a mission instead of paid in materials. No source publishes these; each is copied from the in-game Projects page. Steps run in order, as the game greys out each until the one before it is done.",
+  "stages": [
+    {
+      "project": "souls-offering",
+      "stage": 4,
+      "title": "Honor The Fallen",
+      "map": "buried-city",
+      "description": "Honor the fallen by setting off fireworks.",
+      "steps": [
+        { "text": "Deal Damage to ARCs in Santa Maria Houses", "amount": 300 },
+        { "text": "Set off Fireworks" }
+      ],
+      "source": "in game, 2026-11-07"
+    }
+  ]
+}
