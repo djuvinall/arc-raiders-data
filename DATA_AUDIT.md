@@ -60,6 +60,35 @@ correction to an overlay.
 Colorful Shoes also differ, because MetaForge has three rarities (rare, epic,
 legendary) and the wiki has one.
 
+## Checked in game, 2026-11-06
+
+- **Mod compatibility:** a mod's tooltip lists only five guns, and not always the same
+  five (two Compensator II tooltips named different sets). Compensator II fits both the
+  Kettle and the Stitcher, which the wiki lists and the first tooltip left out, so the
+  wiki's full lists stand.
+- **Verdigris Stencil:** fits the 20 guns in `stencils_overlay.json`.
+- **Heavy Shield:** charge 90 since 2.3.0. MetaForge still says 80; the wiki's infobox
+  is used instead.
+
+## To do in game
+
+Key pages link to their doors by matching map marker names. These keys have no
+matching marker yet. Once a door is found, either rename the marker upstream or add
+its position by hand.
+
+- [ ] **Dam Utility Key** (Dam Battlegrounds): opens closets and small utility rooms in
+      the administration buildings (community key list; shown on the key's page as a
+      note). Find the actual doors.
+- [ ] **Riven Tides Crane Secure Storage Keycard**: only the wiki lists this card, so it
+      may have left the game. The one Secure Storage marker ("inside other keyroom") is
+      already matched to the plain Secure Storage Keycard. Find out whether this card
+      still exists and, if so, which door it opens.
+- [x] **Emperor Gateway Conduit** (Pendola Pass): the door is on the Emperor's flank by
+      Piazza della Rupe, marked in game on 2026-11-06 and added by hand in
+      `overlays/notes_overlay.json` at (6675, 8399).
+- [ ] **Flushing Terminal Key** (Spaceport): used at the Flushing Terminal for Celeste's
+      quest. The map has no marker for the terminal, so record where it is.
+
 ## Gaps
 
 - **ARCs with no health on any source:** ARC Assessor, Bully, ARC Frigate, Matriarch,

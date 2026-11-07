@@ -41,7 +41,7 @@
       "stats": 26.9,
       "loot_areas": 27.3,
       "sold_by": 11.9,
-      "recipe_ids": 31.8,
+      "recipe_ids": 31.6,
       "recycle_ids": 43.1,
       "drops_from": 4.0
     }
@@ -49,17 +49,17 @@
   "recipes": {
     "count": 1046,
     "by_kind": {
-      "craft": 294,
+      "craft": 293,
       "recycle": 390,
-      "salvage": 362
+      "salvage": 363
     },
     "by_provenance": {
       "community": 5,
       "wiki": 1041
     },
     "populated_pct": {
-      "workbench_id": 28.1,
-      "workbench_level": 27.1,
+      "workbench_id": 28.0,
+      "workbench_level": 27.0,
       "craft_time_s": 0.0
     }
   },
@@ -72,7 +72,7 @@
   "workbenches": 11,
   "projects": 17,
   "maps": 7,
-  "pois": 3051,
+  "pois": 3061,
   "loot_areas": 13,
   "traders": 5,
   "arcs": 26,

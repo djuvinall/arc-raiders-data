@@ -147,6 +147,18 @@
     "quest_id": "a-path-not-yours"
   },
   {
+    "id": "blue-gate-06d06abe873e",
+    "map_id": "blue-gate",
+    "name": "Control Room inside Security Wing",
+    "kind": "quest-target",
+    "x": 7318.790493947099,
+    "y": 4245.285836445434,
+    "loot_areas": [],
+    "notes": null,
+    "zlayers": 1,
+    "quest_id": "the-first-nomads"
+  },
+  {
     "id": "blue-gate-06e0e443c70e",
     "map_id": "blue-gate",
     "name": "Hatch Repairs",
@@ -4513,6 +4525,18 @@
     "quest_id": null
   },
   {
+    "id": "blue-gate-d21714f1ec7a",
+    "map_id": "blue-gate",
+    "name": "Find the Control Room in the Security Wing",
+    "kind": "quest-target",
+    "x": 7347.405822974234,
+    "y": 4220.637388570756,
+    "loot_areas": [],
+    "notes": null,
+    "zlayers": 1,
+    "quest_id": "the-first-nomads"
+  },
+  {
     "id": "blue-gate-d2e531533984",
     "map_id": "blue-gate",
     "name": "Patrol Car",
@@ -4690,6 +4714,18 @@
     "notes": null,
     "zlayers": 2,
     "quest_id": "dormant-barons"
+  },
+  {
+    "id": "blue-gate-dcf425a1e0cb",
+    "map_id": "blue-gate",
+    "name": "Search the Antenna Exterior for any tampered frequency boosters",
+    "kind": "quest-target",
+    "x": 9565.20977356833,
+    "y": 3236.405680480344,
+    "loot_areas": [],
+    "notes": null,
+    "zlayers": 2,
+    "quest_id": "the-first-nomads"
   },
   {
     "id": "blue-gate-dd1dd598bce1",
@@ -17262,6 +17298,20 @@
     "quest_id": null
   },
   {
+    "id": "pendola-pass-4dc08093e538",
+    "map_id": "pendola-pass",
+    "name": "Button",
+    "kind": "cache",
+    "x": 6995.407386278514,
+    "y": 9719.182707409094,
+    "loot_areas": [
+      "old-world"
+    ],
+    "notes": null,
+    "zlayers": 1,
+    "quest_id": null
+  },
+  {
     "id": "pendola-pass-51397d95ffa8",
     "map_id": "pendola-pass",
     "name": "Supply Station",
@@ -18337,6 +18387,18 @@
     "quest_id": null
   },
   {
+    "id": "pendola-pass-ca9cc0a89ec9",
+    "map_id": "pendola-pass",
+    "name": "Button",
+    "kind": "landmark",
+    "x": 6854.0,
+    "y": 9754.0,
+    "loot_areas": [],
+    "notes": null,
+    "zlayers": 1,
+    "quest_id": null
+  },
+  {
     "id": "pendola-pass-cbad28e252fc",
     "map_id": "pendola-pass",
     "name": "Fireball",
@@ -18405,6 +18467,18 @@
     "kind": "landmark",
     "x": 6870.71,
     "y": 8372.15,
+    "loot_areas": [],
+    "notes": null,
+    "zlayers": 1,
+    "quest_id": null
+  },
+  {
+    "id": "pendola-pass-d3960f9d8357",
+    "map_id": "pendola-pass",
+    "name": "Button",
+    "kind": "landmark",
+    "x": 6410.0,
+    "y": 9693.0,
     "loot_areas": [],
     "notes": null,
     "zlayers": 1,
@@ -20838,6 +20912,18 @@
     "loot_areas": [
       "nature"
     ],
+    "notes": null,
+    "zlayers": 1,
+    "quest_id": null
+  },
+  {
+    "id": "riven-tides-42996c13aa1c",
+    "map_id": "riven-tides",
+    "name": "Button",
+    "kind": "landmark",
+    "x": 8341.0,
+    "y": 5446.0,
+    "loot_areas": [],
     "notes": null,
     "zlayers": 1,
     "quest_id": null
@@ -33166,6 +33252,18 @@
     "quest_id": null
   },
   {
+    "id": "stella-montis-18e9bbbd34cf",
+    "map_id": "stella-montis",
+    "name": "Find and run the signal through the frequency converter",
+    "kind": "quest-target",
+    "x": 4590.941211997755,
+    "y": 2783.65195545467,
+    "loot_areas": [],
+    "notes": null,
+    "zlayers": 2,
+    "quest_id": "the-first-nomads"
+  },
+  {
     "id": "stella-montis-190c4369c6f5",
     "map_id": "stella-montis",
     "name": "Fuel Cell",
@@ -33756,6 +33854,18 @@
     "notes": null,
     "zlayers": 1,
     "quest_id": "snap-and-salvage"
+  },
+  {
+    "id": "stella-montis-33afa223ea95",
+    "map_id": "stella-montis",
+    "name": "Turn on the power",
+    "kind": "quest-target",
+    "x": 4691.223518560185,
+    "y": 2777.379480762189,
+    "loot_areas": [],
+    "notes": null,
+    "zlayers": 2,
+    "quest_id": "the-first-nomads"
   },
   {
     "id": "stella-montis-34249213f297",
@@ -37432,6 +37542,18 @@
     "notes": null,
     "zlayers": 2,
     "quest_id": "on-deaf-ears"
+  },
+  {
+    "id": "stella-montis-db08e4b23467",
+    "map_id": "stella-montis",
+    "name": "Repair the transformer",
+    "kind": "quest-target",
+    "x": 4686.209403232063,
+    "y": 2728.4541781608345,
+    "loot_areas": [],
+    "notes": null,
+    "zlayers": 2,
+    "quest_id": "the-first-nomads"
   },
   {
     "id": "stella-montis-db68f049ad44",

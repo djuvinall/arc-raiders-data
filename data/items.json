@@ -7809,12 +7809,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.5,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "heavy",
@@ -7886,12 +7886,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.5,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "heavy",
@@ -7961,12 +7961,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.5,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "heavy",
@@ -8038,12 +8038,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.5,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "heavy",
@@ -8175,12 +8175,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
-        "reload_s": null,
+        "headshot_mult": 2.0,
+        "reload_s": 3.5,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "energy",
@@ -8979,12 +8979,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.0,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "medium",
@@ -9076,12 +9076,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.0,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "medium",
@@ -9168,12 +9168,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.0,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "medium",
@@ -9262,12 +9262,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.0,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "medium",
@@ -10074,12 +10074,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 1.5,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "heavy",
@@ -10155,12 +10155,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 1.5,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "heavy",
@@ -10227,12 +10227,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 1.5,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "heavy",
@@ -10301,12 +10301,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 1.5,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "heavy",
@@ -11849,17 +11849,17 @@
       ],
       "upgrades": [],
       "measured": {
-        "rounds_per_minute": null,
+        "rounds_per_minute": 250.0,
         "bullet_velocity_ms": null,
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
-        "reload_s": null,
+        "headshot_mult": 2.0,
+        "reload_s": 4.5,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "heavy",
@@ -11933,17 +11933,17 @@
         }
       ],
       "measured": {
-        "rounds_per_minute": null,
+        "rounds_per_minute": 250.0,
         "bullet_velocity_ms": null,
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
-        "reload_s": null,
+        "headshot_mult": 2.0,
+        "reload_s": 4.5,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "heavy",
@@ -12017,17 +12017,17 @@
         }
       ],
       "measured": {
-        "rounds_per_minute": null,
+        "rounds_per_minute": 250.0,
         "bullet_velocity_ms": null,
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
-        "reload_s": null,
+        "headshot_mult": 2.0,
+        "reload_s": 4.5,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "heavy",
@@ -12101,17 +12101,17 @@
         }
       ],
       "measured": {
-        "rounds_per_minute": null,
+        "rounds_per_minute": 250.0,
         "bullet_velocity_ms": null,
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
-        "reload_s": null,
+        "headshot_mult": 2.0,
+        "reload_s": 4.5,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "heavy",
@@ -13234,12 +13234,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.0,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "light",
@@ -13328,12 +13328,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.0,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "light",
@@ -13420,12 +13420,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.0,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "light",
@@ -13512,12 +13512,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.0,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "light",
@@ -14966,12 +14966,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.5,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "light",
@@ -15051,12 +15051,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.5,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "light",
@@ -15127,12 +15127,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.5,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "light",
@@ -15203,12 +15203,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.5,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "light",
@@ -15879,12 +15879,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
-        "reload_s": null,
+        "headshot_mult": 1.75,
+        "reload_s": 2.5,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "medium",
@@ -15950,12 +15950,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
-        "reload_s": null,
+        "headshot_mult": 1.75,
+        "reload_s": 2.5,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "medium",
@@ -16020,12 +16020,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
-        "reload_s": null,
+        "headshot_mult": 1.75,
+        "reload_s": 2.5,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "medium",
@@ -16090,12 +16090,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
-        "reload_s": null,
+        "headshot_mult": 1.75,
+        "reload_s": 2.5,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "medium",
@@ -20812,12 +20812,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
-        "reload_s": null,
+        "headshot_mult": 1.0,
+        "reload_s": 3.3,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "energy",
@@ -22218,12 +22218,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.0,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "energy",
@@ -24630,12 +24630,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.5,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "heavy",
@@ -24719,12 +24719,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.5,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "heavy",
@@ -24803,12 +24803,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.5,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "heavy",
@@ -24883,12 +24883,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.5,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "heavy",
@@ -28533,12 +28533,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.5,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "light",
@@ -28611,12 +28611,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.5,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "light",
@@ -28687,12 +28687,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.5,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "light",
@@ -28763,12 +28763,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.5,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "light",
@@ -29318,7 +29318,7 @@
     "stats": {
       "kind": "shield",
       "shield_hp": null,
-      "charge": 80.0,
+      "charge": 90.0,
       "type": "heavy",
       "movement_penalty": 10.0,
       "damage_mitigation": 52.5
@@ -30998,17 +30998,17 @@
       ],
       "upgrades": [],
       "measured": {
-        "rounds_per_minute": null,
+        "rounds_per_minute": 38.0,
         "bullet_velocity_ms": null,
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 1.0,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "shotgun",
@@ -31091,17 +31091,17 @@
         }
       ],
       "measured": {
-        "rounds_per_minute": null,
+        "rounds_per_minute": 38.0,
         "bullet_velocity_ms": null,
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 1.0,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "shotgun",
@@ -31175,17 +31175,17 @@
         }
       ],
       "measured": {
-        "rounds_per_minute": null,
+        "rounds_per_minute": 38.0,
         "bullet_velocity_ms": null,
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 1.0,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "shotgun",
@@ -31259,17 +31259,17 @@
         }
       ],
       "measured": {
-        "rounds_per_minute": null,
+        "rounds_per_minute": 38.0,
         "bullet_velocity_ms": null,
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 1.0,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "shotgun",
@@ -31522,11 +31522,10 @@
     "loot_areas": [],
     "drops_from": [],
     "sold_by": [],
-    "recipe_ids": [
-      "insulation-roll-craft"
-    ],
+    "recipe_ids": [],
     "recycle_ids": [
-      "insulation-roll-recycle"
+      "insulation-roll-recycle",
+      "insulation-roll-salvage"
     ],
     "blueprint_required": false,
     "variant_of": null,
@@ -31922,12 +31921,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.0,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "energy",
@@ -32091,17 +32090,17 @@
       ],
       "upgrades": [],
       "measured": {
-        "rounds_per_minute": null,
+        "rounds_per_minute": 450.0,
         "bullet_velocity_ms": null,
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.5,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "light",
@@ -32188,17 +32187,17 @@
         }
       ],
       "measured": {
-        "rounds_per_minute": null,
+        "rounds_per_minute": 450.0,
         "bullet_velocity_ms": null,
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.5,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "light",
@@ -32276,17 +32275,17 @@
         }
       ],
       "measured": {
-        "rounds_per_minute": null,
+        "rounds_per_minute": 450.0,
         "bullet_velocity_ms": null,
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.5,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "light",
@@ -32364,17 +32363,17 @@
         }
       ],
       "measured": {
-        "rounds_per_minute": null,
+        "rounds_per_minute": 450.0,
         "bullet_velocity_ms": null,
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.5,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "light",
@@ -37447,12 +37446,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.0,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "medium",
@@ -37540,12 +37539,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.0,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "medium",
@@ -37624,12 +37623,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.0,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "medium",
@@ -37708,12 +37707,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.0,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "medium",
@@ -41734,17 +41733,17 @@
       ],
       "upgrades": [],
       "measured": {
-        "rounds_per_minute": null,
+        "rounds_per_minute": 500.0,
         "bullet_velocity_ms": null,
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.0,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "medium",
@@ -41816,17 +41815,17 @@
         }
       ],
       "measured": {
-        "rounds_per_minute": null,
+        "rounds_per_minute": 500.0,
         "bullet_velocity_ms": null,
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.0,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "medium",
@@ -41891,17 +41890,17 @@
       ],
       "upgrades": [],
       "measured": {
-        "rounds_per_minute": null,
+        "rounds_per_minute": 500.0,
         "bullet_velocity_ms": null,
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.0,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "medium",
@@ -41971,17 +41970,17 @@
         }
       ],
       "measured": {
-        "rounds_per_minute": null,
+        "rounds_per_minute": 500.0,
         "bullet_velocity_ms": null,
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.0,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "medium",
@@ -42671,12 +42670,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.25,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "medium",
@@ -42768,12 +42767,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.25,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "medium",
@@ -42856,12 +42855,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.25,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "medium",
@@ -42944,12 +42943,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.25,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "medium",
@@ -49749,12 +49748,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 1.8,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "light",
@@ -49819,12 +49818,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 1.8,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "light",
@@ -49889,12 +49888,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 1.8,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "light",
@@ -49959,12 +49958,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 1.8,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "light",
@@ -50032,17 +50031,17 @@
       ],
       "upgrades": [],
       "measured": {
-        "rounds_per_minute": null,
+        "rounds_per_minute": 680.0,
         "bullet_velocity_ms": null,
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 1.75,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "light",
@@ -50129,17 +50128,17 @@
         }
       ],
       "measured": {
-        "rounds_per_minute": null,
+        "rounds_per_minute": 680.0,
         "bullet_velocity_ms": null,
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 1.75,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "light",
@@ -50217,17 +50216,17 @@
         }
       ],
       "measured": {
-        "rounds_per_minute": null,
+        "rounds_per_minute": 680.0,
         "bullet_velocity_ms": null,
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 1.75,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "light",
@@ -50305,17 +50304,17 @@
         }
       ],
       "measured": {
-        "rounds_per_minute": null,
+        "rounds_per_minute": 680.0,
         "bullet_velocity_ms": null,
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 1.75,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "light",
@@ -52876,12 +52875,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 1.5,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "medium",
@@ -52966,12 +52965,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 1.5,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "medium",
@@ -53054,12 +53053,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 1.5,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "medium",
@@ -53142,12 +53141,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 1.5,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "medium",
@@ -53920,12 +53919,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.0,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "medium",
@@ -54013,12 +54012,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.0,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "medium",
@@ -54097,12 +54096,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.0,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "medium",
@@ -54181,12 +54180,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.0,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "medium",
@@ -55574,12 +55573,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.0,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "medium",
@@ -55664,12 +55663,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.0,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "medium",
@@ -55750,12 +55749,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.0,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "medium",
@@ -55834,12 +55833,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 2.0,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "medium",
@@ -56721,12 +56720,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 1.0,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "shotgun",
@@ -56815,12 +56814,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 1.0,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "shotgun",
@@ -56905,12 +56904,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 1.0,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "shotgun",
@@ -56993,12 +56992,12 @@
         "falloff_start_m": null,
         "falloff_end_m": null,
         "falloff_min_mult": null,
-        "headshot_mult": null,
+        "headshot_mult": 1.0,
         "reload_s": null,
         "ads_s": null,
         "recoil_pattern_ref": null,
-        "measured_provenance": null,
-        "measured_by": null
+        "measured_provenance": "wiki",
+        "measured_by": "arcraiders.wiki"
       }
     },
     "ammo_type": "shotgun",

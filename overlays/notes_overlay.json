@@ -1,0 +1,27 @@
+{
+  "_note": "Facts no source publishes, entered by hand. `doors` adds a locked-room marker for a key whose door has no marker upstream; its label must contain the key's own words so the key page links to it. `items` gives a short where-to-find note for items with no loot area. Each entry says where it came from.",
+  "doors": [
+    {
+      "map": "pendola-pass",
+      "x": 6675,
+      "y": 8399,
+      "floors": 1,
+      "label": "Emperor Gateway Conduit Door",
+      "source": "Marked on the in-game map by Devon, 2026-11-06. Placed from that screenshot using the four transceivers as reference points, so expect it within about 20 m."
+    }
+  ],
+  "items": {
+    "insulation-roll": {
+      "where": "Pendola Pass only. Loose on seats, tables and counters in the train carriages, especially at the Railyard; on the shelves of the Snow Shelter that opens during a Flash Freeze; and around Almatera Station, Cielo Sereno Observatory and the Freight Terminal. Not guaranteed, so expect several runs.",
+      "source": "Community guides (GamesRadar, GameRant, allthings.how), read 2026-11-06. Not checked in game."
+    },
+    "dam-utility-key": {
+      "where": "Opens closets and small utility rooms in the Dam's administration buildings. The exact doors aren't mapped yet.",
+      "source": "Community key list shared by Devon, 2026-11-06."
+    },
+    "expired-security-code": {
+      "where": "Opens nothing. A security code becomes this once its raid ends; sell it. Fresh codes print at Pilgrim's Peak, Ancient Fort, Raider's Refuge and Reinforced Reception on the Blue Gate.",
+      "source": "Wiki and community guides, read 2026-11-06."
+    }
+  }
+}

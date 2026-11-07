@@ -1,0 +1,16 @@
+{
+  "items": {
+    "dam-utility-key": {
+      "where": "Opens closets and small utility rooms in the Dam's administration buildings. The exact doors aren't mapped yet.",
+      "source": "Community key list shared by Devon, 2026-11-06."
+    },
+    "expired-security-code": {
+      "where": "Opens nothing. A security code becomes this once its raid ends; sell it. Fresh codes print at Pilgrim's Peak, Ancient Fort, Raider's Refuge and Reinforced Reception on the Blue Gate.",
+      "source": "Wiki and community guides, read 2026-11-06."
+    },
+    "insulation-roll": {
+      "where": "Pendola Pass only. Loose on seats, tables and counters in the train carriages, especially at the Railyard; on the shelves of the Snow Shelter that opens during a Flash Freeze; and around Almatera Station, Cielo Sereno Observatory and the Freight Terminal. Not guaranteed, so expect several runs.",
+      "source": "Community guides (GamesRadar, GameRant, allthings.how), read 2026-11-06. Not checked in game."
+    }
+  }
+}

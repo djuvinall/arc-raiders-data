@@ -104,7 +104,7 @@
       ]
     },
     "Objective": {
-      "description": "`sequence` nodes group `children`; `atomic` nodes are one objective. The API\npublishes objectives as plain strings today, so `action` is null until tagged.",
+      "description": "`sequence` nodes group `children` in order; `all` nodes group steps done in any order,\nshown nested under the step before them as the game does; `atomic` nodes are one\nobjective, and `optional` ones are steps the quest completes without. Older app\nversions read unknown kinds as plain strings, so new kinds never break their updates. The API publishes objectives as plain strings today, so `action` is null\nuntil tagged, and the nesting comes from quests_overlay.json.",
       "type": "object",
       "properties": {
         "id": {

@@ -2148,11 +2148,7 @@
         "children": [
           "o1",
           "o2",
-          "o3",
-          "o4",
-          "o5",
-          "o6",
-          "o7"
+          "g1"
         ],
         "round_constraint": null,
         "action": null,
@@ -2165,7 +2161,7 @@
       },
       {
         "id": "o1",
-        "kind": "atomic",
+        "kind": "optional",
         "children": [],
         "round_constraint": null,
         "action": null,
@@ -2267,6 +2263,25 @@
         "poi_ids": [],
         "item_ids": [],
         "maps_provenance": "wiki"
+      },
+      {
+        "id": "g1",
+        "kind": "all",
+        "children": [
+          "o3",
+          "o4",
+          "o5",
+          "o6",
+          "o7"
+        ],
+        "round_constraint": null,
+        "action": null,
+        "amount": null,
+        "description": null,
+        "maps": [],
+        "poi_ids": [],
+        "item_ids": [],
+        "maps_provenance": null
       }
     ],
     "required_items": [],
@@ -2313,9 +2328,7 @@
         "kind": "sequence",
         "children": [
           "o1",
-          "o2",
-          "o3",
-          "o4"
+          "g1"
         ],
         "round_constraint": null,
         "action": null,
@@ -2373,6 +2386,23 @@
         "action": null,
         "amount": null,
         "description": "Damage a Rocketeer",
+        "maps": [],
+        "poi_ids": [],
+        "item_ids": [],
+        "maps_provenance": null
+      },
+      {
+        "id": "g1",
+        "kind": "all",
+        "children": [
+          "o2",
+          "o3",
+          "o4"
+        ],
+        "round_constraint": null,
+        "action": null,
+        "amount": null,
+        "description": null,
         "maps": [],
         "poi_ids": [],
         "item_ids": [],
@@ -4418,7 +4448,7 @@
       },
       {
         "id": "o5",
-        "kind": "atomic",
+        "kind": "optional",
         "children": [],
         "round_constraint": null,
         "action": null,
@@ -6126,12 +6156,12 @@
       },
       {
         "id": "o6",
-        "kind": "atomic",
+        "kind": "optional",
         "children": [],
         "round_constraint": null,
         "action": null,
         "amount": null,
-        "description": "(Optional) Find the hidden key",
+        "description": "Find the hidden key",
         "maps": [],
         "poi_ids": [],
         "item_ids": [],
@@ -11833,32 +11863,8 @@
         "id": "o0",
         "kind": "sequence",
         "children": [
-          "o1",
-          "o2",
-          "o3",
-          "o4",
-          "o5",
-          "o6",
-          "o7",
-          "o8",
-          "o9",
-          "o10",
-          "o11",
-          "o12",
-          "o13",
-          "o14",
-          "o15",
-          "o16",
-          "o17",
-          "o18",
-          "o19",
-          "o20",
-          "o21",
-          "o22",
-          "o23",
-          "o24",
-          "o25",
-          "o26"
+          "g1",
+          "g10"
         ],
         "round_constraint": null,
         "action": null,
@@ -12202,6 +12208,180 @@
         "action": null,
         "amount": null,
         "description": "Activate the Gondola Prototype",
+        "maps": [],
+        "poi_ids": [],
+        "item_ids": [],
+        "maps_provenance": null
+      },
+      {
+        "id": "g1",
+        "kind": "all",
+        "children": [
+          "o1",
+          "o2"
+        ],
+        "round_constraint": null,
+        "action": null,
+        "amount": null,
+        "description": null,
+        "maps": [],
+        "poi_ids": [],
+        "item_ids": [],
+        "maps_provenance": null
+      },
+      {
+        "id": "g2",
+        "kind": "all",
+        "children": [
+          "o4",
+          "o5",
+          "o6",
+          "o7"
+        ],
+        "round_constraint": null,
+        "action": null,
+        "amount": null,
+        "description": null,
+        "maps": [],
+        "poi_ids": [],
+        "item_ids": [],
+        "maps_provenance": null
+      },
+      {
+        "id": "g3",
+        "kind": "sequence",
+        "children": [
+          "o3",
+          "g2",
+          "o8"
+        ],
+        "round_constraint": null,
+        "action": null,
+        "amount": null,
+        "description": null,
+        "maps": [],
+        "poi_ids": [],
+        "item_ids": [],
+        "maps_provenance": null
+      },
+      {
+        "id": "g4",
+        "kind": "all",
+        "children": [
+          "o10",
+          "o11",
+          "o12",
+          "o13"
+        ],
+        "round_constraint": null,
+        "action": null,
+        "amount": null,
+        "description": null,
+        "maps": [],
+        "poi_ids": [],
+        "item_ids": [],
+        "maps_provenance": null
+      },
+      {
+        "id": "g5",
+        "kind": "sequence",
+        "children": [
+          "o9",
+          "g4",
+          "o14"
+        ],
+        "round_constraint": null,
+        "action": null,
+        "amount": null,
+        "description": null,
+        "maps": [],
+        "poi_ids": [],
+        "item_ids": [],
+        "maps_provenance": null
+      },
+      {
+        "id": "g6",
+        "kind": "all",
+        "children": [
+          "o16",
+          "o17",
+          "o18",
+          "o19"
+        ],
+        "round_constraint": null,
+        "action": null,
+        "amount": null,
+        "description": null,
+        "maps": [],
+        "poi_ids": [],
+        "item_ids": [],
+        "maps_provenance": null
+      },
+      {
+        "id": "g7",
+        "kind": "sequence",
+        "children": [
+          "o15",
+          "g6",
+          "o20"
+        ],
+        "round_constraint": null,
+        "action": null,
+        "amount": null,
+        "description": null,
+        "maps": [],
+        "poi_ids": [],
+        "item_ids": [],
+        "maps_provenance": null
+      },
+      {
+        "id": "g8",
+        "kind": "all",
+        "children": [
+          "o22",
+          "o23",
+          "o24",
+          "o25"
+        ],
+        "round_constraint": null,
+        "action": null,
+        "amount": null,
+        "description": null,
+        "maps": [],
+        "poi_ids": [],
+        "item_ids": [],
+        "maps_provenance": null
+      },
+      {
+        "id": "g9",
+        "kind": "sequence",
+        "children": [
+          "o21",
+          "g8",
+          "o26"
+        ],
+        "round_constraint": null,
+        "action": null,
+        "amount": null,
+        "description": null,
+        "maps": [],
+        "poi_ids": [],
+        "item_ids": [],
+        "maps_provenance": null
+      },
+      {
+        "id": "g10",
+        "kind": "any",
+        "children": [
+          "g3",
+          "g5",
+          "g7",
+          "g9"
+        ],
+        "round_constraint": null,
+        "action": null,
+        "amount": null,
+        "description": "Complete either or",
         "maps": [],
         "poi_ids": [],
         "item_ids": [],

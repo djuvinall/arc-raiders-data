@@ -1,0 +1,33 @@
+{
+  "_note": "How each quest's steps nest, from the in-game quest log, because the sources list steps flat. `tree` lists the quest's steps in order: a string is a step id (o1 is the first listed step), a list is steps in order, {\"all\": [...]} is steps done in any order (boxed under the step before it), and {\"any\": [...]} completes when any one of its options is done. Every step must appear once. `optional` steps don't hold the quest back; steps whose text starts with \"(Optional)\" are marked so without being listed here. Ids stay the same, so saved progress keeps working.",
+  "quests": {
+    "belly-of-the-beast": {
+      "_seen": "2026-11-06 in-game quest log",
+      "optional": ["o1"],
+      "tree": ["o1", "o2", { "all": ["o3", "o4", "o5", "o6", "o7"] }]
+    },
+    "boarding-the-frigate": {
+      "_seen": "2026-11-06 in-game quest log",
+      "tree": ["o1", { "all": ["o2", "o3", "o4"] }]
+    },
+    "doctors-orders": {
+      "_seen": "2026-11-06 in-game quest log",
+      "optional": ["o5"]
+    },
+    "to-the-skies": {
+      "_seen": "2026-11-06 in-game quest log",
+      "tree": [
+        { "all": ["o1", "o2"] },
+        {
+          "title": "Complete either or",
+          "any": [
+            ["o3", { "all": ["o4", "o5", "o6", "o7"] }, "o8"],
+            ["o9", { "all": ["o10", "o11", "o12", "o13"] }, "o14"],
+            ["o15", { "all": ["o16", "o17", "o18", "o19"] }, "o20"],
+            ["o21", { "all": ["o22", "o23", "o24", "o25"] }, "o26"]
+          ]
+        }
+      ]
+    }
+  }
+}

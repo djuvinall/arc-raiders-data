@@ -719,7 +719,7 @@
     "weak_points": [
       "Thrusters"
     ],
-    "tips": "The Spotter itself isn't a direct threat to you, but it can enable the Bombardier to engage you from very far distances, as well as from cover that would otherwise prevent the Bombardier from engaging. Killing both Spotters can \"blind\" the Bombardier, but the Spotters will eventually respawn, so it's ill-advised to do so constantly, as you will waste ammo or items to remove it for only a short period of time. The Spotter can be nullified by using a variety of tactics that abuse the fact that it doesn't directly attack. First, you can get into a building that the Bombardier can't shoot into. This makes it to where even though the Spotter is actively targeting you, the Bombardier can't use the Spotter in order to shoot at you. Next, you can put a wall or object that breaks the line of sight of the Spotter, breaking the beam and forcing the Spotter to require you. Last, you can use Quick Use items in order to blind, stun, or disorient the Spotter in order to get away or get around it. However, keep in mind that the Spotter will also alert other ARC to your location, which could trap you in between several threats at once.",
+    "tips": "The Spotter itself isn't a direct threat to you, but it can enable the Bombardier to engage you from very far distances, as well as from cover that would otherwise prevent the Bombardier from engaging. Killing both Spotters can \"blind\" the Bombardier, but the Spotters will eventually respawn, so it's ill-advised to do so constantly, as you will waste ammo or items to remove it for only a short period of time. The Spotter can be nullified by using a variety of tactics that abuse the fact that it doesn't directly attack. First, you can get into a building that the Bombardier can't shoot into. This makes it to where even though the Spotter is actively targeting you, the Bombardier can't use the Spotter in order to shoot at you. Next, you can put a wall or object that breaks the line of sight of the Spotter, breaking the beam and forcing the Spotter to reacquire you. Last, you can use Quick Use items in order to blind, stun, or disorient the Spotter in order to get away or get around it. However, keep in mind that the Spotter will also alert other ARC to your location, which could trap you in between several threats at once.",
     "armor_zones": [],
     "drops": [
       {
@@ -779,7 +779,7 @@
     "id": "turbine",
     "name": "ARC Turbine",
     "class": null,
-    "hp": null,
+    "hp": 4800.0,
     "icon": "https://arcraiders.wiki/wiki/Special:FilePath/ARC_Turbine.png",
     "armor": "Heavy",
     "attack": "Cluster lightning missiles",

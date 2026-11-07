@@ -15691,21 +15691,23 @@
     "provenance": "wiki"
   },
   {
-    "id": "insulation-roll-craft",
-    "kind": "craft",
-    "output": {
-      "item_id": "insulation-roll",
-      "qty": 1
-    },
-    "outputs": [],
-    "inputs": [
+    "id": "insulation-roll-recycle",
+    "kind": "recycle",
+    "output": null,
+    "outputs": [
       {
-        "item_id": "fabric",
-        "qty": 14
+        "item_id": "durable-cloth",
+        "qty": 2
       }
     ],
-    "workbench_id": "refiner",
-    "workbench_level": 1,
+    "inputs": [
+      {
+        "item_id": "insulation-roll",
+        "qty": 1
+      }
+    ],
+    "workbench_id": null,
+    "workbench_level": null,
     "alt_stations": [],
     "requires_blueprint": false,
     "blueprint_item_id": null,
@@ -15719,13 +15721,13 @@
     "provenance": "wiki"
   },
   {
-    "id": "insulation-roll-recycle",
-    "kind": "recycle",
+    "id": "insulation-roll-salvage",
+    "kind": "salvage",
     "output": null,
     "outputs": [
       {
-        "item_id": "durable-cloth",
-        "qty": 2
+        "item_id": "fabric",
+        "qty": 6
       }
     ],
     "inputs": [
@@ -26410,7 +26412,7 @@
         "qty": 1
       },
       {
-        "item_id": "rope",
+        "item_id": "steel-cable",
         "qty": 3
       }
     ],
