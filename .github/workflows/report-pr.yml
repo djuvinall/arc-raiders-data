@@ -1,0 +1,33 @@
+name: report-pr
+# A player report PR only adds a file under overlays/corrections/. This rebuilds data/
+# from it, runs the app's tests, and pushes the rebuilt data into the same PR, so the
+# diff to review shows the actual change. Commits made with GITHUB_TOKEN don't start
+# workflows, so this doesn't loop.
+on:
+  pull_request:
+    paths:
+      - "overlays/corrections/**"
+permissions:
+  contents: write
+jobs:
+  rebuild:
+    if: startsWith(github.head_ref, 'report/')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: djuvinall/arc-raiders-companion
+      - uses: actions/checkout@v4
+        with:
+          path: dataset
+          ref: ${{ github.head_ref }}
+      - uses: dtolnay/rust-toolchain@stable
+      - run: cargo run -p arc-ingest -- sync --write
+      - run: cargo test -p arc-core -p arc-ingest
+      - name: Push the rebuilt data
+        working-directory: dataset
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || { git commit -m "Rebuild data for this report" && git push; }

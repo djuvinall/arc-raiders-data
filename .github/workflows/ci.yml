@@ -2,6 +2,8 @@ name: ci
 on: [push, pull_request]
 jobs:
   validate:
+    # Report branches are validated by report-pr, which rebuilds data/ first.
+    if: ${{ !startsWith(github.head_ref || github.ref_name, 'report/') }}
     runs-on: ubuntu-latest
     steps:
       # Validates this data with the app's own tests.
