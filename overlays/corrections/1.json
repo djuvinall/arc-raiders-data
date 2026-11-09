@@ -1,0 +1,9 @@
+{
+  "file": "arcs",
+  "id": "hydra",
+  "field": "/hp",
+  "value": 1051,
+  "was": 1050,
+  "report": 1,
+  "comment": "TEST REPORT from setup, please close without merging."
+}
