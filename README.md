@@ -33,6 +33,12 @@ cargo test -p arc-core -p arc-ingest      # validate
 Commit and push from `dataset/`. The **refresh-data** workflow here does the same on demand.
 Corrections belong in `overlays/`, not in `data/`, so the next import doesn't overwrite them.
 
+`data/version.json`'s `dataset_version` follows the data: `stamp.json` keeps a hash of the
+last written data, and whenever `sync --write` gives different data, for any reason, the
+version moves to that day (`2026-11-09`, then `2026-11-09.02` for a second change that day).
+Apps download data whose version sorts after theirs, so commit `stamp.json` with `data/`.
+CI fails when the data no longer matches the stamp.
+
 ## License
 
 The data is licensed under [CC BY-SA 4.0](LICENSE). Credit the sources in
