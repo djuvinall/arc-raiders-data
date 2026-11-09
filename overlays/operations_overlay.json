@@ -1,0 +1,443 @@
+{
+  "_about": "ARC Operations and boss events, hand-curated from docs/research/2026-11-09 in the app repo (arcraiders.wiki revisions, Embark patch notes, the official map-conditions tracker, dated guides). Item, ARC and marker names are resolved by ingest. Gear lines are guide recommendations: no source publishes a minimum, so 'minimum' is our best reading of the current patch (2.4.1) and is labelled as such in the app. Confidence: sourced, conflicting or unverified; set to in-game once checked.",
+  "retrieved": "2026-11-09",
+  "patch": "2.4.1",
+  "operations": [
+    {
+      "id": "arc-frigate",
+      "name": "ARC Frigate",
+      "kind": "operation",
+      "condition": "ARC Frigate",
+      "introduced": "2.0, Frozen Trail (2026-10-08)",
+      "maps": ["dam", "buried-city", "spaceport", "blue-gate", "riven-tides", "pendola-pass"],
+      "summary": "A flying ARC ship arrives early in the raid. Ride an ARC Reclaimer up to board it, destroy its Power Cores while Hydras defend it, and release its Cargo, which drops to the ground as the best loot on the map.",
+      "starts": "On the schedule, as a major map condition. The Frigate arrives 1 to 2 minutes into the raid and can be pinged from long range as it comes in (since 2.3.0).",
+      "map_effects": [
+        "The raid lasts 35 minutes instead of 30",
+        "Raider Hatches don't work",
+        "Locked doors and loot rooms are off, and overall loot value is lower",
+        "Surface ARC is greatly reduced and ARC Turbines don't spawn",
+        "No free loadouts"
+      ],
+      "steps": [
+        { "name": "Board", "what": "ARC Reclaimers come down to the ground. Climb one and use Disrupt to ride it up to the Frigate's Landing. Don't try to climb from the ground, and keep out from under the ship's turrets." },
+        { "name": "Exterior", "what": "Work up from the Landing through the Lower and Upper Atrium to the Top Deck, destroying the exterior Power Cores. Shoot the yellow components to open doors and platforms. A Grappling Hook or Snap Hook skips the Lower Atrium elevator. Wind on the Top Deck pushes you toward fire traps until that side's cores are down." },
+        { "name": "Cargo Hold", "what": "The two Lower Atrium cores power the Cargo. Some buttons need two or more players holding them at once." },
+        { "name": "Interior", "what": "Two mirrored rooms and a central turbine room. Fog in the turbine room drains health; shooting yellow components clears it and slows the nearest fan. Kill every ARC here: survivors can spoil the Cargo release." },
+        { "name": "Release the Cargo", "what": "Destroy the remaining Power Cores, undo the four Cargo latches, then breach the two round latches. The Cargo drops." },
+        { "name": "Get out", "what": "Ride the Cargo down (safe since 2.2.0; only the landing spot crushes), loot it on the ground, then walk to a normal exit. Raider Hatches are off." }
+      ],
+      "enemies": ["Hydra", "Rocketeer", "Vaporizer", "Firefly", "Hornet", "Wasp"],
+      "enemy_notes": [
+        "Hydras are three-section turrets that wake in waves as areas clear; six guard the Top Deck. 2.2.0 raised their damage.",
+        "The Frigate's own autocannons fire barrages, warned by a sound cue and blue lasers.",
+        "Since 2.1.0, opening Frigate hatches burns you over time."
+      ],
+      "rewards": [
+        { "item": "Frigate Diagnostic Node", "chance": "possible", "from": "Cargo (best odds), Frigate containers" },
+        { "item": "Frigate Inductor", "chance": "possible", "from": "Frigate containers" },
+        { "item": "ARC Data Module", "chance": "possible", "from": "Frigate containers" },
+        { "item": "Amplification Module MK. I", "chance": "possible", "from": "Cargo, Frigate containers" },
+        { "item": "Amplification Module MK. II", "chance": "possible", "from": "Cargo, Frigate containers" },
+        { "item": "Amplification Module MK. III", "chance": "possible", "from": "Cargo" },
+        { "item": "Amplification Module MK. IV", "chance": "possible", "from": "Cargo" },
+        { "item": "Amplification Module MK. V", "chance": "possible", "from": "Cargo" },
+        { "item": "Equalizer Blueprint", "chance": "possible", "from": "Major-condition blueprint pool (2.3.0)" },
+        { "item": "Jupiter Blueprint", "chance": "possible", "from": "Major-condition blueprint pool (2.3.0)" }
+      ],
+      "reward_notes": [
+        "Nothing is guaranteed. Frigate containers hold mid-tier ARC loot; the Cargo has much better odds of amplification parts.",
+        "Since 2.3.0, areas deeper inside the Frigate roll higher-tier loot.",
+        "The Cargo is one of three sources of Amplified Weapon parts, with the Fallen Emperor and Harvester Payloads."
+      ],
+      "team": { "min": 2, "best": 3, "note": "Some buttons need two or more players at once; one guide says three for the levers. Solo players can board and work with strangers already aboard." },
+      "gear": [
+        { "slot": "weapon", "need": "minimum", "armor_pen": "strong", "note": "A weapon with strong ARC armour penetration for Power Cores and Hydras: Anvil, Bettina, Hullcracker, Jupiter or Equalizer." },
+        { "slot": "weapon", "need": "recommended", "any_of": ["Hullcracker", "Jupiter", "Equalizer"], "note": "An anti-armour weapon for Hydra backplates." },
+        { "slot": "shield", "need": "minimum", "any_of": ["Medium Shield", "Heavy Shield"], "note": "Medium Shield or better." },
+        { "slot": "healing", "need": "minimum", "any_of": ["Shield Recharger", "Surge Shield Recharger"], "qty": 3, "note": "Several shield rechargers." },
+        { "slot": "healing", "need": "minimum", "any_of": ["Bandage", "Herbal Bandage", "Sterilized Bandage", "Vita Shot"], "qty": 4 },
+        { "slot": "utility", "need": "recommended", "any_of": ["Grappling Hook", "Snap Hook"], "note": "Skips the Lower Atrium elevator." },
+        { "slot": "utility", "need": "recommended", "any_of": ["Barricade Kit"] },
+        { "slot": "utility", "need": "recommended", "any_of": ["Wolfpack", "Trigger 'Nade"], "note": "For flying ARC around the Hydras." },
+        { "slot": "healing", "need": "recommended", "any_of": ["Defibrillator"], "note": "For squads." },
+        { "slot": "augment", "need": "recommended", "any_of": ["Looting Mk. 3 (Survivor)"], "note": "Extra slots for the Cargo (one guide)." }
+      ],
+      "gear_notes": [
+        "Bring far more ammo than a loot run: enough for the whole sequence, not just the first Hydra. Heavy ammo plus energy or launcher ammo for the anti-armour weapon.",
+        "Keep bag space for the Cargo."
+      ],
+      "expect": {
+        "pvp": "Every squad on the map boards the same ship. Gunfire gives positions away, ARC fights turn into PvP, and temporary allies become rivals once the Cargo is exposed. No free loadouts means everyone has something to lose.",
+        "extraction": "No Raider Hatches. Leave on the Cargo or by Reclaimer, then cross a map with little surface ARC to a normal exit. The Cargo's landing spot is the second hotspot.",
+        "other": []
+      },
+      "mistakes": [
+        "Splitting up instead of moving together.",
+        "Filling your bag before the Cargo.",
+        "Standing under the ship near its turrets.",
+        "The whole squad behind one piece of cover against Hydras.",
+        "Ignoring Rocketeers and Vaporizers during Hydra fights.",
+        "Leaving ARC alive in the Interior before the Cargo release.",
+        "Selling Amplification Modules you can't use yet."
+      ],
+      "route": {
+        "markers": ["events/frigate_cargo"],
+        "fixed": false,
+        "start_minute": 1.5,
+        "minutes": 20,
+        "window_minutes": null,
+        "pulls_lobby": true,
+        "no_hatches": true,
+        "raid_minutes": 35,
+        "notes": [
+          "The Frigate flies; its Cargo lands at one of the marked Cargo spots. Plan sides around the landing, not the ship.",
+          "The whole lobby goes to one moving point early and stays most of the raid. Surface loot is weak."
+        ]
+      },
+      "patches": [
+        { "patch": "2.0", "date": "2026-10-08", "change": "Added, with Pendola Pass, the Hydra and Amplified Weapons." },
+        { "patch": "2.1.0", "date": "2026-10-13", "change": "Hatches burn when opened; safer Cargo drop; spawns moved closer to the action; Pendola Pass Cargo drop points moved." },
+        { "patch": "2.2.0", "date": "2026-10-20", "change": "No ejection or burning while riding the Cargo down; Hydra damage up." },
+        { "patch": "2.3.0", "date": "2026-10-27", "change": "Long-range ping as it arrives; deeper areas give better loot; hatches show puzzle progress." }
+      ],
+      "conflicts": [
+        "Power Cores: the wiki says 18 in one place and 20 in another.",
+        "Leaving: the wiki and one guide say ride the Cargo down; a launch-day guide says take the Reclaimer back.",
+        "Players needed: three for the levers (one guide) or two or more for some buttons (wiki)."
+      ],
+      "checks": [
+        "How many Power Cores there are.",
+        "Riding the Cargo down versus taking the Reclaimer.",
+        "Whether free loadouts are still banned."
+      ],
+      "confidence": "conflicting",
+      "sources": [
+        { "url": "https://arcraiders.wiki/wiki/Frigate", "retrieved": "2026-11-09", "revision": "oldid 44537" },
+        { "url": "https://arcraiders.com/news/frozen-trail-2-0-update", "retrieved": "2026-11-09", "revision": "2026-10-08" },
+        { "url": "https://arcraiders.com/news/live-update-2-3-0", "retrieved": "2026-11-09", "revision": "2026-10-27" },
+        { "url": "https://arcraiders.com/map-conditions", "retrieved": "2026-11-09", "revision": "live" },
+        { "url": "https://beebom.com/arc-raiders-frigate-guide/", "retrieved": "2026-11-09", "revision": "2026-10-09" },
+        { "url": "https://www.keengamer.com/articles/guides/arc-raiders-frigate-guide-farming-amplification-modules/", "retrieved": "2026-11-09", "revision": "2026-10-08" }
+      ]
+    },
+    {
+      "id": "close-scrutiny",
+      "name": "Close Scrutiny",
+      "kind": "operation",
+      "condition": "Close Scrutiny",
+      "introduced": "1.22.0, Flashpoint (2026-03-31)",
+      "maps": ["dam", "buried-city", "spaceport", "blue-gate"],
+      "summary": "Surveyors call ARC Assessors down across the map, each marked by a red beam you can see from anywhere. Breach an Assessor's pylons for ARC loot before they launch away, while a swarm of flying ARC comes for you.",
+      "starts": "On the schedule, as a major map condition. Assessors land during the raid; each is marked by a tall red beam.",
+      "map_effects": [
+        "Key rooms open without a key; puzzle rooms stay shut",
+        "Lower overall loot value, more ARC loot",
+        "No free loadouts (since 1.33.0)",
+        "Shredders can appear"
+      ],
+      "steps": [
+        { "name": "Find a beam", "what": "Surveyors, escorted by Vaporizers, call Assessors down. Head for a red beam." },
+        { "name": "Clear the escort", "what": "Deal with the Vaporizers first. One guide says clear at least two groups before breaching." },
+        { "name": "Breach a pylon", "what": "The Assessor cycles clockwise through its pylons, extending a platform at each. Breach the pylon whose platform is out; only one section can be worked at a time. The first attempt on a pylon is loud and calls a swarm." },
+        { "name": "Loot", "what": "A fully breached pylon stays open. Loot it, and put the Assessor Matrix somewhere safe." },
+        { "name": "Leave", "what": "Walk away under smoke or a cloak; the swarm stays. A pylon not finished about 5 minutes after touchdown blinks, then launches and is lost." }
+      ],
+      "enemies": ["Vaporizer", "Rocketeer", "Firefly", "Hornet", "Wasp", "Shredder"],
+      "enemy_notes": [
+        "The Assessor itself is unarmed. Surveyors and Vaporizers escort it.",
+        "Breaching calls Vaporizers, Rocketeers, Fireflies, Hornets and Wasps. Vaporizers are the real threat (2.0 made their laser easier to dodge)."
+      ],
+      "rewards": [
+        { "item": "Assessor Matrix", "chance": "likely", "from": "Assessor pylons" },
+        { "item": "Dolabra Blueprint", "chance": "possible", "from": "Assessor pylons (small chance)" },
+        { "item": "Advanced ARC Powercell", "chance": "possible", "from": "Assessor pylons" },
+        { "item": "ARC Motion Core", "chance": "possible", "from": "Assessor pylons" },
+        { "item": "ARC Circuitry", "chance": "possible", "from": "Assessor pylons" },
+        { "item": "ARC Alloy", "chance": "possible", "from": "Assessor pylons" },
+        { "item": "Advanced Electrical Components", "chance": "possible", "from": "Assessor pylons" }
+      ],
+      "reward_notes": [
+        "Nothing is guaranteed. Pylons also drop ARC Powercells, Coolant, Flex Rubber, Performance Steel, Synthetic Resin and Thermo Lining.",
+        "Since 2.3.0 the Dolabra, Bobcat, Equalizer, Jupiter, Tempest and Vulcano blueprints can drop in any major condition."
+      ],
+      "team": { "min": 1, "best": 3, "note": "No source gives a number. Guides assume one player breaching while the rest hold off the swarm." },
+      "gear": [
+        { "slot": "weapon", "need": "minimum", "armor_pen": "strong", "note": "Something that hurts flying ARC armour: Anvil or Hullcracker, per one guide." },
+        { "slot": "weapon", "need": "recommended", "any_of": ["Dolabra", "Canto"], "note": "A close-range option for swarms and Shredders." },
+        { "slot": "utility", "need": "minimum", "any_of": ["Smoke Grenade", "Li'l Smoke Grenade"], "qty": 2, "note": "Smoke before breaching and before looting." },
+        { "slot": "utility", "need": "recommended", "any_of": ["Lure Grenade"], "note": "Thrown away from your way out." },
+        { "slot": "utility", "need": "recommended", "any_of": ["Photoelectric Cloak"], "note": "To walk out under the swarm." },
+        { "slot": "utility", "need": "recommended", "any_of": ["Wolfpack", "Surge Coil"] },
+        { "slot": "healing", "need": "minimum", "any_of": ["Bandage", "Herbal Bandage", "Sterilized Bandage", "Vita Shot"], "qty": 4 }
+      ],
+      "gear_notes": ["Medium ammo is easiest to keep up; launcher ammo if you bring a Hullcracker. No source gives shield or augment advice."],
+      "expect": {
+        "pvp": "Ambient loot is cut, so the Assessors are the only real loot and every squad heads for the red beams. No free loadouts means other players carry real kits.",
+        "extraction": "Nothing changes for exits. You leave a breach with a live swarm on you.",
+        "other": ["Running to far Combat Supply markers rarely pays; they're usually looted already."]
+      },
+      "mistakes": [
+        "Breaching before clearing the Vaporizers.",
+        "Breaching in the open without smoke or cover.",
+        "Waiting too long: pylons launch about 5 minutes after touchdown.",
+        "Not putting the Assessor Matrix in a safe pocket.",
+        "Bringing too little healing."
+      ],
+      "route": {
+        "markers": ["events/assessor"],
+        "fixed": false,
+        "start_minute": null,
+        "minutes": 6,
+        "window_minutes": 5,
+        "pulls_lobby": true,
+        "no_hatches": false,
+        "raid_minutes": 30,
+        "notes": ["Assessors land at one of the marked Assessor spots; the beam shows which. Each pylon lasts about 5 minutes after touchdown."]
+      },
+      "patches": [
+        { "patch": "1.22.0", "date": "2026-03-31", "change": "Added with Flashpoint, as the first ARC Operation." },
+        { "patch": "1.33.0", "date": "", "change": "No free loadouts during Close Scrutiny, announced as a three-week test." },
+        { "patch": "2.0", "date": "2026-10-08", "change": "Vaporizer laser made easier to dodge." }
+      ],
+      "conflicts": [
+        "Free loadouts: announced as a three-week test in 1.33.0; the wiki still lists the ban, with no note making it permanent.",
+        "How many Assessors land per raid isn't documented."
+      ],
+      "checks": ["Assessors per raid and where they land.", "Whether free loadouts are still banned."],
+      "confidence": "conflicting",
+      "sources": [
+        { "url": "https://arcraiders.wiki/wiki/Close_Scrutiny", "retrieved": "2026-11-09", "revision": "wiki" },
+        { "url": "https://arcraiders.wiki/wiki/ARC_Assessor", "retrieved": "2026-11-09", "revision": "wiki" },
+        { "url": "https://arcraiders.com/map-conditions", "retrieved": "2026-11-09", "revision": "live" }
+      ]
+    },
+    {
+      "id": "harvester",
+      "name": "Harvester",
+      "kind": "boss",
+      "condition": "Harvester",
+      "introduced": "launch, 2025 (unconfirmed)",
+      "maps": ["dam", "spaceport", "blue-gate"],
+      "summary": "A Harvester structure stands at a fixed spot, guarded by the Queen. Slip past her, feed three fusion cores into the Harvester and destroy its yellow targets, and three containers drop with Equalizer or Jupiter blueprints.",
+      "starts": "On the schedule, as a minor map condition. The Harvester is on the map from the start.",
+      "map_effects": ["Adds the Harvester and the Queen to an ordinary raid"],
+      "steps": [
+        { "name": "Get past the Queen", "what": "She patrols. Watch her for about 30 seconds for a window, or use a cloak, zipline or smoke. Killing her is optional." },
+        { "name": "Get in", "what": "Through one of three ground-level vents. Three more exits are up top." },
+        { "name": "Find three fusion cores", "what": "Breach the containers on the upper level; one core spawns on the ground in the centre." },
+        { "name": "Insert the cores", "what": "Open the chambers at the base of the central pillar and insert all three quickly. Fire Discharge (a yellow light and sound warning) can eject them; once they're in, the Queen's Electrical Surge drains shields and stuns. Unequip your shield to avoid it." },
+        { "name": "Destroy the yellow targets", "what": "Twelve pulsing yellow targets, about 100 damage in total; melee works. The defences stop." },
+        { "name": "Loot", "what": "Three containers drop from the pillar. Loot and leave; the finish is loud." }
+      ],
+      "enemies": ["Queen", "Rocketeer"],
+      "enemy_notes": [
+        "The Queen has about 23,000 HP (wiki estimate) and heavy armour. Weak points: leg joints and the core. She turns on players inside once the cores are in.",
+        "Since 2.0, her higher-tier loot is on the leg pieces."
+      ],
+      "rewards": [
+        { "item": "Equalizer Blueprint", "chance": "guaranteed", "from": "Central containers: 1 to 3 blueprints, Equalizer or Jupiter (wiki)" },
+        { "item": "Jupiter Blueprint", "chance": "guaranteed", "from": "Central containers: 1 to 3 blueprints, Equalizer or Jupiter (wiki)" },
+        { "item": "Advanced ARC Powercell", "chance": "possible", "from": "Harvester containers, the Queen" },
+        { "item": "ARC Alloy", "chance": "possible", "from": "Harvester containers" },
+        { "item": "Impure ARC Coolant", "chance": "possible", "from": "Harvester containers" },
+        { "item": "Queen Reactor", "chance": "possible", "from": "The Queen, if you kill her" },
+        { "item": "Magnetic Accelerator", "chance": "possible", "from": "The Queen" }
+      ],
+      "reward_notes": [
+        "The wiki says every run gives 1 to 3 blueprints, each an Equalizer or a Jupiter. Guides say the Equalizer is rarer.",
+        "A solo player gets all three central containers."
+      ],
+      "team": { "min": 1, "best": 3, "note": "Solo is possible but hard. Killing the Queen is a squad job." },
+      "gear": [
+        { "slot": "utility", "need": "minimum", "any_of": ["Smoke Grenade", "Li'l Smoke Grenade", "Photoelectric Cloak"], "qty": 1, "note": "To slip past the Queen." },
+        { "slot": "healing", "need": "minimum", "any_of": ["Bandage", "Herbal Bandage", "Sterilized Bandage", "Vita Shot"], "qty": 4 },
+        { "slot": "utility", "need": "recommended", "any_of": ["Raider Hatch Key"], "note": "A sure way out when the map wakes up." },
+        { "slot": "weapon", "need": "recommended", "any_of": ["Hullcracker"], "note": "Only to kill the Queen." },
+        { "slot": "utility", "need": "recommended", "any_of": ["Wolfpack"], "note": "For Rocketeers." },
+        { "slot": "utility", "need": "recommended", "any_of": ["Snap Hook", "Zipline"] }
+      ],
+      "gear_notes": [
+        "For the blueprints alone, any weapon will do; melee breaks the yellow targets.",
+        "Unequip your shield before the Electrical Surge.",
+        "Queen-kill ammo counts in guides predate the 2.0 explosive rework, so they're likely low."
+      ],
+      "expect": {
+        "pvp": "The finish makes a sound heard across the map, and the blueprints draw players. Other squads may wait for you to finish.",
+        "extraction": "Plan your exit before you loot, and keep the blueprints in a safe pocket.",
+        "other": []
+      },
+      "mistakes": [
+        "Fighting the Queen when you only want the blueprints.",
+        "Finishing a task when the fire alarm sounds instead of getting out.",
+        "Not knowing the vent exits.",
+        "Leaving your shield on for the Electrical Surge."
+      ],
+      "route": {
+        "markers": ["events/harvester"],
+        "fixed": true,
+        "start_minute": null,
+        "minutes": 8,
+        "window_minutes": null,
+        "pulls_lobby": false,
+        "no_hatches": false,
+        "raid_minutes": 30,
+        "notes": ["One fixed spot per map. It doesn't pull players by itself, but the finish and the blueprints do."]
+      },
+      "patches": [
+        { "patch": "2.0", "date": "2026-10-08", "change": "The Dolabra can destroy the yellow targets; the Queen's better loot moved to her leg pieces." }
+      ],
+      "conflicts": [
+        "Maps: the wiki lists three but also says 'each map'.",
+        "Blueprints: 1 to 3 guaranteed per the wiki; guides say the Equalizer is rare."
+      ],
+      "checks": ["How many blueprints drop, and the Equalizer and Jupiter split."],
+      "confidence": "conflicting",
+      "sources": [
+        { "url": "https://arcraiders.wiki/wiki/Harvester", "retrieved": "2026-11-09", "revision": "wiki" },
+        { "url": "https://arcraiders.wiki/wiki/Queen", "retrieved": "2026-11-09", "revision": "wiki" },
+        { "url": "https://arcraiders.com/map-conditions", "retrieved": "2026-11-09", "revision": "live" }
+      ]
+    },
+    {
+      "id": "matriarch",
+      "name": "Matriarch",
+      "kind": "boss",
+      "condition": "Matriarch",
+      "introduced": "1.2.0, Welcome to the North Line (2025-11-13)",
+      "maps": ["dam", "spaceport", "blue-gate"],
+      "summary": "A huge ARC that only appears during its condition. A long, loud fight in the open with missile barrages, a shield and summoned ARC, for top-tier ARC materials and the Matriarch Reactor.",
+      "starts": "On the schedule, as a minor map condition. The Matriarch is on the map from the start.",
+      "map_effects": ["Adds the Matriarch and her ARC escort to an ordinary raid"],
+      "steps": [
+        { "name": "Long range", "what": "Missile barrages. Stay in hard cover; break faceplates or leg joints." },
+        { "name": "The rush", "what": "She advances on you and adds flashbang capsules." },
+        { "name": "The swarm", "what": "She summons ARC (Bastions, Bombardiers, Leapers, Rocketeers and smaller ones). Once her armour is off, burst the exposed core." },
+        { "name": "Her shield", "what": "Throughout, an energy shield blocks shots for about a minute; only shots from inside it hit. Hold fire or step inside (a Grappling Hook works inside it since 2.3.0)." },
+        { "name": "Loot", "what": "Loot the main wreck and the small debris, then leave." }
+      ],
+      "enemies": ["Matriarch", "Bastion", "Bombardier", "Leaper", "Rocketeer", "Fireball", "Hornet", "Wasp", "Tick"],
+      "enemy_notes": [
+        "About 23,000 HP (wiki estimate) and heavy armour. Weak points: the core under her faceplates, and leg joints.",
+        "Missile Swarm (3 to 6 homing missiles) does most of the damage; Leg Stomp knocks down; gas blocks sight and drains stamina."
+      ],
+      "rewards": [
+        { "item": "Matriarch Reactor", "chance": "likely", "from": "The Matriarch" },
+        { "item": "Advanced ARC Powercell", "chance": "possible", "from": "The Matriarch" },
+        { "item": "ARC Insulated Coupler", "chance": "possible", "from": "The Matriarch" },
+        { "item": "ARC Motion Core", "chance": "possible", "from": "The Matriarch" },
+        { "item": "Magnetic Accelerator", "chance": "possible", "from": "The Matriarch" },
+        { "item": "Complex Gun Parts", "chance": "possible", "from": "The Matriarch" }
+      ],
+      "reward_notes": ["Nothing is guaranteed. The Matriarch Reactor goes into the Aphelion."],
+      "team": { "min": 2, "best": 3, "note": "One on the adds, one on burst damage, the rest steady fire from cover. Some guides call solo possible with the right kit." },
+      "gear": [
+        { "slot": "weapon", "need": "minimum", "armor_pen": "very strong", "note": "Burst damage for her core: Hullcracker, Jupiter or Equalizer." },
+        { "slot": "shield", "need": "minimum", "any_of": ["Medium Shield", "Heavy Shield"], "note": "Heavy Shield recommended." },
+        { "slot": "healing", "need": "minimum", "any_of": ["Shield Recharger", "Surge Shield Recharger"], "qty": 5 },
+        { "slot": "healing", "need": "minimum", "any_of": ["Bandage", "Herbal Bandage", "Sterilized Bandage", "Vita Shot"], "qty": 6 },
+        { "slot": "utility", "need": "recommended", "any_of": ["Wolfpack"], "note": "For her adds." },
+        { "slot": "utility", "need": "recommended", "any_of": ["Barricade Kit"] },
+        { "slot": "utility", "need": "recommended", "any_of": ["Snap Hook", "Grappling Hook"] },
+        { "slot": "augment", "need": "recommended", "any_of": ["Combat Mk. 3 (Aggressive)"], "note": "One guide's pick." }
+      ],
+      "gear_notes": ["Guides from November 2025 say about 144 launcher rounds and 10 Surge Shield Rechargers; that predates the 2.0 explosive rework, so bring more."],
+      "expect": {
+        "pvp": "No source covers it, but a long, loud fight in the open invites third parties.",
+        "extraction": "Leave promptly after looting.",
+        "other": ["Good fight spots: Spaceport Control Tower and the Launch Towers, Dam's Electrical Substation, the roof of Blue Gate's Reinforced Reception."]
+      },
+      "mistakes": [
+        "Standing in the open during missile barrages.",
+        "Staying in gas clouds or near flashbangs.",
+        "Running in straight lines: the missiles home.",
+        "Leaving elite adds alive.",
+        "Shooting into her shield instead of healing and moving.",
+        "Hanging around after looting."
+      ],
+      "route": {
+        "markers": ["arc/matriarch"],
+        "fixed": true,
+        "start_minute": null,
+        "minutes": 12,
+        "window_minutes": null,
+        "pulls_lobby": false,
+        "no_hatches": false,
+        "raid_minutes": 30,
+        "notes": ["She roams from her marked spawn. The fight is long and loud."]
+      },
+      "patches": [
+        { "patch": "1.2.0", "date": "2025-11-13", "change": "Added." },
+        { "patch": "1.7.0", "date": "", "change": "The Aphelion blueprint moved from the Matriarch to Stella Montis." },
+        { "patch": "2.0", "date": "2026-10-08", "change": "All her ranged attacks work again; better loot moved to her leg pieces." },
+        { "patch": "2.3.0", "date": "2026-10-27", "change": "The Grappling Hook works inside her shield." }
+      ],
+      "conflicts": [
+        "Weak points: the wiki says skip the legs and go for the core; one guide says shoot the leg joints to slow her.",
+        "Gear guides predate the 2.0 explosive rework."
+      ],
+      "checks": [],
+      "confidence": "conflicting",
+      "sources": [
+        { "url": "https://arcraiders.wiki/wiki/Matriarch", "retrieved": "2026-11-09", "revision": "wiki" },
+        { "url": "https://arcraiders.com/map-conditions", "retrieved": "2026-11-09", "revision": "live" }
+      ]
+    },
+    {
+      "id": "redirection",
+      "name": "Redirection",
+      "kind": "event",
+      "condition": "Redirection",
+      "introduced": "2.0, Frozen Trail (2026-10-08)",
+      "maps": ["pendola-pass"],
+      "summary": "Emperor Beacons appear across Pendola Pass. Loot one and deploy it to call a Harvester Payload down where you stand: a breachable crate of ARC materials, and a chance at the Emperor Gateway Conduit blueprint.",
+      "starts": "On the schedule, as a minor map condition on Pendola Pass.",
+      "map_effects": ["No Flash Freeze", "Emperor Relays active", "Falling debris"],
+      "steps": [
+        { "name": "Get a beacon", "what": "Loot an Emperor Beacon." },
+        { "name": "Call the Payload", "what": "Deploy it where you want the Payload. Debris falls with it and hurts anyone underneath." },
+        { "name": "Loot", "what": "Wait for it to settle, then breach it (some can be searched straight away)." }
+      ],
+      "enemies": [],
+      "enemy_notes": [],
+      "rewards": [
+        { "item": "Emperor Gateway Conduit Blueprint", "chance": "possible", "from": "Harvester Payloads (lowered in 2.3.0)" },
+        { "item": "Emperor Beacon", "chance": "likely", "from": "Around the map during Redirection" }
+      ],
+      "reward_notes": ["Payloads hold ARC materials and parts; since 2.3.0 there's a small chance of ARC parts and high-tier ARC loot."],
+      "team": { "min": 1, "best": 3, "note": "Not documented." },
+      "gear": [
+        { "slot": "healing", "need": "minimum", "any_of": ["Bandage", "Herbal Bandage", "Sterilized Bandage", "Vita Shot"], "qty": 3 }
+      ],
+      "gear_notes": ["No source gives gear advice for Redirection."],
+      "expect": {
+        "pvp": "Other players can see a Payload fall. Not documented beyond that.",
+        "extraction": "You choose where the Payload lands, so call it near your exit.",
+        "other": ["The Fallen Emperor dungeon on Pendola Pass is separate: entered with an Emperor Gateway Conduit, guarded by Hydras."]
+      },
+      "mistakes": ["Standing under the falling debris."],
+      "route": {
+        "markers": ["events/emperor_payload"],
+        "fixed": false,
+        "start_minute": null,
+        "minutes": 3,
+        "window_minutes": null,
+        "pulls_lobby": false,
+        "no_hatches": false,
+        "raid_minutes": 30,
+        "notes": ["You pick where the Payload lands: deploy the beacon on your way to an exit."]
+      },
+      "patches": [
+        { "patch": "2.0", "date": "2026-10-08", "change": "Added with Pendola Pass." },
+        { "patch": "2.3.0", "date": "2026-10-27", "change": "Lower Emperor Key blueprint chance from Payloads; small chance of ARC parts and high-tier ARC loot added." }
+      ],
+      "conflicts": ["2.3.0 calls it the 'Emperor Key' blueprint; the wiki names the key Emperor Gateway Conduit. Probably the same item."],
+      "checks": ["What a Payload holds."],
+      "confidence": "unverified",
+      "sources": [
+        { "url": "https://arcraiders.wiki/wiki/Pendola_Pass", "retrieved": "2026-11-09", "revision": "wiki" },
+        { "url": "https://arcraiders.com/news/live-update-2-3-0", "retrieved": "2026-11-09", "revision": "2026-10-27" }
+      ]
+    }
+  ]
+}

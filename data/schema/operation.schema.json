@@ -1,0 +1,402 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Array_of_Operation",
+  "type": "array",
+  "items": {
+    "$ref": "#/$defs/Operation"
+  },
+  "$defs": {
+    "Operation": {
+      "description": "An ARC Operation, boss or payload event: a guide plus what the route planner needs.\nBuilt from `overlays/operations_overlay.json`. Every field defaults, so newer data with\nextra fields still loads.",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "default": ""
+        },
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "kind": {
+          "description": "`operation`, `boss` or `event`.",
+          "type": "string",
+          "default": ""
+        },
+        "condition": {
+          "description": "Its name in `conditions.json` and the event schedule.",
+          "type": "string",
+          "default": ""
+        },
+        "introduced": {
+          "type": "string",
+          "default": ""
+        },
+        "maps": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "summary": {
+          "type": "string",
+          "default": ""
+        },
+        "starts": {
+          "type": "string",
+          "default": ""
+        },
+        "map_effects": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "steps": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/OpStep"
+          },
+          "default": []
+        },
+        "enemies": {
+          "description": "ARC ids.",
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "enemy_notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "rewards": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/OpReward"
+          },
+          "default": []
+        },
+        "reward_notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "team": {
+          "$ref": "#/$defs/OpTeam",
+          "default": {
+            "min": 0,
+            "best": 0,
+            "note": ""
+          }
+        },
+        "gear": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/OpGear"
+          },
+          "default": []
+        },
+        "gear_notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "expect": {
+          "$ref": "#/$defs/OpExpect",
+          "default": {
+            "pvp": "",
+            "extraction": "",
+            "other": []
+          }
+        },
+        "mistakes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "route": {
+          "$ref": "#/$defs/OpRoute",
+          "default": {
+            "markers": [],
+            "fixed": false,
+            "start_minute": null,
+            "minutes": null,
+            "window_minutes": null,
+            "pulls_lobby": false,
+            "no_hatches": false,
+            "raid_minutes": null,
+            "notes": []
+          }
+        },
+        "patches": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/OpPatch"
+          },
+          "default": []
+        },
+        "conflicts": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "checks": {
+          "description": "Things to check in game.",
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "confidence": {
+          "description": "`sourced`, `conflicting`, `unverified` or `in-game`.",
+          "type": "string",
+          "default": ""
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/OpSource"
+          },
+          "default": []
+        }
+      }
+    },
+    "OpStep": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string",
+          "default": ""
+        },
+        "what": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    },
+    "OpReward": {
+      "type": "object",
+      "properties": {
+        "item_id": {
+          "type": "string",
+          "default": ""
+        },
+        "chance": {
+          "description": "`guaranteed`, `likely` or `possible`.",
+          "type": "string",
+          "default": ""
+        },
+        "from": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    },
+    "OpTeam": {
+      "type": "object",
+      "properties": {
+        "min": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0,
+          "default": 0
+        },
+        "best": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0,
+          "default": 0
+        },
+        "note": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    },
+    "OpGear": {
+      "description": "One line of kit: any of these items (weapon families expanded to every tier), or any\nweapon with at least this ARC armour penetration, `qty` of them.",
+      "type": "object",
+      "properties": {
+        "slot": {
+          "description": "`weapon`, `shield`, `healing`, `utility` or `augment`.",
+          "type": "string",
+          "default": ""
+        },
+        "need": {
+          "description": "`minimum` or `recommended`.",
+          "type": "string",
+          "default": ""
+        },
+        "item_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "armor_pen": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "default": null
+        },
+        "qty": {
+          "type": "integer",
+          "format": "uint32",
+          "minimum": 0,
+          "default": 0
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "default": null
+        }
+      }
+    },
+    "OpExpect": {
+      "type": "object",
+      "properties": {
+        "pvp": {
+          "type": "string",
+          "default": ""
+        },
+        "extraction": {
+          "type": "string",
+          "default": ""
+        },
+        "other": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        }
+      }
+    },
+    "OpRoute": {
+      "description": "What the route planner needs to know about it.",
+      "type": "object",
+      "properties": {
+        "markers": {
+          "description": "Marker types where it happens, as `events/harvester`.",
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "fixed": {
+          "description": "Always at the same spot (the Harvester), or at one of several (Assessor landings).",
+          "type": "boolean",
+          "default": false
+        },
+        "start_minute": {
+          "description": "Raid minute it starts, when it doesn't start with the raid.",
+          "type": [
+            "number",
+            "null"
+          ],
+          "format": "double",
+          "default": null
+        },
+        "minutes": {
+          "description": "About how long it holds you.",
+          "type": [
+            "number",
+            "null"
+          ],
+          "format": "double",
+          "default": null
+        },
+        "window_minutes": {
+          "description": "Minutes before the objective is lost (an Assessor pylon launches).",
+          "type": [
+            "number",
+            "null"
+          ],
+          "format": "double",
+          "default": null
+        },
+        "pulls_lobby": {
+          "description": "The whole lobby heads for it.",
+          "type": "boolean",
+          "default": false
+        },
+        "no_hatches": {
+          "description": "Raider Hatches don't work.",
+          "type": "boolean",
+          "default": false
+        },
+        "raid_minutes": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "format": "uint32",
+          "minimum": 0,
+          "default": null
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        }
+      }
+    },
+    "OpPatch": {
+      "type": "object",
+      "properties": {
+        "patch": {
+          "type": "string",
+          "default": ""
+        },
+        "date": {
+          "type": "string",
+          "default": ""
+        },
+        "change": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    },
+    "OpSource": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "type": "string",
+          "default": ""
+        },
+        "retrieved": {
+          "type": "string",
+          "default": ""
+        },
+        "revision": {
+          "type": "string",
+          "default": ""
+        }
+      }
+    }
+  }
+}

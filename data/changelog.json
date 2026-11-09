@@ -1,13 +1,46 @@
 [
   {
+    "dataset_version": "2026-11-09.03",
+    "game_patch": "2.4.1",
+    "summary": [
+      "operations: 0 added, 0 removed, 1 changed."
+    ],
+    "files": [
+      {
+        "file": "operations.json",
+        "added": [],
+        "removed": [],
+        "changed": [
+          "Harvester"
+        ]
+      }
+    ]
+  },
+  {
+    "dataset_version": "2026-11-09.02",
+    "game_patch": "2.4.1",
+    "summary": [
+      "operations: 5 added, 0 removed, 0 changed."
+    ],
+    "files": [
+      {
+        "file": "operations.json",
+        "added": [
+          "ARC Frigate",
+          "Close Scrutiny",
+          "Harvester",
+          "Matriarch",
+          "Redirection"
+        ],
+        "removed": [],
+        "changed": []
+      }
+    ]
+  },
+  {
     "dataset_version": "2026-11-09",
     "game_patch": "2.4.1",
     "summary": [
-      "ARC drops come from each ARC's wiki page and MetaForge (were RaidTheory, frozen since August). Hydra, Queen, Bully and Turbine now have drops.",
-      "New containers.json: what each loot container holds, for the raid planner. Husks, probes and couriers use their exact drop lists.",
-      "New conditions.json: 18 map conditions, their maps and how they change loot.",
-      "Container names: Medical Bag, Ammo Case, Backpack, Basket, First Wave Cache, Security Locker, Grenade Tube.",
-      "Expedition skill points cap at 15. Nine stale ARC tips rewritten. Soul's Offering stage 4 objectives.",
       "arcs: 0 added, 0 removed, 26 changed.",
       "items: 0 added, 1 removed, 54 changed."
     ],

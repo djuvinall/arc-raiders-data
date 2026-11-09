@@ -116,6 +116,16 @@ in the app repo). Fix anything wrong in `overlays/containers_overlay.json`,
 - [ ] **Condition effects:** whether Raider Caches and Probes really multiply under Uncovered
       Caches and Prospecting Probes, and whether the Harvester still guarantees its blueprints
       since 2.3.0.
+- [ ] **ARC Operations** (`overlays/operations_overlay.json`, from docs/research/2026-11-09
+      in the app repo): whether free loadouts are still banned in Close Scrutiny and the
+      Frigate; the Frigate's Power Core count (18 or 20) and whether to ride the Cargo down;
+      how many Harvester blueprints drop and the Equalizer/Jupiter split; Assessors per raid;
+      what a Redirection Payload holds. The gear lines are a reading of guides, not a game
+      minimum. Set `confidence` to `in-game` once an entry is checked.
+- [ ] **Raid timing** (`raid.rs`): travel speed in map units per second (estimated 4.5; time
+      a run between two markers), and search and breach seconds (estimated 4 and +8).
+- [ ] **Frigate Cargo on Riven Tides:** the Frigate runs there, but MetaForge marks no Cargo
+      drop spots on that map.
 
 ## Gaps
 
