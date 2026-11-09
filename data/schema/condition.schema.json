@@ -11,76 +11,71 @@
       "type": "object",
       "properties": {
         "name": {
-          "type": "string"
+          "type": "string",
+          "default": ""
         },
         "major": {
           "description": "Embark's major/minor tag; None when the official tracker doesn't list it.",
           "type": [
             "boolean",
             "null"
-          ]
+          ],
+          "default": null
         },
         "maps": {
           "type": "array",
           "items": {
             "type": "string"
-          }
+          },
+          "default": []
         },
         "loot_value": {
           "description": "Scales chances for rare-and-up items while it's live: above 1 for \"increased loot\nvalue\", below for \"decreased\". An estimate; the game gives no numbers.",
           "type": "number",
-          "format": "double"
+          "format": "double",
+          "default": 0.0
         },
         "boosts": {
           "description": "Marker types that spawn more often while it's live.",
           "type": "array",
           "items": {
             "$ref": "#/$defs/MarkerBoost"
-          }
+          },
+          "default": []
         },
         "loot_effects": {
           "type": "array",
           "items": {
             "type": "string"
-          }
+          },
+          "default": []
         },
         "arc_effects": {
           "type": "array",
           "items": {
             "type": "string"
-          }
+          },
+          "default": []
         },
         "confidence": {
-          "type": "string"
+          "type": "string",
+          "default": ""
         }
-      },
-      "additionalProperties": false,
-      "required": [
-        "name",
-        "maps",
-        "loot_value",
-        "boosts",
-        "loot_effects",
-        "arc_effects",
-        "confidence"
-      ]
+      }
     },
     "MarkerBoost": {
       "type": "object",
       "properties": {
         "marker": {
-          "type": "string"
+          "type": "string",
+          "default": ""
         },
         "factor": {
           "type": "number",
-          "format": "double"
+          "format": "double",
+          "default": 0.0
         }
-      },
-      "additionalProperties": false,
-      "required": [
-        "marker",
-        "factor"
-      ]
+      }
     }
   }
 }
