@@ -1,0 +1,1438 @@
+[
+  {
+    "marker": "containers/ammo_crate",
+    "name": "Ammo Case",
+    "group": "raider",
+    "loot": true,
+    "pool": [
+      {
+        "tag": "cat:ammo",
+        "weight": 1.5
+      }
+    ],
+    "items": [
+      {
+        "item_id": "light-ammo",
+        "sure": true
+      },
+      {
+        "item_id": "medium-ammo",
+        "sure": true
+      },
+      {
+        "item_id": "heavy-ammo",
+        "sure": true
+      },
+      {
+        "item_id": "shotgun-ammo",
+        "sure": true
+      }
+    ],
+    "breach": false,
+    "needs": null,
+    "zone_dependent": false,
+    "conditions": [],
+    "confidence": "confirmed",
+    "wiki": "Ammo Case",
+    "check_name": true,
+    "notes": "MetaForge calls these Ammo Crate."
+  },
+  {
+    "marker": "containers/android",
+    "name": "Android",
+    "group": "normal",
+    "loot": true,
+    "pool": [
+      {
+        "tag": "electrical",
+        "weight": 1.0
+      },
+      {
+        "tag": "technological",
+        "weight": 1.0
+      }
+    ],
+    "items": [
+      {
+        "item_id": "battery",
+        "sure": false
+      },
+      {
+        "item_id": "sensors",
+        "sure": false
+      },
+      {
+        "item_id": "electrical-components",
+        "sure": false
+      },
+      {
+        "item_id": "voltage-converter",
+        "sure": false
+      },
+      {
+        "item_id": "power-rod",
+        "sure": false
+      }
+    ],
+    "breach": false,
+    "needs": null,
+    "zone_dependent": false,
+    "conditions": [],
+    "confidence": "likely",
+    "wiki": "Android",
+    "check_name": false,
+    "notes": "Pendola Pass and Stella Montis. The wiki flags the table unconfirmed."
+  },
+  {
+    "marker": "containers/arc_courier",
+    "name": "ARC Courier",
+    "group": "arc",
+    "loot": true,
+    "pool": [],
+    "items": [
+      {
+        "item_id": "advanced-arc-powercell",
+        "sure": true
+      },
+      {
+        "item_id": "arc-alloy",
+        "sure": true
+      },
+      {
+        "item_id": "arc-circuitry",
+        "sure": true
+      },
+      {
+        "item_id": "arc-motion-core",
+        "sure": true
+      },
+      {
+        "item_id": "arc-powercell",
+        "sure": true
+      },
+      {
+        "item_id": "burned-arc-circuitry",
+        "sure": true
+      },
+      {
+        "item_id": "damaged-arc-motion-core",
+        "sure": true
+      },
+      {
+        "item_id": "damaged-hornet-driver",
+        "sure": true
+      },
+      {
+        "item_id": "damaged-wasp-driver",
+        "sure": true
+      },
+      {
+        "item_id": "fireball-burner",
+        "sure": true
+      },
+      {
+        "item_id": "hornet-driver",
+        "sure": true
+      },
+      {
+        "item_id": "pop-trigger",
+        "sure": true
+      },
+      {
+        "item_id": "sentinel-firing-core",
+        "sure": true
+      },
+      {
+        "item_id": "skulker-targeter",
+        "sure": true
+      },
+      {
+        "item_id": "spotter-relay",
+        "sure": true
+      },
+      {
+        "item_id": "surveyor-vault",
+        "sure": true
+      },
+      {
+        "item_id": "vaporizer-regulator",
+        "sure": true
+      },
+      {
+        "item_id": "bully-fragmenter",
+        "sure": true
+      }
+    ],
+    "breach": true,
+    "needs": null,
+    "zone_dependent": false,
+    "conditions": [],
+    "confidence": "confirmed",
+    "wiki": null,
+    "check_name": false,
+    "notes": "Breachable; loot is mostly ARC parts, including damaged parts. +700 XP. Since 1.36.0 no Turbine parts. Wiki: drops confirmed, ranges and chances not. ARC Flex Rubber, ARC Performance Steel, ARC Synthetic Resin, Damaged ARC Powercell, Degraded ARC Rubber, Dried-Out ARC Resin and Impure ARC Coolant are commented out of the wiki table and excluded here."
+  },
+  {
+    "marker": "containers/arc_husk",
+    "name": "ARC Husk",
+    "group": "arc",
+    "loot": true,
+    "pool": [
+      {
+        "tag": "arc",
+        "weight": 0.6
+      }
+    ],
+    "items": [],
+    "breach": false,
+    "needs": null,
+    "zone_dependent": false,
+    "conditions": [],
+    "confidence": "unverified",
+    "wiki": null,
+    "check_name": false,
+    "notes": "A generic husk marker (5 on Blue Gate and Riven Tides) whose type MetaForge doesn't say."
+  },
+  {
+    "marker": "containers/arc_probe",
+    "name": "ARC Probe",
+    "group": "arc",
+    "loot": true,
+    "pool": [],
+    "items": [
+      {
+        "item_id": "arc-powercell",
+        "sure": true
+      },
+      {
+        "item_id": "arc-alloy",
+        "sure": true
+      },
+      {
+        "item_id": "arc-circuitry",
+        "sure": true
+      },
+      {
+        "item_id": "arc-motion-core",
+        "sure": true
+      },
+      {
+        "item_id": "arc-synthetic-resin",
+        "sure": true
+      }
+    ],
+    "breach": true,
+    "needs": null,
+    "zone_dependent": false,
+    "conditions": [],
+    "confidence": "confirmed",
+    "wiki": null,
+    "check_name": false,
+    "notes": "Breaching it calls nearby ARC."
+  },
+  {
+    "marker": "containers/bag",
+    "name": "Backpack",
+    "group": "raider",
+    "loot": true,
+    "pool": [
+      {
+        "tag": "raider",
+        "weight": 1.2
+      },
+      {
+        "tag": "cat:healing",
+        "weight": 0.6
+      },
+      {
+        "tag": "cat:gadget",
+        "weight": 0.5
+      },
+      {
+        "tag": "cat:grenade",
+        "weight": 0.5
+      },
+      {
+        "tag": "cat:material-topside",
+        "weight": 0.6
+      },
+      {
+        "tag": "*",
+        "weight": 0.25
+      }
+    ],
+    "items": [],
+    "breach": false,
+    "needs": null,
+    "zone_dependent": false,
+    "conditions": [],
+    "confidence": "likely",
+    "wiki": "Backpack",
+    "check_name": true,
+    "notes": "Wiki: Raider loot; Quick Use items and Topside Materials. MetaForge calls these Bag."
+  },
+  {
+    "marker": "containers/baron_husk",
+    "name": "Baron Husk",
+    "group": "arc",
+    "loot": true,
+    "pool": [],
+    "items": [
+      {
+        "item_id": "advanced-arc-powercell",
+        "sure": true
+      },
+      {
+        "item_id": "arc-alloy",
+        "sure": true
+      },
+      {
+        "item_id": "arc-circuitry",
+        "sure": true
+      },
+      {
+        "item_id": "arc-coolant",
+        "sure": true
+      },
+      {
+        "item_id": "arc-flex-rubber",
+        "sure": true
+      },
+      {
+        "item_id": "arc-motion-core",
+        "sure": true
+      },
+      {
+        "item_id": "arc-performance-steel",
+        "sure": true
+      },
+      {
+        "item_id": "arc-powercell",
+        "sure": true
+      },
+      {
+        "item_id": "arc-synthetic-resin",
+        "sure": true
+      },
+      {
+        "item_id": "arc-thermo-lining",
+        "sure": true
+      },
+      {
+        "item_id": "burned-arc-circuitry",
+        "sure": true
+      },
+      {
+        "item_id": "damaged-arc-motion-core",
+        "sure": true
+      },
+      {
+        "item_id": "damaged-arc-powercell",
+        "sure": true
+      },
+      {
+        "item_id": "degraded-arc-rubber",
+        "sure": true
+      },
+      {
+        "item_id": "dried-out-arc-resin",
+        "sure": true
+      },
+      {
+        "item_id": "impure-arc-coolant",
+        "sure": true
+      },
+      {
+        "item_id": "rusty-arc-steel",
+        "sure": true
+      },
+      {
+        "item_id": "tattered-arc-lining",
+        "sure": true
+      }
+    ],
+    "breach": true,
+    "needs": null,
+    "zone_dependent": false,
+    "conditions": [],
+    "confidence": "confirmed",
+    "wiki": null,
+    "check_name": false,
+    "notes": "Static husk; must be breached; infobox says trapped. +500 XP. Wiki: drops confirmed, ranges not."
+  },
+  {
+    "marker": "containers/base_container",
+    "name": "Container",
+    "group": "normal",
+    "loot": true,
+    "pool": [
+      {
+        "tag": "*",
+        "weight": 0.5
+      }
+    ],
+    "items": [],
+    "breach": false,
+    "needs": null,
+    "zone_dependent": false,
+    "conditions": [],
+    "confidence": "likely",
+    "wiki": null,
+    "check_name": false,
+    "notes": "MetaForge's catch-all for ordinary containers (13,000+ markers: drawers, cabinets, crates, trash bins, terminals). What it holds follows the zone it's in."
+  },
+  {
+    "marker": "containers/basket",
+    "name": "Basket",
+    "group": "condition",
+    "loot": true,
+    "pool": [
+      {
+        "tag": "nature",
+        "weight": 1.5
+      }
+    ],
+    "items": [
+      {
+        "item_id": "assorted-seeds",
+        "sure": true
+      },
+      {
+        "item_id": "resin",
+        "sure": true
+      },
+      {
+        "item_id": "volcanic-rock",
+        "sure": true
+      },
+      {
+        "item_id": "agave",
+        "sure": true
+      },
+      {
+        "item_id": "apricot",
+        "sure": true
+      },
+      {
+        "item_id": "fertilizer",
+        "sure": true
+      },
+      {
+        "item_id": "great-mullein",
+        "sure": true
+      },
+      {
+        "item_id": "lemon",
+        "sure": true
+      },
+      {
+        "item_id": "mushroom",
+        "sure": true
+      },
+      {
+        "item_id": "olives",
+        "sure": true
+      },
+      {
+        "item_id": "prickly-pear",
+        "sure": true
+      },
+      {
+        "item_id": "roots",
+        "sure": true
+      },
+      {
+        "item_id": "candleberries",
+        "sure": true
+      },
+      {
+        "item_id": "moss",
+        "sure": true
+      }
+    ],
+    "breach": false,
+    "needs": null,
+    "zone_dependent": false,
+    "conditions": [
+      "Lush Blooms",
+      "Cold Snap"
+    ],
+    "confidence": "confirmed",
+    "wiki": "Wicker Basket",
+    "check_name": true,
+    "notes": "Wicker Basket. Appears with Lush Blooms or Cold Snap; also in the Stella Montis cafeteria behind an unpowered door. Holds many Scrappy training items."
+  },
+  {
+    "marker": "containers/box",
+    "name": "Box",
+    "group": "normal",
+    "loot": true,
+    "pool": [
+      {
+        "tag": "industrial",
+        "weight": 0.8
+      },
+      {
+        "tag": "mechanical",
+        "weight": 0.8
+      },
+      {
+        "tag": "*",
+        "weight": 0.3
+      }
+    ],
+    "items": [],
+    "breach": false,
+    "needs": null,
+    "zone_dependent": false,
+    "conditions": [],
+    "confidence": "unverified",
+    "wiki": null,
+    "check_name": false,
+    "notes": "Only 8 markers, all on Blue Gate (Gate Box, Pole Box, Raider Camp Box). No wiki container matches."
+  },
+  {
+    "marker": "containers/breachable_container",
+    "name": "Breachable Container",
+    "group": "normal",
+    "loot": true,
+    "pool": [
+      {
+        "tag": "security",
+        "weight": 1.0
+      },
+      {
+        "tag": "technological",
+        "weight": 1.0
+      },
+      {
+        "tag": "electrical",
+        "weight": 0.8
+      },
+      {
+        "tag": "industrial",
+        "weight": 0.8
+      },
+      {
+        "tag": "exodus",
+        "weight": 0.6
+      },
+      {
+        "tag": "*",
+        "weight": 0.4
+      }
+    ],
+    "items": [],
+    "breach": true,
+    "needs": null,
+    "zone_dependent": false,
+    "conditions": [],
+    "confidence": "likely",
+    "wiki": null,
+    "check_name": false,
+    "notes": "MetaForge's catch-all for breachables: transformers, data servers, server racks, technology and metal crates, engine hoods."
+  },
+  {
+    "marker": "containers/car",
+    "name": "Car",
+    "group": "normal",
+    "loot": true,
+    "pool": [
+      {
+        "tag": "mechanical",
+        "weight": 1.2
+      },
+      {
+        "tag": "electrical",
+        "weight": 0.9
+      },
+      {
+        "tag": "*",
+        "weight": 0.2
+      }
+    ],
+    "items": [
+      {
+        "item_id": "metal-parts",
+        "sure": false
+      },
+      {
+        "item_id": "chemicals",
+        "sure": false
+      },
+      {
+        "item_id": "rubber-parts",
+        "sure": false
+      },
+      {
+        "item_id": "metal-brackets",
+        "sure": false
+      },
+      {
+        "item_id": "oil",
+        "sure": false
+      },
+      {
+        "item_id": "wires",
+        "sure": false
+      },
+      {
+        "item_id": "rusted-bolts",
+        "sure": false
+      },
+      {
+        "item_id": "mechanical-components",
+        "sure": false
+      },
+      {
+        "item_id": "light-bulb",
+        "sure": false
+      },
+      {
+        "item_id": "motor",
+        "sure": false
+      },
+      {
+        "item_id": "industrial-battery",
+        "sure": false
+      },
+      {
+        "item_id": "rusted-gear",
+        "sure": false
+      }
+    ],
+    "breach": true,
+    "needs": null,
+    "zone_dependent": false,
+    "conditions": [],
+    "confidence": "likely",
+    "wiki": "Car Hood",
+    "check_name": false,
+    "notes": "The breachable Car Hood (Mechanical and Electrical loot); seats can be searched too. Some cars have an alarm trap."
+  },
+  {
+    "marker": "containers/combat_supplies",
+    "name": "Combat Supplies",
+    "group": "condition",
+    "loot": true,
+    "pool": [
+      {
+        "tag": "cat:ammo",
+        "weight": 1.0
+      },
+      {
+        "tag": "cat:healing",
+        "weight": 1.0
+      },
+      {
+        "tag": "cat:grenade",
+        "weight": 1.0
+      },
+      {
+        "tag": "cat:gadget",
+        "weight": 0.6
+      }
+    ],
+    "items": [],
+    "breach": false,
+    "needs": null,
+    "zone_dependent": false,
+    "conditions": [
+      "Close Scrutiny"
+    ],
+    "confidence": "likely",
+    "wiki": null,
+    "check_name": false,
+    "notes": "Raider supply clusters that spawn during Close Scrutiny (Dam, Blue Gate, Buried City, Spaceport). No wiki page."
+  },
+  {
+    "marker": "containers/deforester_husk",
+    "name": "Deforester Husk",
+    "group": "arc",
+    "loot": true,
+    "pool": [],
+    "items": [
+      {
+        "item_id": "advanced-arc-powercell",
+        "sure": true
+      },
+      {
+        "item_id": "advanced-electrical-components",
+        "sure": true
+      },
+      {
+        "item_id": "advanced-mechanical-components",
+        "sure": true
+      },
+      {
+        "item_id": "arc-circuitry",
+        "sure": true
+      },
+      {
+        "item_id": "arc-coolant",
+        "sure": true
+      },
+      {
+        "item_id": "arc-flex-rubber",
+        "sure": true
+      },
+      {
+        "item_id": "arc-motion-core",
+        "sure": true
+      },
+      {
+        "item_id": "arc-performance-steel",
+        "sure": true
+      },
+      {
+        "item_id": "arc-powercell",
+        "sure": true
+      },
+      {
+        "item_id": "arc-synthetic-resin",
+        "sure": true
+      },
+      {
+        "item_id": "burned-arc-circuitry",
+        "sure": true
+      },
+      {
+        "item_id": "damaged-arc-powercell",
+        "sure": true
+      },
+      {
+        "item_id": "degraded-arc-rubber",
+        "sure": true
+      },
+      {
+        "item_id": "impure-arc-coolant",
+        "sure": true
+      }
+    ],
+    "breach": true,
+    "needs": null,
+    "zone_dependent": false,
+    "conditions": [],
+    "confidence": "confirmed",
+    "wiki": null,
+    "check_name": false,
+    "notes": "Blue Gate puzzle husk (3 sites). Needs two ARC Powercells per husk inserted to open, with timed fire hazards; infobox breach=Yes, trapped. Infobox search XP 0, overview says +200. Wiki: drops confirmed, ranges not, there may be other items."
+  },
+  {
+    "marker": "containers/electrical_container",
+    "name": "Electrical Container",
+    "group": "normal",
+    "loot": true,
+    "pool": [
+      {
+        "tag": "electrical",
+        "weight": 1.0
+      },
+      {
+        "tag": "technological",
+        "weight": 0.7
+      }
+    ],
+    "items": [],
+    "breach": false,
+    "needs": null,
+    "zone_dependent": false,
+    "conditions": [],
+    "confidence": "unverified",
+    "wiki": null,
+    "check_name": false,
+    "notes": "A legacy MetaForge category with one marker."
+  },
+  {
+    "marker": "containers/frozen_raider_cache",
+    "name": "Frozen Raider Cache",
+    "group": "condition",
+    "loot": true,
+    "pool": [
+      {
+        "tag": "raider",
+        "weight": 1.0
+      },
+      {
+        "tag": "cat:weapon",
+        "weight": 1.0
+      },
+      {
+        "tag": "cat:ammo",
+        "weight": 1.0
+      },
+      {
+        "tag": "cat:weapon-mod",
+        "weight": 0.8
+      },
+      {
+        "tag": "cat:blueprint",
+        "weight": 0.8
+      },
+      {
+        "tag": "cat:grenade",
+        "weight": 0.8
+      },
+      {
+        "tag": "cat:healing",
+        "weight": 0.8
+      },
+      {
+        "tag": "cat:shield",
+        "weight": 0.8
+      }
+    ],
+    "items": [],
+    "breach": true,
+    "needs": null,
+    "zone_dependent": false,
+    "conditions": [
+      "Cold Snap"
+    ],
+    "confidence": "likely",
+    "wiki": "Raider Cache",
+    "check_name": false,
+    "notes": "A Raider Cache frozen over; it must be breached. Pendola Pass."
+  },
+  {
+    "marker": "containers/hurricane_cache",
+    "name": "First Wave Cache",
+    "group": "condition",
+    "loot": true,
+    "pool": [
+      {
+        "tag": "raider",
+        "weight": 1.0
+      },
+      {
+        "tag": "cat:weapon",
+        "weight": 1.0
+      },
+      {
+        "tag": "cat:ammo",
+        "weight": 1.0
+      },
+      {
+        "tag": "cat:material-refined",
+        "weight": 0.9
+      },
+      {
+        "tag": "cat:material-topside",
+        "weight": 0.7
+      },
+      {
+        "tag": "cat:blueprint",
+        "weight": 0.6
+      },
+      {
+        "tag": "cat:grenade",
+        "weight": 0.8
+      },
+      {
+        "tag": "cat:healing",
+        "weight": 0.8
+      },
+      {
+        "tag": "cat:shield",
+        "weight": 0.8
+      }
+    ],
+    "items": [],
+    "breach": false,
+    "needs": null,
+    "zone_dependent": false,
+    "conditions": [
+      "Hurricane"
+    ],
+    "confidence": "likely",
+    "wiki": "First Wave Cache",
+    "check_name": true,
+    "notes": "Only during Hurricane. Since 1.18.0 slightly fewer blueprints but better high-tier materials. MetaForge calls these Hurricane Cache."
+  },
+  {
+    "marker": "containers/industrial_container",
+    "name": "Industrial Container",
+    "group": "normal",
+    "loot": true,
+    "pool": [
+      {
+        "tag": "industrial",
+        "weight": 1.0
+      },
+      {
+        "tag": "mechanical",
+        "weight": 0.7
+      }
+    ],
+    "items": [],
+    "breach": false,
+    "needs": null,
+    "zone_dependent": false,
+    "conditions": [],
+    "confidence": "unverified",
+    "wiki": null,
+    "check_name": false,
+    "notes": "A legacy MetaForge category with one marker."
+  },
+  {
+    "marker": "containers/locker",
+    "name": "Locker",
+    "group": "normal",
+    "loot": true,
+    "pool": [
+      {
+        "tag": "industrial",
+        "weight": 0.9
+      },
+      {
+        "tag": "residential",
+        "weight": 0.6
+      },
+      {
+        "tag": "commercial",
+        "weight": 0.5
+      },
+      {
+        "tag": "medical",
+        "weight": 0.5
+      },
+      {
+        "tag": "cat:key",
+        "weight": 0.6
+      },
+      {
+        "tag": "cat:trinket",
+        "weight": 0.6
+      },
+      {
+        "tag": "cat:ammo",
+        "weight": 0.5
+      },
+      {
+        "tag": "cat:recyclable",
+        "weight": 0.5
+      },
+      {
+        "tag": "cat:material-topside",
+        "weight": 0.5
+      },
+      {
+        "tag": "*",
+        "weight": 0.3
+      }
+    ],
+    "items": [],
+    "breach": false,
+    "needs": null,
+    "zone_dependent": true,
+    "conditions": [],
+    "confidence": "likely",
+    "wiki": "Locker",
+    "check_name": false,
+    "notes": "Wiki: Industrial loot type, red/green/blue variants; red lockers in residential zones roll residential loot. MetaForge also files medical drawers and cabinets here, so only about a fifth of these are real lockers."
+  },
+  {
+    "marker": "containers/med_crate",
+    "name": "Medical Bag",
+    "group": "raider",
+    "loot": true,
+    "pool": [
+      {
+        "tag": "cat:healing",
+        "weight": 1.5
+      },
+      {
+        "tag": "medical",
+        "weight": 1.3
+      }
+    ],
+    "items": [
+      {
+        "item_id": "bandage",
+        "sure": false
+      },
+      {
+        "item_id": "herbal-bandage",
+        "sure": false
+      },
+      {
+        "item_id": "sterilized-bandage",
+        "sure": false
+      },
+      {
+        "item_id": "vita-shot",
+        "sure": false
+      },
+      {
+        "item_id": "defibrillator",
+        "sure": false
+      },
+      {
+        "item_id": "shield-recharger",
+        "sure": false
+      },
+      {
+        "item_id": "surge-shield-recharger",
+        "sure": false
+      },
+      {
+        "item_id": "adrenaline-shot",
+        "sure": false
+      },
+      {
+        "item_id": "durable-cloth",
+        "sure": false
+      },
+      {
+        "item_id": "antiseptic",
+        "sure": false
+      }
+    ],
+    "breach": false,
+    "needs": null,
+    "zone_dependent": false,
+    "conditions": [],
+    "confidence": "likely",
+    "wiki": "Medical Bag",
+    "check_name": true,
+    "notes": "MetaForge calls these Med Crate. The wiki's table is flagged unconfirmed; on Stella Montis it adds the Osprey Blueprint."
+  },
+  {
+    "marker": "containers/raider_cache",
+    "name": "Raider Cache",
+    "group": "raider",
+    "loot": true,
+    "pool": [
+      {
+        "tag": "raider",
+        "weight": 1.0
+      },
+      {
+        "tag": "cat:weapon",
+        "weight": 1.0
+      },
+      {
+        "tag": "cat:ammo",
+        "weight": 1.0
+      },
+      {
+        "tag": "cat:weapon-mod",
+        "weight": 0.8
+      },
+      {
+        "tag": "cat:blueprint",
+        "weight": 0.8
+      },
+      {
+        "tag": "cat:grenade",
+        "weight": 0.8
+      },
+      {
+        "tag": "cat:healing",
+        "weight": 0.8
+      },
+      {
+        "tag": "cat:shield",
+        "weight": 0.8
+      },
+      {
+        "tag": "cat:gadget",
+        "weight": 0.6
+      }
+    ],
+    "items": [],
+    "breach": false,
+    "needs": null,
+    "zone_dependent": false,
+    "conditions": [
+      "Uncovered Caches",
+      "Cold Snap"
+    ],
+    "confidence": "confirmed",
+    "wiki": "Raider Cache",
+    "check_name": false,
+    "notes": "Ammo, blueprints, grenades, healing, quick use, shields, weapons and attachments. Many more, with better loot, during Uncovered Caches; under Cold Snap they must be breached."
+  },
+  {
+    "marker": "containers/rocketeer_husk",
+    "name": "Rocketeer Husk",
+    "group": "arc",
+    "loot": true,
+    "pool": [],
+    "items": [
+      {
+        "item_id": "advanced-arc-powercell",
+        "sure": true
+      },
+      {
+        "item_id": "arc-alloy",
+        "sure": true
+      },
+      {
+        "item_id": "arc-coolant",
+        "sure": true
+      },
+      {
+        "item_id": "arc-powercell",
+        "sure": true
+      },
+      {
+        "item_id": "arc-thermo-lining",
+        "sure": true
+      },
+      {
+        "item_id": "damaged-rocketeer-driver",
+        "sure": true
+      },
+      {
+        "item_id": "launcher-ammo",
+        "sure": true
+      },
+      {
+        "item_id": "rocketeer-driver",
+        "sure": true
+      },
+      {
+        "item_id": "heavy-ammo",
+        "sure": false
+      }
+    ],
+    "breach": true,
+    "needs": null,
+    "zone_dependent": false,
+    "conditions": [],
+    "confidence": "likely",
+    "wiki": null,
+    "check_name": false,
+    "notes": "Static husk; must be breached. +700 XP. Wiki marks the whole table '*Data is not confirmed, WIP*'."
+  },
+  {
+    "marker": "containers/security_breach",
+    "name": "Security Locker",
+    "group": "normal",
+    "loot": true,
+    "pool": [
+      {
+        "tag": "cat:weapon",
+        "weight": 1.2
+      },
+      {
+        "tag": "cat:ammo",
+        "weight": 1.0
+      },
+      {
+        "tag": "security",
+        "weight": 1.0
+      },
+      {
+        "tag": "cat:grenade",
+        "weight": 0.8
+      },
+      {
+        "tag": "cat:gadget",
+        "weight": 0.5
+      },
+      {
+        "tag": "cat:material-topside",
+        "weight": 0.5
+      }
+    ],
+    "items": [
+      {
+        "item_id": "complex-gun-parts",
+        "sure": false
+      }
+    ],
+    "breach": true,
+    "needs": "Security Breach skill",
+    "zone_dependent": false,
+    "conditions": [],
+    "confidence": "likely",
+    "wiki": "Security Locker",
+    "check_name": true,
+    "notes": "Only raiders with the Security Breach skill can open it. Weapons and components, rarely epic weapons and Complex Gun Parts. Since 1.7.0 they spawn dynamically, so these markers are candidate spots."
+  },
+  {
+    "marker": "containers/suitcase",
+    "name": "Suitcase",
+    "group": "normal",
+    "loot": true,
+    "pool": [
+      {
+        "tag": "residential",
+        "weight": 1.0
+      },
+      {
+        "tag": "commercial",
+        "weight": 0.8
+      },
+      {
+        "tag": "old-world",
+        "weight": 0.7
+      },
+      {
+        "tag": "cat:trinket",
+        "weight": 0.6
+      },
+      {
+        "tag": "*",
+        "weight": 0.25
+      }
+    ],
+    "items": [],
+    "breach": false,
+    "needs": null,
+    "zone_dependent": false,
+    "conditions": [],
+    "confidence": "unverified",
+    "wiki": "Suitcase",
+    "check_name": false,
+    "notes": "The wiki page has no loot table yet; the pool is the earlier estimate."
+  },
+  {
+    "marker": "containers/utility_crate",
+    "name": "Grenade Tube",
+    "group": "raider",
+    "loot": true,
+    "pool": [
+      {
+        "tag": "cat:grenade",
+        "weight": 1.5
+      }
+    ],
+    "items": [
+      {
+        "item_id": "blaze-grenade",
+        "sure": true
+      },
+      {
+        "item_id": "explosive-compound",
+        "sure": true
+      },
+      {
+        "item_id": "gas-grenade",
+        "sure": true
+      },
+      {
+        "item_id": "firecracker",
+        "sure": true
+      },
+      {
+        "item_id": "heavy-fuze-grenade",
+        "sure": true
+      },
+      {
+        "item_id": "light-gun-parts",
+        "sure": true
+      },
+      {
+        "item_id": "light-impact-grenade",
+        "sure": true
+      },
+      {
+        "item_id": "lil-smoke-grenade",
+        "sure": true
+      },
+      {
+        "item_id": "lure-grenade",
+        "sure": true
+      },
+      {
+        "item_id": "medium-gun-parts",
+        "sure": true
+      },
+      {
+        "item_id": "mod-components",
+        "sure": true
+      },
+      {
+        "item_id": "sensors",
+        "sure": true
+      },
+      {
+        "item_id": "showstopper",
+        "sure": true
+      },
+      {
+        "item_id": "smoke-grenade",
+        "sure": true
+      },
+      {
+        "item_id": "snap-blast-grenade",
+        "sure": true
+      },
+      {
+        "item_id": "tagging-grenade",
+        "sure": true
+      },
+      {
+        "item_id": "trigger-nade",
+        "sure": true
+      },
+      {
+        "item_id": "wolfpack",
+        "sure": true
+      },
+      {
+        "item_id": "heavy-gun-parts-blueprint",
+        "sure": true
+      }
+    ],
+    "breach": false,
+    "needs": null,
+    "zone_dependent": false,
+    "conditions": [],
+    "confidence": "confirmed",
+    "wiki": "Grenade Tube",
+    "check_name": true,
+    "notes": "MetaForge's own legend labels this marker Grenade Tube (its key says utility_crate)."
+  },
+  {
+    "marker": "containers/wasp_husk",
+    "name": "Wasp Husk",
+    "group": "arc",
+    "loot": true,
+    "pool": [],
+    "items": [
+      {
+        "item_id": "advanced-arc-powercell",
+        "sure": true
+      },
+      {
+        "item_id": "arc-alloy",
+        "sure": true
+      },
+      {
+        "item_id": "arc-circuitry",
+        "sure": true
+      },
+      {
+        "item_id": "arc-coolant",
+        "sure": true
+      },
+      {
+        "item_id": "arc-flex-rubber",
+        "sure": true
+      },
+      {
+        "item_id": "arc-powercell",
+        "sure": true
+      },
+      {
+        "item_id": "arc-performance-steel",
+        "sure": true
+      },
+      {
+        "item_id": "arc-thermo-lining",
+        "sure": true
+      },
+      {
+        "item_id": "damaged-wasp-driver",
+        "sure": true
+      },
+      {
+        "item_id": "light-ammo",
+        "sure": true
+      },
+      {
+        "item_id": "wasp-driver",
+        "sure": true
+      }
+    ],
+    "breach": true,
+    "needs": null,
+    "zone_dependent": false,
+    "conditions": [],
+    "confidence": "confirmed",
+    "wiki": null,
+    "check_name": false,
+    "notes": "Static husk; must be breached. +400 XP. Wiki chance column is all 'x%' (unknown)."
+  },
+  {
+    "marker": "containers/weapon_case",
+    "name": "Weapon Case",
+    "group": "raider",
+    "loot": true,
+    "pool": [
+      {
+        "tag": "cat:weapon",
+        "weight": 1.5
+      },
+      {
+        "tag": "cat:weapon-mod",
+        "weight": 1.2
+      },
+      {
+        "tag": "cat:ammo",
+        "weight": 0.8
+      }
+    ],
+    "items": [
+      {
+        "item_id": "light-gun-parts",
+        "sure": true
+      },
+      {
+        "item_id": "medium-gun-parts",
+        "sure": true
+      },
+      {
+        "item_id": "heavy-gun-parts",
+        "sure": true
+      }
+    ],
+    "breach": false,
+    "needs": null,
+    "zone_dependent": false,
+    "conditions": [],
+    "confidence": "confirmed",
+    "wiki": "Weapon Case",
+    "check_name": false,
+    "notes": "Weapons, attachments, gun parts and ammo matching its weapon. Guides say a weapon is always inside. MetaForge also files some weapon racks here."
+  },
+  {
+    "marker": "locations/field_crate",
+    "name": "Field Crate",
+    "group": "normal",
+    "loot": false,
+    "pool": [],
+    "items": [],
+    "breach": false,
+    "needs": null,
+    "zone_dependent": false,
+    "conditions": [],
+    "confidence": "confirmed",
+    "wiki": null,
+    "check_name": false,
+    "notes": "A crate you carry to a Field Depot; delivering it opens a reward with a choice of loot. Not a container to search."
+  },
+  {
+    "marker": "locations/supply_station",
+    "name": "Supply Station",
+    "group": "raider",
+    "loot": true,
+    "pool": [
+      {
+        "tag": "cat:ammo",
+        "weight": 0.6
+      },
+      {
+        "tag": "cat:healing",
+        "weight": 0.6
+      },
+      {
+        "tag": "cat:weapon",
+        "weight": 0.5
+      }
+    ],
+    "items": [],
+    "breach": true,
+    "needs": null,
+    "zone_dependent": false,
+    "conditions": [],
+    "confidence": "confirmed",
+    "wiki": "Supply Drop",
+    "check_name": false,
+    "notes": "Call in a Supply Drop here (ammo, quick use, weapons). The flare shows where it lands and draws other raiders. Not every station is active each raid."
+  }
+]

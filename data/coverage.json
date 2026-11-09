@@ -1,10 +1,10 @@
 {
   "items": {
-    "count": 1513,
-    "gameplay_count": 907,
+    "count": 1512,
+    "gameplay_count": 906,
     "by_provenance": {
       "api": 1510,
-      "wiki": 3
+      "wiki": 2
     },
     "by_category": {
       "ammo": 6,
@@ -16,7 +16,7 @@
       "gadget": 40,
       "grenade": 21,
       "healing": 10,
-      "key": 45,
+      "key": 44,
       "material-basic": 9,
       "material-refined": 11,
       "material-topside": 47,
@@ -33,17 +33,17 @@
     },
     "populated_pct_gameplay": {
       "description": 87.1,
-      "icon": 99.7,
+      "icon": 99.8,
       "value": 96.1,
       "weight_kg": 74.6,
       "rarity": 93.6,
-      "tier": 25.2,
+      "tier": 25.3,
       "stats": 26.9,
-      "loot_areas": 27.3,
+      "loot_areas": 27.5,
       "sold_by": 11.9,
-      "recipe_ids": 31.6,
-      "recycle_ids": 43.1,
-      "drops_from": 4.0
+      "recipe_ids": 31.7,
+      "recycle_ids": 43.2,
+      "drops_from": 7.4
     }
   },
   "recipes": {

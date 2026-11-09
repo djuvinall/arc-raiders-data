@@ -203,10 +203,20 @@
       "arc"
     ],
     "drops_from": [
-      "bombardier",
+      "arc-assessor",
+      "bastion",
       "bison",
+      "bombardier",
+      "bully",
+      "comet",
       "matriarch",
-      "rocketeer"
+      "queen",
+      "rocketeer",
+      "rollbot",
+      "sentinel",
+      "skulker",
+      "turbine",
+      "vaporizer"
     ],
     "sold_by": [],
     "recipe_ids": [],
@@ -320,7 +330,11 @@
     "loot_areas": [
       "electrical"
     ],
-    "drops_from": [],
+    "drops_from": [
+      "arc-assessor",
+      "matriarch",
+      "queen"
+    ],
     "sold_by": [],
     "recipe_ids": [
       "advanced-electrical-components-craft"
@@ -361,7 +375,10 @@
     "loot_areas": [
       "mechanical"
     ],
-    "drops_from": [],
+    "drops_from": [
+      "matriarch",
+      "queen"
+    ],
     "sold_by": [],
     "recipe_ids": [
       "advanced-mechanical-components-craft"
@@ -8120,7 +8137,9 @@
     "ammo_type": null,
     "loadout_slots": [],
     "loot_areas": [],
-    "drops_from": [],
+    "drops_from": [
+      "matriarch"
+    ],
     "sold_by": [],
     "recipe_ids": [],
     "recycle_ids": [],
@@ -8268,20 +8287,29 @@
       "arc"
     ],
     "drops_from": [
+      "arc-assessor",
       "bastion",
-      "bombardier",
-      "fireball",
-      "hornet",
       "bison",
+      "bombardier",
+      "bully",
+      "comet",
+      "fireball",
+      "firefly",
+      "hornet",
+      "hydra",
       "matriarch",
       "pop",
+      "queen",
       "rocketeer",
+      "rollbot",
       "sentinel",
       "shredder",
       "snitch",
       "spotter",
       "tick",
+      "turbine",
       "turret",
+      "vaporizer",
       "wasp"
     ],
     "sold_by": [],
@@ -8323,10 +8351,15 @@
       "arc"
     ],
     "drops_from": [
+      "arc-assessor",
       "bastion",
       "bison",
+      "bully",
       "matriarch",
-      "rocketeer"
+      "queen",
+      "rocketeer",
+      "rollbot",
+      "vaporizer"
     ],
     "sold_by": [],
     "recipe_ids": [
@@ -8365,7 +8398,9 @@
     "loot_areas": [
       "arc"
     ],
-    "drops_from": [],
+    "drops_from": [
+      "bastion"
+    ],
     "sold_by": [],
     "recipe_ids": [],
     "recycle_ids": [],
@@ -8399,7 +8434,18 @@
       "arc"
     ],
     "drops_from": [
-      "sentinel"
+      "arc-assessor",
+      "bully",
+      "comet",
+      "fireball",
+      "firefly",
+      "matriarch",
+      "pop",
+      "queen",
+      "rollbot",
+      "sentinel",
+      "skulker",
+      "turbine"
     ],
     "sold_by": [],
     "recipe_ids": [],
@@ -8436,7 +8482,11 @@
     "loot_areas": [
       "arc"
     ],
-    "drops_from": [],
+    "drops_from": [
+      "frigate",
+      "shredder",
+      "skulker"
+    ],
     "sold_by": [],
     "recipe_ids": [],
     "recycle_ids": [],
@@ -8473,8 +8523,17 @@
       "arc"
     ],
     "drops_from": [
+      "arc-assessor",
+      "bastion",
       "bison",
-      "matriarch"
+      "bombardier",
+      "bully",
+      "matriarch",
+      "queen",
+      "sentinel",
+      "tick",
+      "turbine",
+      "vaporizer"
     ],
     "sold_by": [],
     "recipe_ids": [],
@@ -8511,7 +8570,9 @@
     "loot_areas": [
       "arc"
     ],
-    "drops_from": [],
+    "drops_from": [
+      "matriarch"
+    ],
     "sold_by": [],
     "recipe_ids": [],
     "recycle_ids": [],
@@ -8548,10 +8609,17 @@
       "arc"
     ],
     "drops_from": [
+      "arc-assessor",
       "bastion",
       "bison",
+      "bombardier",
+      "bully",
+      "matriarch",
+      "queen",
       "rocketeer",
-      "sentinel"
+      "rollbot",
+      "sentinel",
+      "turbine"
     ],
     "sold_by": [],
     "recipe_ids": [
@@ -8591,8 +8659,17 @@
       "arc"
     ],
     "drops_from": [
+      "arc-assessor",
+      "bastion",
       "bison",
-      "matriarch"
+      "bombardier",
+      "bully",
+      "firefly",
+      "hornet",
+      "matriarch",
+      "queen",
+      "rollbot",
+      "turbine"
     ],
     "sold_by": [],
     "recipe_ids": [],
@@ -8667,16 +8744,23 @@
       "arc"
     ],
     "drops_from": [
+      "arc-assessor",
       "bastion",
-      "fireball",
-      "hornet",
       "bison",
+      "bombardier",
+      "fireball",
+      "firefly",
+      "hornet",
+      "hydra",
       "pop",
       "rocketeer",
-      "sentinel",
+      "rollbot",
       "shredder",
       "snitch",
       "spotter",
+      "tick",
+      "turret",
+      "vaporizer",
       "wasp"
     ],
     "sold_by": [],
@@ -8712,9 +8796,19 @@
       "arc"
     ],
     "drops_from": [
+      "arc-assessor",
+      "bully",
+      "firefly",
+      "hornet",
       "matriarch",
+      "queen",
       "sentinel",
-      "snitch"
+      "shredder",
+      "snitch",
+      "spotter",
+      "turbine",
+      "turret",
+      "wasp"
     ],
     "sold_by": [],
     "recipe_ids": [],
@@ -8752,8 +8846,23 @@
       "arc"
     ],
     "drops_from": [
+      "arc-assessor",
+      "bully",
+      "comet",
+      "fireball",
+      "firefly",
+      "matriarch",
       "pop",
-      "sentinel"
+      "queen",
+      "sentinel",
+      "shredder",
+      "skulker",
+      "snitch",
+      "spotter",
+      "tick",
+      "turbine",
+      "turret",
+      "wasp"
     ],
     "sold_by": [],
     "recipe_ids": [],
@@ -9313,7 +9422,9 @@
     "loot_areas": [
       "arc"
     ],
-    "drops_from": [],
+    "drops_from": [
+      "arc-assessor"
+    ],
     "sold_by": [],
     "recipe_ids": [],
     "recycle_ids": [
@@ -10455,7 +10566,9 @@
     "ammo_type": null,
     "loadout_slots": [],
     "loot_areas": [],
-    "drops_from": [],
+    "drops_from": [
+      "rollbot"
+    ],
     "sold_by": [],
     "recipe_ids": [
       "barricade-kit-blueprint-craft"
@@ -14557,7 +14670,9 @@
     "loot_areas": [
       "arc"
     ],
-    "drops_from": [],
+    "drops_from": [
+      "bully"
+    ],
     "sold_by": [],
     "recipe_ids": [],
     "recycle_ids": [],
@@ -17000,7 +17115,9 @@
       "medical",
       "residential"
     ],
-    "drops_from": [],
+    "drops_from": [
+      "firefly"
+    ],
     "sold_by": [
       {
         "trader": "celeste",
@@ -17711,7 +17828,9 @@
     "loot_areas": [
       "arc"
     ],
-    "drops_from": [],
+    "drops_from": [
+      "comet"
+    ],
     "sold_by": [],
     "recipe_ids": [],
     "recycle_ids": [
@@ -17959,7 +18078,10 @@
     "loot_areas": [
       "security"
     ],
-    "drops_from": [],
+    "drops_from": [
+      "matriarch",
+      "queen"
+    ],
     "sold_by": [
       {
         "trader": "celeste",
@@ -18719,6 +18841,8 @@
       "security"
     ],
     "drops_from": [
+      "comet",
+      "fireball",
       "pop"
     ],
     "sold_by": [],
@@ -20859,7 +20983,9 @@
     "ammo_type": null,
     "loadout_slots": [],
     "loot_areas": [],
-    "drops_from": [],
+    "drops_from": [
+      "arc-assessor"
+    ],
     "sold_by": [],
     "recipe_ids": [],
     "recycle_ids": [],
@@ -21701,7 +21827,11 @@
     "loot_areas": [
       "electrical"
     ],
-    "drops_from": [],
+    "drops_from": [
+      "comet",
+      "rocketeer",
+      "vaporizer"
+    ],
     "sold_by": [],
     "recipe_ids": [
       "electrical-components-craft"
@@ -22067,7 +22197,9 @@
       "safepocket"
     ],
     "loot_areas": [],
-    "drops_from": [],
+    "drops_from": [
+      "vaporizer"
+    ],
     "sold_by": [
       {
         "trader": "tian-wen",
@@ -22168,7 +22300,10 @@
     "stats": null,
     "ammo_type": null,
     "loadout_slots": [],
-    "loot_areas": [],
+    "loot_areas": [
+      "industrial",
+      "exodus"
+    ],
     "drops_from": [],
     "sold_by": [],
     "recipe_ids": [],
@@ -22608,7 +22743,8 @@
       "security"
     ],
     "drops_from": [
-      "bison"
+      "bison",
+      "comet"
     ],
     "sold_by": [],
     "recipe_ids": [
@@ -22867,7 +23003,9 @@
     "ammo_type": null,
     "loadout_slots": [],
     "loot_areas": [],
-    "drops_from": [],
+    "drops_from": [
+      "rollbot"
+    ],
     "sold_by": [],
     "recipe_ids": [],
     "recycle_ids": [],
@@ -23281,7 +23419,9 @@
     "ammo_type": null,
     "loadout_slots": [],
     "loot_areas": [],
-    "drops_from": [],
+    "drops_from": [
+      "rollbot"
+    ],
     "sold_by": [],
     "recipe_ids": [],
     "recycle_ids": [],
@@ -25392,7 +25532,9 @@
     "loot_areas": [
       "arc"
     ],
-    "drops_from": [],
+    "drops_from": [
+      "firefly"
+    ],
     "sold_by": [],
     "recipe_ids": [],
     "recycle_ids": [
@@ -26479,7 +26621,9 @@
     "loot_areas": [
       "arc"
     ],
-    "drops_from": [],
+    "drops_from": [
+      "frigate"
+    ],
     "sold_by": [],
     "recipe_ids": [],
     "recycle_ids": [],
@@ -26512,7 +26656,9 @@
     "loot_areas": [
       "arc"
     ],
-    "drops_from": [],
+    "drops_from": [
+      "frigate"
+    ],
     "sold_by": [],
     "recipe_ids": [],
     "recycle_ids": [
@@ -29138,8 +29284,8 @@
     ],
     "loot_areas": [],
     "drops_from": [
-      "rocketeer",
-      "sentinel"
+      "sentinel",
+      "skulker"
     ],
     "sold_by": [
       {
@@ -29242,7 +29388,11 @@
       "security"
     ],
     "drops_from": [
-      "rocketeer"
+      "bastion",
+      "bombardier",
+      "bully",
+      "rocketeer",
+      "vaporizer"
     ],
     "sold_by": [
       {
@@ -29286,7 +29436,9 @@
     "ammo_type": null,
     "loadout_slots": [],
     "loot_areas": [],
-    "drops_from": [],
+    "drops_from": [
+      "rollbot"
+    ],
     "sold_by": [],
     "recipe_ids": [
       "heavy-gun-parts-blueprint-craft"
@@ -32882,7 +33034,10 @@
     "loadout_slots": [],
     "loot_areas": [],
     "drops_from": [
-      "bombardier"
+      "bombardier",
+      "bully",
+      "rocketeer",
+      "turbine"
     ],
     "sold_by": [
       {
@@ -33193,6 +33348,7 @@
     ],
     "loot_areas": [],
     "drops_from": [
+      "hydra",
       "turret",
       "wasp"
     ],
@@ -34394,7 +34550,8 @@
       "exodus"
     ],
     "drops_from": [
-      "matriarch"
+      "matriarch",
+      "queen"
     ],
     "sold_by": [],
     "recipe_ids": [
@@ -34792,7 +34949,11 @@
       "mechanical"
     ],
     "drops_from": [
-      "bison"
+      "bastion",
+      "bison",
+      "bombardier",
+      "rollbot",
+      "shredder"
     ],
     "sold_by": [],
     "recipe_ids": [
@@ -34833,6 +34994,7 @@
     ],
     "loot_areas": [],
     "drops_from": [
+      "bastion",
       "hornet"
     ],
     "sold_by": [
@@ -34880,7 +35042,12 @@
       "raider",
       "security"
     ],
-    "drops_from": [],
+    "drops_from": [
+      "bastion",
+      "bombardier",
+      "sentinel",
+      "turbine"
+    ],
     "sold_by": [
       {
         "trader": "celeste",
@@ -37831,7 +37998,9 @@
     "ammo_type": null,
     "loadout_slots": [],
     "loot_areas": [],
-    "drops_from": [],
+    "drops_from": [
+      "rollbot"
+    ],
     "sold_by": [],
     "recipe_ids": [],
     "recycle_ids": [],
@@ -40846,7 +41015,9 @@
     "loot_areas": [
       "arc"
     ],
-    "drops_from": [],
+    "drops_from": [
+      "queen"
+    ],
     "sold_by": [],
     "recipe_ids": [],
     "recycle_ids": [
@@ -43417,37 +43588,6 @@
     "provenance": "api"
   },
   {
-    "id": "riven-tides-crane-secure-storage-keycard",
-    "name": "Riven Tides Crane Secure Storage Keycard",
-    "category": "key",
-    "subcategory": null,
-    "rarity": "epic",
-    "tier": null,
-    "description": "Unlocks a door to the Secure Storage room in the Port Authority Building at Riven Tides",
-    "flavor_text": "",
-    "icon": null,
-    "value": 100,
-    "weight_kg": 0.25,
-    "stack_size": null,
-    "stats": null,
-    "ammo_type": null,
-    "loadout_slots": [],
-    "loot_areas": [],
-    "drops_from": [],
-    "sold_by": [],
-    "recipe_ids": [],
-    "recycle_ids": [],
-    "blueprint_required": false,
-    "variant_of": null,
-    "stencil": null,
-    "source_refs": {
-      "metaforge": null,
-      "wiki": "Riven Tides Secure Storage Keycard",
-      "raidtheory": null
-    },
-    "provenance": "wiki"
-  },
-  {
     "id": "riven-tides-hotel-keycard-no-102",
     "name": "Riven Tides Hotel Keycard No. 102",
     "category": "key",
@@ -45424,6 +45564,7 @@
       "technological"
     ],
     "drops_from": [
+      "rollbot",
       "snitch",
       "spotter"
     ],
@@ -46055,6 +46196,7 @@
     ],
     "loot_areas": [],
     "drops_from": [
+      "bully",
       "shredder"
     ],
     "sold_by": [
@@ -46856,8 +46998,12 @@
       "security"
     ],
     "drops_from": [
+      "firefly",
       "hornet",
-      "turret"
+      "sentinel",
+      "shredder",
+      "turret",
+      "wasp"
     ],
     "sold_by": [
       {
@@ -46967,7 +47113,9 @@
     "loot_areas": [
       "arc"
     ],
-    "drops_from": [],
+    "drops_from": [
+      "skulker"
+    ],
     "sold_by": [],
     "recipe_ids": [],
     "recycle_ids": [
@@ -51952,7 +52100,9 @@
     "loot_areas": [
       "arc"
     ],
-    "drops_from": [],
+    "drops_from": [
+      "rollbot"
+    ],
     "sold_by": [],
     "recipe_ids": [],
     "recycle_ids": [
@@ -51992,7 +52142,9 @@
     "loot_areas": [
       "exodus"
     ],
-    "drops_from": [],
+    "drops_from": [
+      "firefly"
+    ],
     "sold_by": [
       {
         "trader": "celeste",
@@ -55053,7 +55205,9 @@
     "loot_areas": [
       "arc"
     ],
-    "drops_from": [],
+    "drops_from": [
+      "turbine"
+    ],
     "sold_by": [],
     "recipe_ids": [],
     "recycle_ids": [
@@ -55378,7 +55532,9 @@
     "loot_areas": [
       "arc"
     ],
-    "drops_from": [],
+    "drops_from": [
+      "vaporizer"
+    ],
     "sold_by": [],
     "recipe_ids": [],
     "recycle_ids": [
@@ -56368,7 +56524,9 @@
     "ammo_type": null,
     "loadout_slots": [],
     "loot_areas": [],
-    "drops_from": [],
+    "drops_from": [
+      "rollbot"
+    ],
     "sold_by": [],
     "recipe_ids": [
       "vita-shot-blueprint-craft"
@@ -56450,7 +56608,9 @@
     "ammo_type": null,
     "loadout_slots": [],
     "loot_areas": [],
-    "drops_from": [],
+    "drops_from": [
+      "rollbot"
+    ],
     "sold_by": [],
     "recipe_ids": [
       "vita-spray-blueprint-craft"

@@ -1,0 +1,8 @@
+{
+  "file": "items",
+  "id": "epoxy-bucket",
+  "field": "/loot_areas",
+  "value": ["industrial", "exodus"],
+  "was": [],
+  "comment": "Research 2026-11-08 (LIKELY, one guide): added with Frozen Trail (Oct 2026), found on Pendola Pass in industrial and exodus spots and in lockers. https://metaforge.app/arc-raiders/where-to-find-the-epoxy-bucket-in-arc-raiders"
+}

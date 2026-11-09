@@ -11,7 +11,60 @@
     "weak_points": [],
     "tips": null,
     "armor_zones": [],
-    "drops": [],
+    "drops": [
+      {
+        "item_id": "dolabra-blueprint",
+        "chance": null
+      },
+      {
+        "item_id": "arc-powercell",
+        "chance": null
+      },
+      {
+        "item_id": "arc-alloy",
+        "chance": null
+      },
+      {
+        "item_id": "advanced-arc-powercell",
+        "chance": null
+      },
+      {
+        "item_id": "advanced-electrical-components",
+        "chance": null
+      },
+      {
+        "item_id": "arc-circuitry",
+        "chance": null
+      },
+      {
+        "item_id": "arc-coolant",
+        "chance": null
+      },
+      {
+        "item_id": "arc-flex-rubber",
+        "chance": null
+      },
+      {
+        "item_id": "arc-motion-core",
+        "chance": null
+      },
+      {
+        "item_id": "arc-performance-steel",
+        "chance": null
+      },
+      {
+        "item_id": "arc-synthetic-resin",
+        "chance": null
+      },
+      {
+        "item_id": "arc-thermo-lining",
+        "chance": null
+      },
+      {
+        "item_id": "assessor-matrix",
+        "chance": null
+      }
+    ],
     "source_refs": {
       "metaforge": "arc-assessor",
       "wiki": null,
@@ -32,19 +85,27 @@
       "Rear plate",
       "Leg joints"
     ],
-    "tips": "Bastions have yellow kneecaps on all of their leg joints and a yellow cylinder on their rear that Raiders can shoot to deal critical damage. Shooting these areas is the fastest way to destroy it. Destroying its rear canister or any of the leg joints stuns it for a short time, making this stun window a good time to shoot it. Destroying the canister also peels back its rear plate, revealing its true weak spot, a large barrel-like part that, when shot, deals major damage to the Bastion. Blaze Grenades and, to a lesser extent, Snap Blast Grenades are also an effective way of dealing damage. Deadline can also instantly defeat a Bastion when deployed near the canister.",
+    "tips": "Bastions have yellow kneecaps on all of their leg joints and a yellow cylinder on their rear that Raiders can shoot to deal critical damage. Shooting these areas is the fastest way to destroy it. Destroying its rear canister or any of the leg joints stuns it for a short time, making this stun window a good time to shoot it. Destroying the canister also peels back its rear plate, revealing its true weak spot, a large barrel-like part that, when shot, deals major damage to the Bastion. Blaze Grenades and, to a lesser extent, Snap Blast Grenades are also an effective way of dealing damage. A Deadline planted at the core or canister can kill it or nearly kill it, but since 1.3.0 cut explosive damage on large ARC it isn't a sure kill, so bring a second.",
     "armor_zones": [],
     "drops": [
-      {
-        "item_id": "arc-alloy",
-        "chance": null
-      },
       {
         "item_id": "arc-powercell",
         "chance": null
       },
       {
-        "item_id": "arc-motion-core",
+        "item_id": "medium-ammo",
+        "chance": null
+      },
+      {
+        "item_id": "arc-alloy",
+        "chance": null
+      },
+      {
+        "item_id": "mechanical-components",
+        "chance": null
+      },
+      {
+        "item_id": "advanced-arc-powercell",
         "chance": null
       },
       {
@@ -52,7 +113,31 @@
         "chance": null
       },
       {
+        "item_id": "arc-flex-rubber",
+        "chance": null
+      },
+      {
+        "item_id": "arc-motion-core",
+        "chance": null
+      },
+      {
+        "item_id": "arc-performance-steel",
+        "chance": null
+      },
+      {
+        "item_id": "medium-gun-parts",
+        "chance": null
+      },
+      {
+        "item_id": "arc-conductive-coupler",
+        "chance": null
+      },
+      {
         "item_id": "bastion-cell",
+        "chance": null
+      },
+      {
+        "item_id": "heavy-gun-parts",
         "chance": null
       }
     ],
@@ -80,15 +165,15 @@
     "armor_zones": [],
     "drops": [
       {
-        "item_id": "advanced-arc-powercell",
-        "chance": null
-      },
-      {
         "item_id": "arc-alloy",
         "chance": null
       },
       {
-        "item_id": "arc-circuitry",
+        "item_id": "mechanical-components",
+        "chance": null
+      },
+      {
+        "item_id": "advanced-arc-powercell",
         "chance": null
       },
       {
@@ -104,10 +189,6 @@
         "chance": null
       },
       {
-        "item_id": "arc-powercell",
-        "chance": null
-      },
-      {
         "item_id": "explosive-compound",
         "chance": null
       },
@@ -116,7 +197,11 @@
         "chance": null
       },
       {
-        "item_id": "mechanical-components",
+        "item_id": "arc-powercell",
+        "chance": null
+      },
+      {
+        "item_id": "arc-circuitry",
         "chance": null
       }
     ],
@@ -140,11 +225,19 @@
       "Rear Plate",
       "Leg Joints"
     ],
-    "tips": "Bombardiers have yellow kneecaps on all of their leg joints and a yellow cylinder on their rear that Raiders can shoot to deal critical damage. Shooting the kneecaps impairs its mobility and exposes unarmored inner sections for increased damage. Destroying the rear cylinder can disable the Bombardier quickly. The Bombardier is accompanied by Spotters that mark Raider positions for precise mortar targeting. Eliminate these first to make it disoriented. The Bombardier becomes vulnerable immediately after firing its artillery, creating a good time to attack. Both Spotter drones will respawn after being destroyed. It is also good to note that one well-placed Deadline near its canister will destroy it in one mine.",
+    "tips": "Bombardiers have yellow kneecaps on all of their leg joints and a yellow cylinder on their rear that Raiders can shoot to deal critical damage. Shooting the kneecaps impairs its mobility and exposes unarmored inner sections for increased damage. Destroying the rear cylinder can disable the Bombardier quickly. The Bombardier is accompanied by Spotters that mark Raider positions for precise mortar targeting. Eliminate these first to make it disoriented. The Bombardier becomes vulnerable immediately after firing its artillery, creating a good time to attack. Both Spotter drones will respawn after being destroyed. A Deadline on its rear chassis does heavy damage, but since 1.3.0 one mine isn't a sure kill.",
     "armor_zones": [],
     "drops": [
       {
+        "item_id": "arc-powercell",
+        "chance": null
+      },
+      {
         "item_id": "arc-alloy",
+        "chance": null
+      },
+      {
+        "item_id": "mechanical-components",
         "chance": null
       },
       {
@@ -152,11 +245,31 @@
         "chance": null
       },
       {
-        "item_id": "bombardier-cell",
+        "item_id": "arc-flex-rubber",
+        "chance": null
+      },
+      {
+        "item_id": "arc-motion-core",
+        "chance": null
+      },
+      {
+        "item_id": "arc-performance-steel",
+        "chance": null
+      },
+      {
+        "item_id": "heavy-gun-parts",
         "chance": null
       },
       {
         "item_id": "launcher-ammo",
+        "chance": null
+      },
+      {
+        "item_id": "bombardier-cell",
+        "chance": null
+      },
+      {
+        "item_id": "medium-gun-parts",
         "chance": null
       }
     ],
@@ -182,7 +295,60 @@
     ],
     "tips": "Shooting the weak points on its legs will make them eventually explode. This hinders the Bully's movement greatly. When using its shotgun, the Bully will open up the armor plating on its head, revealing yellow weak points, which can be shot for great amounts of damage. If sufficiently damaged, it will explode and fly off, leaving only the defenseless body of the Bully stumbling around. However, doing this is dangerous as there is little time before the shotgun fires, and the head has a lot of health.",
     "armor_zones": [],
-    "drops": [],
+    "drops": [
+      {
+        "item_id": "shotgun-ammo",
+        "chance": null
+      },
+      {
+        "item_id": "arc-alloy",
+        "chance": null
+      },
+      {
+        "item_id": "advanced-arc-powercell",
+        "chance": null
+      },
+      {
+        "item_id": "arc-circuitry",
+        "chance": null
+      },
+      {
+        "item_id": "arc-coolant",
+        "chance": null
+      },
+      {
+        "item_id": "arc-flex-rubber",
+        "chance": null
+      },
+      {
+        "item_id": "arc-motion-core",
+        "chance": null
+      },
+      {
+        "item_id": "arc-performance-steel",
+        "chance": null
+      },
+      {
+        "item_id": "arc-synthetic-resin",
+        "chance": null
+      },
+      {
+        "item_id": "arc-thermo-lining",
+        "chance": null
+      },
+      {
+        "item_id": "launcher-ammo",
+        "chance": null
+      },
+      {
+        "item_id": "bully-fragmenter",
+        "chance": null
+      },
+      {
+        "item_id": "heavy-gun-parts",
+        "chance": null
+      }
+    ],
     "source_refs": {
       "metaforge": "bully",
       "wiki": null,
@@ -202,9 +368,42 @@
     "weak_points": [
       "Core"
     ],
-    "tips": "The Comet can be taken down by two simple methods. You can utilize 2–3 Seeker Grenades and strip away the armor of the Comet to the point of destroying it without damaging the igniter. When the Comet begins to charge it will eventually split open the armor shell exposing the innards, its weakspot, and the middle point is shot directly before the Comet explodes it will destroy the unit. Failure to destroy the Comet before it explodes will result in a shockwave type of explosion that deals a fair amount of damage. With a light shield equipped with full health and shield charge it will reduce the shield to about 1/4 charge remaining and similar health levels. When the Comet self implodes, it damages the igniter and while it looks like two pieces drop for searching only the \"ring\" part is searchable usually producing generic ARC parts (e.g., Alloy). If you are successful in destroying the Comet before the implosion there will be two pieces to search with the \"core\" piece containing the Igniter. As of right now it seems to ALWAYS drop the igniter if destroyed properly.",
+    "tips": "The Comet can be taken down by two simple methods. You can utilize 2–3 Seeker Grenades and strip away the armor of the Comet to the point of destroying it without damaging the igniter. When the Comet begins to charge it will eventually split open the armor shell exposing the innards, its weakspot, and the middle point is shot directly before the Comet explodes it will destroy the unit. Failure to destroy the Comet before it explodes will result in a shockwave type of explosion that deals a fair amount of damage. With a light shield equipped with full health and shield charge it will reduce the shield to about 1/4 charge remaining and similar health levels. When the Comet self implodes, it damages the igniter and while it looks like two pieces drop for searching only the \"ring\" part is searchable usually producing generic ARC parts (e.g., Alloy). If you are successful in destroying the Comet before the implosion there will be two pieces to search with the \"core\" piece containing the Igniter. A clean kill usually drops the Igniter, but players report misses, so it isn't guaranteed.",
     "armor_zones": [],
-    "drops": [],
+    "drops": [
+      {
+        "item_id": "arc-alloy",
+        "chance": null
+      },
+      {
+        "item_id": "crude-explosives",
+        "chance": null
+      },
+      {
+        "item_id": "advanced-arc-powercell",
+        "chance": null
+      },
+      {
+        "item_id": "arc-coolant",
+        "chance": null
+      },
+      {
+        "item_id": "arc-thermo-lining",
+        "chance": null
+      },
+      {
+        "item_id": "comet-igniter",
+        "chance": null
+      },
+      {
+        "item_id": "explosive-compound",
+        "chance": null
+      },
+      {
+        "item_id": "electrical-components",
+        "chance": null
+      }
+    ],
     "source_refs": {
       "metaforge": "comet",
       "wiki": null,
@@ -228,15 +427,27 @@
     "armor_zones": [],
     "drops": [
       {
-        "item_id": "arc-alloy",
-        "chance": null
-      },
-      {
         "item_id": "arc-powercell",
         "chance": null
       },
       {
+        "item_id": "arc-alloy",
+        "chance": null
+      },
+      {
+        "item_id": "crude-explosives",
+        "chance": null
+      },
+      {
         "item_id": "fireball-burner",
+        "chance": null
+      },
+      {
+        "item_id": "arc-coolant",
+        "chance": null
+      },
+      {
+        "item_id": "arc-thermo-lining",
         "chance": null
       }
     ],
@@ -262,7 +473,48 @@
     ],
     "tips": "Upon entering combat mode, the Firefly extends its flamethrower, exposing an unarmored yellow fuel tank that takes increased damage. It then closes the distance to its target, scorching Raiders within range and dealing damage over time. The Firefly uses four thrusters for flight and stabilization, all protected by thick armor. Destroying multiple thrusters destabilizes the drone, causing it to lose control of its flight. In this state, each collision with the environment inflicts heavy damage, often permanently disabling or destroying the machine. When destroyed, the Firefly ignites the surrounding area for a short duration.",
     "armor_zones": [],
-    "drops": [],
+    "drops": [
+      {
+        "item_id": "arc-powercell",
+        "chance": null
+      },
+      {
+        "item_id": "chemicals",
+        "chance": null
+      },
+      {
+        "item_id": "arc-alloy",
+        "chance": null
+      },
+      {
+        "item_id": "simple-gun-parts",
+        "chance": null
+      },
+      {
+        "item_id": "arc-synthetic-resin",
+        "chance": null
+      },
+      {
+        "item_id": "firefly-burner",
+        "chance": null
+      },
+      {
+        "item_id": "synthesized-fuel",
+        "chance": null
+      },
+      {
+        "item_id": "arc-performance-steel",
+        "chance": null
+      },
+      {
+        "item_id": "arc-coolant",
+        "chance": null
+      },
+      {
+        "item_id": "arc-thermo-lining",
+        "chance": null
+      }
+    ],
     "source_refs": {
       "metaforge": "firefly",
       "wiki": null,
@@ -282,7 +534,20 @@
     "weak_points": [],
     "tips": null,
     "armor_zones": [],
-    "drops": [],
+    "drops": [
+      {
+        "item_id": "arc-data-module",
+        "chance": null
+      },
+      {
+        "item_id": "frigate-diagnostic-node",
+        "chance": null
+      },
+      {
+        "item_id": "frigate-inductor",
+        "chance": null
+      }
+    ],
     "source_refs": {
       "metaforge": "frigate",
       "wiki": null,
@@ -306,15 +571,15 @@
     "armor_zones": [],
     "drops": [
       {
-        "item_id": "arc-alloy",
-        "chance": null
-      },
-      {
         "item_id": "arc-powercell",
         "chance": null
       },
       {
-        "item_id": "hornet-driver",
+        "item_id": "medium-ammo",
+        "chance": null
+      },
+      {
+        "item_id": "arc-alloy",
         "chance": null
       },
       {
@@ -322,7 +587,15 @@
         "chance": null
       },
       {
-        "item_id": "medium-ammo",
+        "item_id": "arc-performance-steel",
+        "chance": null
+      },
+      {
+        "item_id": "arc-synthetic-resin",
+        "chance": null
+      },
+      {
+        "item_id": "hornet-driver",
         "chance": null
       }
     ],
@@ -343,9 +616,22 @@
     "attack": null,
     "ability": null,
     "weak_points": [],
-    "tips": "The Frigate's external hull has areas that Raiders can hide behind to avoid the Hydra's bullet barrage allowing Raiders to take pot shots at the Hydra when it finishes firing. The same goes for the internals of the Emperor, which have places to hide behind when the Hydra is firing. The rear section of the Hydra is unarmored and directly exposes its yellow weak points, allowing for it to be killed quicky if it is distracted. Raiders can fully avoid the Hydra's bullet barrage by standing right in front in the middle of it between the two gun segments, as the gun segments will not be able to aim and fire at the Raider. However, this leaves you vulnerable to wind currents, other ARC or Raider gunfire. Because the Hydra is heavily armoured, it is often recommended to try avoiding it instead of fighting it directly, as it can be worked around efficiently most of the time.",
+    "tips": "The Frigate's external hull has areas that Raiders can hide behind to avoid the Hydra's bullet barrage allowing Raiders to take pot shots at the Hydra when it finishes firing. The same goes for the internals of the Emperor, which have places to hide behind when the Hydra is firing. The rear section of the Hydra is unarmored and directly exposes its yellow weak points, allowing for it to be killed quicky if it is distracted. Standing between its two gun segments no longer keeps you safe: 2.2.0 fixed it struggling to hit close targets and raised its damage. Because the Hydra is heavily armoured, it is often recommended to try avoiding it instead of fighting it directly, as it can be worked around efficiently most of the time.",
     "armor_zones": [],
-    "drops": [],
+    "drops": [
+      {
+        "item_id": "light-ammo",
+        "chance": null
+      },
+      {
+        "item_id": "arc-powercell",
+        "chance": null
+      },
+      {
+        "item_id": "arc-alloy",
+        "chance": null
+      }
+    ],
     "source_refs": {
       "metaforge": "hydra",
       "wiki": null,
@@ -366,7 +652,7 @@
       "Core",
       "Leg Joints"
     ],
-    "tips": "High Ground/Cover If its children are unable to protect it, the fight becomes trivial. Examples of good spots: Spaceport - Control Tower A6 and the Launch Towers Dam Battleground - Electrical Substation for cover Blue Gate - On top of Reinforced Reception with deployable barricades Weak Points Don't target the legs, target its faceplates until they break off, then its big, red, glowing core will be exposed Attack Pattern Only attack that really hurts is its rocket barrage, the rest you can brush off relatively fine When its energy shield comes up, hold fire till it falls; or if you fancy your chances, slip inside the shield and take shots at its now-exposed core",
+    "tips": "High Ground/Cover If its children are unable to protect it, the fight becomes trivial. Examples of good spots: Spaceport - Control Tower A6 and the Launch Towers Blue Gate - On top of Reinforced Reception with deployable barricades Weak Points Don't target the legs, target its faceplates until they break off, then its big, red, glowing core will be exposed Attack Pattern Only attack that really hurts is its rocket barrage, the rest you can brush off relatively fine When its energy shield comes up, hold fire till it falls; or if you fancy your chances, slip inside the shield and take shots at its now-exposed core",
     "armor_zones": [],
     "drops": [
       {
@@ -374,15 +660,23 @@
         "chance": null
       },
       {
+        "item_id": "advanced-arc-powercell",
+        "chance": null
+      },
+      {
+        "item_id": "advanced-electrical-components",
+        "chance": null
+      },
+      {
+        "item_id": "advanced-mechanical-components",
+        "chance": null
+      },
+      {
         "item_id": "arc-circuitry",
         "chance": null
       },
       {
-        "item_id": "arc-performance-steel",
-        "chance": null
-      },
-      {
-        "item_id": "advanced-arc-powercell",
+        "item_id": "arc-coolant",
         "chance": null
       },
       {
@@ -390,7 +684,27 @@
         "chance": null
       },
       {
+        "item_id": "arc-motion-core",
+        "chance": null
+      },
+      {
+        "item_id": "arc-performance-steel",
+        "chance": null
+      },
+      {
         "item_id": "arc-synthetic-resin",
+        "chance": null
+      },
+      {
+        "item_id": "arc-thermo-lining",
+        "chance": null
+      },
+      {
+        "item_id": "arc-insulated-coupler",
+        "chance": null
+      },
+      {
+        "item_id": "complex-gun-parts",
         "chance": null
       },
       {
@@ -399,6 +713,10 @@
       },
       {
         "item_id": "matriarch-reactor",
+        "chance": null
+      },
+      {
+        "item_id": "aphelion-blueprint",
         "chance": null
       }
     ],
@@ -423,15 +741,11 @@
     "armor_zones": [],
     "drops": [
       {
-        "item_id": "arc-alloy",
-        "chance": null
-      },
-      {
         "item_id": "arc-powercell",
         "chance": null
       },
       {
-        "item_id": "arc-thermo-lining",
+        "item_id": "arc-alloy",
         "chance": null
       },
       {
@@ -440,6 +754,14 @@
       },
       {
         "item_id": "pop-trigger",
+        "chance": null
+      },
+      {
+        "item_id": "arc-coolant",
+        "chance": null
+      },
+      {
+        "item_id": "arc-thermo-lining",
         "chance": null
       }
     ],
@@ -465,7 +787,64 @@
     ],
     "tips": null,
     "armor_zones": [],
-    "drops": [],
+    "drops": [
+      {
+        "item_id": "arc-alloy",
+        "chance": null
+      },
+      {
+        "item_id": "advanced-arc-powercell",
+        "chance": null
+      },
+      {
+        "item_id": "advanced-electrical-components",
+        "chance": null
+      },
+      {
+        "item_id": "advanced-mechanical-components",
+        "chance": null
+      },
+      {
+        "item_id": "arc-circuitry",
+        "chance": null
+      },
+      {
+        "item_id": "arc-coolant",
+        "chance": null
+      },
+      {
+        "item_id": "arc-flex-rubber",
+        "chance": null
+      },
+      {
+        "item_id": "arc-motion-core",
+        "chance": null
+      },
+      {
+        "item_id": "arc-performance-steel",
+        "chance": null
+      },
+      {
+        "item_id": "arc-synthetic-resin",
+        "chance": null
+      },
+      {
+        "item_id": "arc-thermo-lining",
+        "chance": null
+      },
+      {
+        "item_id": "complex-gun-parts",
+        "chance": null
+      },
+      {
+        "item_id": "magnetic-accelerator",
+        "chance": null
+      },
+      {
+        "item_id": "queen-reactor",
+        "chance": null
+      }
+    ],
     "source_refs": {
       "metaforge": "queen",
       "wiki": null,
@@ -489,19 +868,15 @@
     "armor_zones": [],
     "drops": [
       {
-        "item_id": "arc-alloy",
-        "chance": null
-      },
-      {
         "item_id": "arc-powercell",
         "chance": null
       },
       {
-        "item_id": "arc-motion-core",
+        "item_id": "arc-alloy",
         "chance": null
       },
       {
-        "item_id": "arc-circuitry",
+        "item_id": "electrical-components",
         "chance": null
       },
       {
@@ -509,15 +884,23 @@
         "chance": null
       },
       {
+        "item_id": "arc-circuitry",
+        "chance": null
+      },
+      {
+        "item_id": "arc-motion-core",
+        "chance": null
+      },
+      {
         "item_id": "heavy-gun-parts",
         "chance": null
       },
       {
-        "item_id": "rocketeer-driver",
+        "item_id": "launcher-ammo",
         "chance": null
       },
       {
-        "item_id": "heavy-ammo",
+        "item_id": "rocketeer-driver",
         "chance": null
       }
     ],
@@ -542,7 +925,76 @@
     ],
     "tips": "The Surveyor is most vulnerable during transmission, when its core is exposed and it is stationary. It will abort the transmission and roll away at high speed the moment it detects a threat. Stunning the Surveyor with a Hornet Driver or Showstopper prevents it from escaping or protecting its core, leaving it vulnerable to powerful explosives such as Heavy Fuze Grenades. As the Surveyor takes damage, its armored panels can break off and be looted. Heavy Ammo is more effective at shedding its armor plating than most other Ammo types.",
     "armor_zones": [],
-    "drops": [],
+    "drops": [
+      {
+        "item_id": "arc-powercell",
+        "chance": null
+      },
+      {
+        "item_id": "arc-alloy",
+        "chance": null
+      },
+      {
+        "item_id": "mechanical-components",
+        "chance": null
+      },
+      {
+        "item_id": "advanced-arc-powercell",
+        "chance": null
+      },
+      {
+        "item_id": "arc-circuitry",
+        "chance": null
+      },
+      {
+        "item_id": "arc-coolant",
+        "chance": null
+      },
+      {
+        "item_id": "arc-motion-core",
+        "chance": null
+      },
+      {
+        "item_id": "arc-performance-steel",
+        "chance": null
+      },
+      {
+        "item_id": "sensors",
+        "chance": null
+      },
+      {
+        "item_id": "surveyor-vault",
+        "chance": null
+      },
+      {
+        "item_id": "vita-spray-blueprint",
+        "chance": null
+      },
+      {
+        "item_id": "barricade-kit-blueprint",
+        "chance": null
+      },
+      {
+        "item_id": "extended-medium-mag-iii-blueprint",
+        "chance": null
+      },
+      {
+        "item_id": "heavy-gun-parts-blueprint",
+        "chance": null
+      },
+      {
+        "item_id": "extended-barrel-iii-blueprint",
+        "chance": null
+      },
+      {
+        "item_id": "padded-stock-blueprint",
+        "chance": null
+      },
+      {
+        "item_id": "vita-shot-blueprint",
+        "chance": null
+      }
+    ],
     "source_refs": {
       "metaforge": "rollbot",
       "wiki": null,
@@ -566,15 +1018,31 @@
     "armor_zones": [],
     "drops": [
       {
+        "item_id": "heavy-ammo",
+        "chance": null
+      },
+      {
         "item_id": "arc-alloy",
         "chance": null
       },
       {
-        "item_id": "arc-powercell",
+        "item_id": "simple-gun-parts",
+        "chance": null
+      },
+      {
+        "item_id": "advanced-arc-powercell",
         "chance": null
       },
       {
         "item_id": "arc-coolant",
+        "chance": null
+      },
+      {
+        "item_id": "arc-flex-rubber",
+        "chance": null
+      },
+      {
+        "item_id": "arc-motion-core",
         "chance": null
       },
       {
@@ -586,15 +1054,11 @@
         "chance": null
       },
       {
-        "item_id": "arc-motion-core",
+        "item_id": "medium-gun-parts",
         "chance": null
       },
       {
         "item_id": "sentinel-firing-core",
-        "chance": null
-      },
-      {
-        "item_id": "heavy-ammo",
         "chance": null
       }
     ],
@@ -617,15 +1081,35 @@
     "weak_points": [
       "Thrusters"
     ],
-    "tips": "The Shredder excels in closed quarters, like the halls of Stella Montis. Fires a multi-round burst of shrapnel in all directions as its primary attack, dealing heavy area damage in enclosed spaces. Periodically stops to “charge up” and then releases a larger blast/shrapnel cone; this charge gives a short window for counterplay, but is very dangerous if caught in the open. It pursues players to close distance and favors engagements where cover and corners limit player escape routes. The Shredder's propulsion / thruster units (the blue jet / jet-propeller) are consistent weak points players can target for higher damage and to stagger it. Explosives (Trigger 'Nade, snap/fuse grenades, and other area explosives) are highly effective, especially when used during or just after the Shredder's charge animation. Luring it through a doorway with a well placed Jolt Mine is also an easy way to get hits on the thrusters, as it will be stunned for a few seconds.",
+    "tips": "The Shredder excels in closed quarters, like the halls of Stella Montis. Fires a multi-round burst of shrapnel in all directions as its primary attack, dealing heavy area damage in enclosed spaces. Periodically stops to “charge up” and then releases a larger blast/shrapnel cone; this charge gives a short window for counterplay, but is very dangerous if caught in the open. It pursues players to close distance and favors engagements where cover and corners limit player escape routes. The Shredder's propulsion / thruster units (the blue jet / jet-propeller) are consistent weak points players can target for higher damage and to stagger it. Explosives (Trigger 'Nade, snap/fuse grenades, and other area explosives) are highly effective, especially stuck to it during or just after its charge animation. Trigger 'Nade fuses are longer since 1.11.0, so stick it rather than air-burst it. Luring it through a doorway with a well placed Jolt Mine is also an easy way to get hits on the thrusters, as it will be stunned for a few seconds.",
     "armor_zones": [],
     "drops": [
+      {
+        "item_id": "arc-powercell",
+        "chance": null
+      },
+      {
+        "item_id": "shotgun-ammo",
+        "chance": null
+      },
       {
         "item_id": "arc-alloy",
         "chance": null
       },
       {
-        "item_id": "arc-powercell",
+        "item_id": "mechanical-components",
+        "chance": null
+      },
+      {
+        "item_id": "simple-gun-parts",
+        "chance": null
+      },
+      {
+        "item_id": "arc-synthetic-resin",
+        "chance": null
+      },
+      {
+        "item_id": "arc-thermo-lining",
         "chance": null
       },
       {
@@ -633,7 +1117,7 @@
         "chance": null
       },
       {
-        "item_id": "shotgun-ammo",
+        "item_id": "arc-data-module",
         "chance": null
       }
     ],
@@ -654,9 +1138,34 @@
     "attack": null,
     "ability": null,
     "weak_points": [],
-    "tips": "It can be easily destroyed with a single Hullcracker shot or destroyed with explosives like Seeker Grenades. Its thrusters can be destroyed relatively easy, and destroying one will inhibit the Skulker's movement greatly. Destroying two of its thrusters fully immobilizes it, similarly to drone ARC. Additionally, the Skulker's aim drops off at range and it doesn't feature fast movement speed, so outrunning it is often possible if you can cut line of sight quickly.",
+    "tips": "A Hullcracker shot or explosives like Seeker Grenades hit it hard, though one Hullcracker shot may not finish it. Its thrusters can be destroyed relatively easy, and destroying one will inhibit the Skulker's movement greatly. Destroying two of its thrusters fully immobilizes it, similarly to drone ARC. Additionally, the Skulker's aim drops off at range and it doesn't feature fast movement speed, so outrunning it is often possible if you can cut line of sight quickly.",
     "armor_zones": [],
-    "drops": [],
+    "drops": [
+      {
+        "item_id": "heavy-ammo",
+        "chance": null
+      },
+      {
+        "item_id": "skulker-targeter",
+        "chance": null
+      },
+      {
+        "item_id": "advanced-arc-powercell",
+        "chance": null
+      },
+      {
+        "item_id": "arc-coolant",
+        "chance": null
+      },
+      {
+        "item_id": "arc-thermo-lining",
+        "chance": null
+      },
+      {
+        "item_id": "arc-data-module",
+        "chance": null
+      }
+    ],
     "source_refs": {
       "metaforge": "skulker",
       "wiki": null,
@@ -680,11 +1189,15 @@
     "armor_zones": [],
     "drops": [
       {
+        "item_id": "arc-powercell",
+        "chance": null
+      },
+      {
         "item_id": "arc-alloy",
         "chance": null
       },
       {
-        "item_id": "arc-powercell",
+        "item_id": "snitch-scanner",
         "chance": null
       },
       {
@@ -692,11 +1205,11 @@
         "chance": null
       },
       {
-        "item_id": "sensors",
+        "item_id": "arc-thermo-lining",
         "chance": null
       },
       {
-        "item_id": "snitch-scanner",
+        "item_id": "sensors",
         "chance": null
       }
     ],
@@ -723,7 +1236,7 @@
     "armor_zones": [],
     "drops": [
       {
-        "item_id": "spotter-relay",
+        "item_id": "arc-powercell",
         "chance": null
       },
       {
@@ -731,7 +1244,15 @@
         "chance": null
       },
       {
-        "item_id": "arc-powercell",
+        "item_id": "spotter-relay",
+        "chance": null
+      },
+      {
+        "item_id": "arc-synthetic-resin",
+        "chance": null
+      },
+      {
+        "item_id": "arc-thermo-lining",
         "chance": null
       },
       {
@@ -756,15 +1277,27 @@
     "attack": "Leaping",
     "ability": "Surface Climbing",
     "weak_points": [],
-    "tips": "When in its aggressive state, the Tick will make a robotic shuffling sound prior to it lunging toward the Raider's head. It will latch itself onto the Raider, slowly draining health and shield. Hold [interact] to dislodge the Tick. Once dislodged, the Tick will run along the ground to escape, and may try to lunge at you again. The Tick can be often be heard before it's seen, spawning dormant at first on the ceilings or in the rafters of buildings and making plenty of noise as they jump down to aggress. The Tick takes one hit from a Raider Tool to destroy, allowing Raiders to save ammo by destroying it with a melee.",
+    "tips": "When in its aggressive state, the Tick will make a robotic shuffling sound prior to it lunging toward the Raider's head. It will latch itself onto the Raider, slowly draining health and shield. Hold [interact] to dislodge the Tick, or dodge-roll to shake it off. Once dislodged, the Tick will run along the ground to escape, and may try to lunge at you again. The Tick can be often be heard before it's seen, spawning dormant at first on the ceilings or in the rafters of buildings and making plenty of noise as they jump down to aggress. The Tick takes one hit from a Raider Tool to destroy, allowing Raiders to save ammo by destroying it with a melee.",
     "armor_zones": [],
     "drops": [
+      {
+        "item_id": "arc-powercell",
+        "chance": null
+      },
       {
         "item_id": "arc-alloy",
         "chance": null
       },
       {
         "item_id": "tick-pod",
+        "chance": null
+      },
+      {
+        "item_id": "arc-flex-rubber",
+        "chance": null
+      },
+      {
+        "item_id": "arc-thermo-lining",
         "chance": null
       }
     ],
@@ -787,9 +1320,54 @@
     "weak_points": [
       "Open landing gear"
     ],
-    "tips": "When provoked, the ARC Turbine will deploy cluster missiles that initiate a lightning strike shortly after impact. This attack does a very high amount of damage and additionally stuns raiders, similar to naturally occurring lightning or the Hornet's stun weapon. Occasionally, the Turbine will stop drifting randomly and spray out a small field of proximity-activated mines into the ground beneath it, before showing cracks in the heavy armor, which heralds its descent to the ground. Once landed, the \"turbine\" section will be visible through the armor gaps as a result of the landing gear being deployed. It can still fire off cluster lightning in this state, so caution is required when attacking. The weak point of the ARC Turbine is the spinning yellow \"tanks\", only visible in the gaps left by the landing gear while it is on the ground. Using a Jupiter 150-200 meters away from the Turbine is an easy way of destroying it, as the lightning attack wont be able to reach you, and the Jupiter can pierce its heavy armor. When using any other weapon, either wait until the Turbine has landed, then take shots at its weak point(s), or aim for the top of the Turbine. Hitting its heavy armor will barely do any damage.",
+    "tips": "When provoked, the ARC Turbine will deploy cluster missiles that initiate a lightning strike shortly after impact. This attack does a very high amount of damage and additionally stuns raiders, similar to naturally occurring lightning or the Hornet's stun weapon. Occasionally, the Turbine will stop drifting randomly and spray out a small field of proximity-activated mines into the ground beneath it, before showing cracks in the heavy armor, which heralds its descent to the ground. Once landed, the \"turbine\" section will be visible through the armor gaps as a result of the landing gear being deployed. It can still fire off cluster lightning in this state, so caution is required when attacking. The weak point of the ARC Turbine is the spinning yellow \"tanks\", only visible in the gaps left by the landing gear while it is on the ground. The Jupiter can pierce its heavy armor, which makes it a good long-range option. When using any other weapon, either wait until the Turbine has landed, then take shots at its weak point(s), or aim for the top of the Turbine. Hitting its heavy armor will barely do any damage.",
     "armor_zones": [],
-    "drops": [],
+    "drops": [
+      {
+        "item_id": "arc-alloy",
+        "chance": null
+      },
+      {
+        "item_id": "advanced-arc-powercell",
+        "chance": null
+      },
+      {
+        "item_id": "arc-coolant",
+        "chance": null
+      },
+      {
+        "item_id": "arc-flex-rubber",
+        "chance": null
+      },
+      {
+        "item_id": "arc-motion-core",
+        "chance": null
+      },
+      {
+        "item_id": "arc-performance-steel",
+        "chance": null
+      },
+      {
+        "item_id": "arc-synthetic-resin",
+        "chance": null
+      },
+      {
+        "item_id": "arc-thermo-lining",
+        "chance": null
+      },
+      {
+        "item_id": "launcher-ammo",
+        "chance": null
+      },
+      {
+        "item_id": "medium-gun-parts",
+        "chance": null
+      },
+      {
+        "item_id": "turbine-compressor",
+        "chance": null
+      }
+    ],
     "source_refs": {
       "metaforge": "turbine",
       "wiki": null,
@@ -811,15 +1389,27 @@
     "armor_zones": [],
     "drops": [
       {
-        "item_id": "arc-alloy",
-        "chance": null
-      },
-      {
         "item_id": "light-ammo",
         "chance": null
       },
       {
+        "item_id": "arc-powercell",
+        "chance": null
+      },
+      {
+        "item_id": "arc-alloy",
+        "chance": null
+      },
+      {
         "item_id": "simple-gun-parts",
+        "chance": null
+      },
+      {
+        "item_id": "arc-synthetic-resin",
+        "chance": null
+      },
+      {
+        "item_id": "arc-thermo-lining",
         "chance": null
       }
     ],
@@ -844,7 +1434,44 @@
     ],
     "tips": "The Vaporizer is a deadly ARC that, when engaged without sufficient cover, will quickly end in your demise. Before fighting, seek shelter in buildings or behind substantial cover. Shooting the underside of the Vaporizer will knock off a small rectangular panel, exposing its core. The Vaporizer will attack with its line of sight laser beam leaving pools of burning fire wherever the beam contacts. Attempting to throw seeking or other projectile grenades such as the Seeker Grenade or the Wolfpack will trigger the defensive energy shield similar to that of the one found on the Matriarch. Once active, the shield will block all kinds of projectile damage, including small arms. As soon as the shield drops, the vaporizer will be unable to use its shield again for a short time creating an opening for attack. It's a good strategy to trigger the shield first, then use your seeking or other high damage weapons after.",
     "armor_zones": [],
-    "drops": [],
+    "drops": [
+      {
+        "item_id": "arc-powercell",
+        "chance": null
+      },
+      {
+        "item_id": "arc-alloy",
+        "chance": null
+      },
+      {
+        "item_id": "electrical-components",
+        "chance": null
+      },
+      {
+        "item_id": "advanced-arc-powercell",
+        "chance": null
+      },
+      {
+        "item_id": "arc-circuitry",
+        "chance": null
+      },
+      {
+        "item_id": "arc-flex-rubber",
+        "chance": null
+      },
+      {
+        "item_id": "energy-clip",
+        "chance": null
+      },
+      {
+        "item_id": "heavy-gun-parts",
+        "chance": null
+      },
+      {
+        "item_id": "vaporizer-regulator",
+        "chance": null
+      }
+    ],
     "source_refs": {
       "metaforge": "vaporizer",
       "wiki": null,
@@ -868,19 +1495,31 @@
     "armor_zones": [],
     "drops": [
       {
-        "item_id": "arc-alloy",
-        "chance": null
-      },
-      {
         "item_id": "arc-powercell",
         "chance": null
       },
       {
-        "item_id": "wasp-driver",
+        "item_id": "light-ammo",
         "chance": null
       },
       {
-        "item_id": "light-ammo",
+        "item_id": "arc-alloy",
+        "chance": null
+      },
+      {
+        "item_id": "simple-gun-parts",
+        "chance": null
+      },
+      {
+        "item_id": "arc-synthetic-resin",
+        "chance": null
+      },
+      {
+        "item_id": "arc-thermo-lining",
+        "chance": null
+      },
+      {
+        "item_id": "wasp-driver",
         "chance": null
       }
     ],

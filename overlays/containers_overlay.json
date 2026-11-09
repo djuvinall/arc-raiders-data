@@ -1,0 +1,216 @@
+{
+  "_about": "Loot containers as the raid planner sees them, one per map marker type. Researched 2026-11-08 from the wiki's container pages (Containers rev 43934) and MetaForge's map legend; weights are this app's estimate, since no source publishes drop rates. `pool` tags are loot areas (medical, arc, ...), `cat:<item category>`, or `*` (anything that spawns in loot areas). `items` are named in the container's own loot table and score highest. Husks, probes and couriers take their items from arc_loot.json. `loot: false` keeps a marker out of the loot model. `confidence`: confirmed (wiki states it), likely (one source, or the wiki flags it unconfirmed), unverified, or in-game (checked in game). Display names marked `check_name` still need an in-game look.",
+  "sources": [
+    { "id": "wiki-containers", "url": "https://arcraiders.wiki/wiki/Containers", "rev": "43934 (2026-10-28)" },
+    { "id": "metaforge-legend", "url": "https://metaforge.app/arc-raiders/map", "rev": "map legend and game-map-data, read 2026-11-08" }
+  ],
+  "containers": [
+    {
+      "marker": "containers/base_container", "name": "Container", "group": "normal",
+      "pool": [{ "tag": "*", "weight": 0.5 }],
+      "confidence": "likely",
+      "notes": "MetaForge's catch-all for ordinary containers (13,000+ markers: drawers, cabinets, crates, trash bins, terminals). What it holds follows the zone it's in."
+    },
+    {
+      "marker": "containers/locker", "name": "Locker", "group": "normal",
+      "pool": [
+        { "tag": "industrial", "weight": 0.9 }, { "tag": "residential", "weight": 0.6 }, { "tag": "commercial", "weight": 0.5 },
+        { "tag": "medical", "weight": 0.5 }, { "tag": "cat:key", "weight": 0.6 }, { "tag": "cat:trinket", "weight": 0.6 },
+        { "tag": "cat:ammo", "weight": 0.5 }, { "tag": "cat:recyclable", "weight": 0.5 }, { "tag": "cat:material-topside", "weight": 0.5 },
+        { "tag": "*", "weight": 0.3 }
+      ],
+      "zone_dependent": true,
+      "confidence": "likely",
+      "wiki": "Locker",
+      "notes": "Wiki: Industrial loot type, red/green/blue variants; red lockers in residential zones roll residential loot. MetaForge also files medical drawers and cabinets here, so only about a fifth of these are real lockers."
+    },
+    {
+      "marker": "containers/bag", "name": "Backpack", "group": "raider", "check_name": true,
+      "pool": [
+        { "tag": "raider", "weight": 1.2 }, { "tag": "cat:healing", "weight": 0.6 }, { "tag": "cat:gadget", "weight": 0.5 },
+        { "tag": "cat:grenade", "weight": 0.5 }, { "tag": "cat:material-topside", "weight": 0.6 }, { "tag": "*", "weight": 0.25 }
+      ],
+      "confidence": "likely",
+      "wiki": "Backpack",
+      "notes": "Wiki: Raider loot; Quick Use items and Topside Materials. MetaForge calls these Bag."
+    },
+    {
+      "marker": "containers/suitcase", "name": "Suitcase", "group": "normal",
+      "pool": [
+        { "tag": "residential", "weight": 1.0 }, { "tag": "commercial", "weight": 0.8 }, { "tag": "old-world", "weight": 0.7 },
+        { "tag": "cat:trinket", "weight": 0.6 }, { "tag": "*", "weight": 0.25 }
+      ],
+      "confidence": "unverified",
+      "wiki": "Suitcase",
+      "notes": "The wiki page has no loot table yet; the pool is the earlier estimate."
+    },
+    {
+      "marker": "containers/basket", "name": "Basket", "group": "condition", "check_name": true,
+      "pool": [{ "tag": "nature", "weight": 1.5 }],
+      "items": ["Assorted Seeds", "Resin", "Volcanic Rock", "Agave", "Apricot", "Fertilizer", "Great Mullein", "Lemon", "Mushroom", "Olives", "Prickly Pear", "Roots", "Candleberries", "Moss"],
+      "conditions": ["Lush Blooms", "Cold Snap"],
+      "confidence": "confirmed",
+      "wiki": "Wicker Basket",
+      "notes": "Wicker Basket. Appears with Lush Blooms or Cold Snap; also in the Stella Montis cafeteria behind an unpowered door. Holds many Scrappy training items."
+    },
+    {
+      "marker": "containers/box", "name": "Box", "group": "normal",
+      "pool": [{ "tag": "industrial", "weight": 0.8 }, { "tag": "mechanical", "weight": 0.8 }, { "tag": "*", "weight": 0.3 }],
+      "confidence": "unverified",
+      "notes": "Only 8 markers, all on Blue Gate (Gate Box, Pole Box, Raider Camp Box). No wiki container matches."
+    },
+    {
+      "marker": "containers/car", "name": "Car", "group": "normal",
+      "pool": [{ "tag": "mechanical", "weight": 1.2 }, { "tag": "electrical", "weight": 0.9 }, { "tag": "*", "weight": 0.2 }],
+      "items": ["Metal Parts", "Chemicals", "Rubber Parts", "Metal Brackets", "Oil", "Wires", "Rusted Bolts", "Mechanical Components", "Light Bulb", "Motor", "Industrial Battery", "Rusted Gear"],
+      "breach": true,
+      "confidence": "likely",
+      "wiki": "Car Hood",
+      "notes": "The breachable Car Hood (Mechanical and Electrical loot); seats can be searched too. Some cars have an alarm trap."
+    },
+    {
+      "marker": "containers/utility_crate", "name": "Grenade Tube", "group": "raider", "check_name": true,
+      "pool": [{ "tag": "cat:grenade", "weight": 1.5 }],
+      "items": ["Blaze Grenade", "Explosive Compound", "Gas Grenade", "Firecracker", "Heavy Fuze Grenade", "Light Gun Parts", "Light Impact Grenade", "Li'l Smoke Grenade", "Lure Grenade", "Medium Gun Parts", "Mod Components", "Sensors", "Showstopper", "Smoke Grenade", "Snap Blast Grenade", "Tagging Grenade", "Trigger 'Nade", "Wolfpack", "Heavy Gun Parts Blueprint"],
+      "confidence": "confirmed",
+      "wiki": "Grenade Tube",
+      "notes": "MetaForge's own legend labels this marker Grenade Tube (its key says utility_crate)."
+    },
+    {
+      "marker": "containers/electrical_container", "name": "Electrical Container", "group": "normal",
+      "pool": [{ "tag": "electrical", "weight": 1.0 }, { "tag": "technological", "weight": 0.7 }],
+      "confidence": "unverified",
+      "notes": "A legacy MetaForge category with one marker."
+    },
+    {
+      "marker": "containers/industrial_container", "name": "Industrial Container", "group": "normal",
+      "pool": [{ "tag": "industrial", "weight": 1.0 }, { "tag": "mechanical", "weight": 0.7 }],
+      "confidence": "unverified",
+      "notes": "A legacy MetaForge category with one marker."
+    },
+    {
+      "marker": "containers/med_crate", "name": "Medical Bag", "group": "raider", "check_name": true,
+      "pool": [{ "tag": "cat:healing", "weight": 1.5 }, { "tag": "medical", "weight": 1.3 }],
+      "items": ["Bandage", "Herbal Bandage", "Sterilized Bandage", "Vita Shot", "Defibrillator", "Shield Recharger", "Surge Shield Recharger", "Adrenaline Shot", "Durable Cloth", "Antiseptic"],
+      "confidence": "likely",
+      "wiki": "Medical Bag",
+      "notes": "MetaForge calls these Med Crate. The wiki's table is flagged unconfirmed; on Stella Montis it adds the Osprey Blueprint."
+    },
+    {
+      "marker": "containers/ammo_crate", "name": "Ammo Case", "group": "raider", "check_name": true,
+      "pool": [{ "tag": "cat:ammo", "weight": 1.5 }],
+      "items": ["Light Ammo", "Medium Ammo", "Heavy Ammo", "Shotgun Ammo"],
+      "confidence": "confirmed",
+      "wiki": "Ammo Case",
+      "notes": "MetaForge calls these Ammo Crate."
+    },
+    {
+      "marker": "containers/weapon_case", "name": "Weapon Case", "group": "raider",
+      "pool": [{ "tag": "cat:weapon", "weight": 1.5 }, { "tag": "cat:weapon-mod", "weight": 1.2 }, { "tag": "cat:ammo", "weight": 0.8 }],
+      "items": ["Light Gun Parts", "Medium Gun Parts", "Heavy Gun Parts"],
+      "confidence": "confirmed",
+      "wiki": "Weapon Case",
+      "notes": "Weapons, attachments, gun parts and ammo matching its weapon. Guides say a weapon is always inside. MetaForge also files some weapon racks here."
+    },
+    {
+      "marker": "containers/combat_supplies", "name": "Combat Supplies", "group": "condition",
+      "pool": [{ "tag": "cat:ammo", "weight": 1.0 }, { "tag": "cat:healing", "weight": 1.0 }, { "tag": "cat:grenade", "weight": 1.0 }, { "tag": "cat:gadget", "weight": 0.6 }],
+      "conditions": ["Close Scrutiny"],
+      "confidence": "likely",
+      "notes": "Raider supply clusters that spawn during Close Scrutiny (Dam, Blue Gate, Buried City, Spaceport). No wiki page."
+    },
+    {
+      "marker": "containers/raider_cache", "name": "Raider Cache", "group": "raider",
+      "pool": [
+        { "tag": "raider", "weight": 1.0 }, { "tag": "cat:weapon", "weight": 1.0 }, { "tag": "cat:ammo", "weight": 1.0 },
+        { "tag": "cat:weapon-mod", "weight": 0.8 }, { "tag": "cat:blueprint", "weight": 0.8 }, { "tag": "cat:grenade", "weight": 0.8 },
+        { "tag": "cat:healing", "weight": 0.8 }, { "tag": "cat:shield", "weight": 0.8 }, { "tag": "cat:gadget", "weight": 0.6 }
+      ],
+      "conditions": ["Uncovered Caches", "Cold Snap"],
+      "confidence": "confirmed",
+      "wiki": "Raider Cache",
+      "notes": "Ammo, blueprints, grenades, healing, quick use, shields, weapons and attachments. Many more, with better loot, during Uncovered Caches; under Cold Snap they must be breached."
+    },
+    {
+      "marker": "containers/frozen_raider_cache", "name": "Frozen Raider Cache", "group": "condition",
+      "pool": [
+        { "tag": "raider", "weight": 1.0 }, { "tag": "cat:weapon", "weight": 1.0 }, { "tag": "cat:ammo", "weight": 1.0 },
+        { "tag": "cat:weapon-mod", "weight": 0.8 }, { "tag": "cat:blueprint", "weight": 0.8 }, { "tag": "cat:grenade", "weight": 0.8 },
+        { "tag": "cat:healing", "weight": 0.8 }, { "tag": "cat:shield", "weight": 0.8 }
+      ],
+      "breach": true,
+      "conditions": ["Cold Snap"],
+      "confidence": "likely",
+      "wiki": "Raider Cache",
+      "notes": "A Raider Cache frozen over; it must be breached. Pendola Pass."
+    },
+    {
+      "marker": "containers/hurricane_cache", "name": "First Wave Cache", "group": "condition", "check_name": true,
+      "pool": [
+        { "tag": "raider", "weight": 1.0 }, { "tag": "cat:weapon", "weight": 1.0 }, { "tag": "cat:ammo", "weight": 1.0 },
+        { "tag": "cat:material-refined", "weight": 0.9 }, { "tag": "cat:material-topside", "weight": 0.7 }, { "tag": "cat:blueprint", "weight": 0.6 },
+        { "tag": "cat:grenade", "weight": 0.8 }, { "tag": "cat:healing", "weight": 0.8 }, { "tag": "cat:shield", "weight": 0.8 }
+      ],
+      "conditions": ["Hurricane"],
+      "confidence": "likely",
+      "wiki": "First Wave Cache",
+      "notes": "Only during Hurricane. Since 1.18.0 slightly fewer blueprints but better high-tier materials. MetaForge calls these Hurricane Cache."
+    },
+    {
+      "marker": "containers/breachable_container", "name": "Breachable Container", "group": "normal",
+      "pool": [
+        { "tag": "security", "weight": 1.0 }, { "tag": "technological", "weight": 1.0 }, { "tag": "electrical", "weight": 0.8 },
+        { "tag": "industrial", "weight": 0.8 }, { "tag": "exodus", "weight": 0.6 }, { "tag": "*", "weight": 0.4 }
+      ],
+      "breach": true,
+      "confidence": "likely",
+      "notes": "MetaForge's catch-all for breachables: transformers, data servers, server racks, technology and metal crates, engine hoods."
+    },
+    {
+      "marker": "containers/security_breach", "name": "Security Locker", "group": "normal", "check_name": true,
+      "pool": [
+        { "tag": "cat:weapon", "weight": 1.2 }, { "tag": "cat:ammo", "weight": 1.0 }, { "tag": "security", "weight": 1.0 },
+        { "tag": "cat:grenade", "weight": 0.8 }, { "tag": "cat:gadget", "weight": 0.5 }, { "tag": "cat:material-topside", "weight": 0.5 }
+      ],
+      "items": ["Complex Gun Parts"],
+      "breach": true,
+      "needs": "Security Breach skill",
+      "confidence": "likely",
+      "wiki": "Security Locker",
+      "notes": "Only raiders with the Security Breach skill can open it. Weapons and components, rarely epic weapons and Complex Gun Parts. Since 1.7.0 they spawn dynamically, so these markers are candidate spots."
+    },
+    {
+      "marker": "containers/android", "name": "Android", "group": "normal",
+      "pool": [{ "tag": "electrical", "weight": 1.0 }, { "tag": "technological", "weight": 1.0 }],
+      "items": ["Battery", "Sensors", "Electrical Components", "Voltage Converter", "Power Rod"],
+      "confidence": "likely",
+      "wiki": "Android",
+      "notes": "Pendola Pass and Stella Montis. The wiki flags the table unconfirmed."
+    },
+    {
+      "marker": "containers/arc_husk", "name": "ARC Husk", "group": "arc",
+      "pool": [{ "tag": "arc", "weight": 0.6 }],
+      "confidence": "unverified",
+      "notes": "A generic husk marker (5 on Blue Gate and Riven Tides) whose type MetaForge doesn't say."
+    },
+    { "marker": "containers/wasp_husk", "name": "Wasp Husk", "group": "arc", "from_arc_loot": "Wasp Husk", "confidence": "confirmed" },
+    { "marker": "containers/rocketeer_husk", "name": "Rocketeer Husk", "group": "arc", "from_arc_loot": "Rocketeer Husk", "confidence": "likely" },
+    { "marker": "containers/baron_husk", "name": "Baron Husk", "group": "arc", "from_arc_loot": "Baron Husk", "confidence": "confirmed" },
+    { "marker": "containers/deforester_husk", "name": "Deforester Husk", "group": "arc", "from_arc_loot": "Deforester Husk", "confidence": "confirmed" },
+    { "marker": "containers/arc_probe", "name": "ARC Probe", "group": "arc", "from_arc_loot": "ARC Probe", "confidence": "confirmed", "notes": "Breaching it calls nearby ARC." },
+    { "marker": "containers/arc_courier", "name": "ARC Courier", "group": "arc", "from_arc_loot": "ARC Courier", "confidence": "confirmed" },
+    {
+      "marker": "locations/supply_station", "name": "Supply Station", "group": "raider",
+      "pool": [{ "tag": "cat:ammo", "weight": 0.6 }, { "tag": "cat:healing", "weight": 0.6 }, { "tag": "cat:weapon", "weight": 0.5 }],
+      "breach": true,
+      "confidence": "confirmed",
+      "wiki": "Supply Drop",
+      "notes": "Call in a Supply Drop here (ammo, quick use, weapons). The flare shows where it lands and draws other raiders. Not every station is active each raid."
+    },
+    {
+      "marker": "locations/field_crate", "name": "Field Crate", "group": "normal", "loot": false,
+      "confidence": "confirmed",
+      "notes": "A crate you carry to a Field Depot; delivering it opens a reward with a choice of loot. Not a container to search."
+    }
+  ]
+}

@@ -1888,7 +1888,7 @@
   "points": {
     "from_levels": 76,
     "max_level": 75,
-    "expedition_bonus_max": 5
+    "expedition_bonus_max": 15
   },
   "prereqs_entered": true,
   "layout_in_game": true

@@ -45,6 +45,19 @@ Of the 155 recipes both sources have, 151 match exactly. The 4 that differ (Anvi
 - `game-map-data` carries markers only; map images are separate tile pyramids (see Access).
 - Spaceport, Blue Gate and Stella Montis have two floors each, as separate tile paths. A marker's `zlayers` is a bitmask of the floors it's on: bit 1 is the lower floor and bit 2 the upper, and 2147483647 means every floor.
 
+## Containers, ARC drops and map conditions
+
+Researched 2026-11-08 (`docs/research/2026-11-08` in the app repo), kept as overlays:
+
+| Overlay | Output | From |
+|---|---|---|
+| `overlays/arc_loot.json` | `arcs.json` drops, `items.json` `drops_from`, husk/probe/courier rows in `containers.json` | Each ARC's wiki page (revision ids in the file), MetaForge `arcs`. Replaces RaidTheory's drop lists |
+| `overlays/containers_overlay.json` | `containers.json`, and the display names of map marker types | Wiki container pages (Containers rev 43934) and MetaForge's map legend |
+| `overlays/conditions_overlay.json` | `conditions.json` | arcraiders.com/map-conditions (major/minor tags), patch notes, the wiki's condition pages |
+
+No source publishes drop rates, so the weights in these overlays are estimates. Each row says
+how sure it is (`confirmed`, `likely`, `unverified`, `in-game`).
+
 ## Field precedence
 
 Declared in `overlays/precedence.toml`. Unresolved references are listed in `data/coverage.json` rather than dropped silently.

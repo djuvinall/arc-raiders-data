@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Array_of_Container",
+  "type": "array",
+  "items": {
+    "$ref": "#/$defs/Container"
+  },
+  "$defs": {
+    "Container": {
+      "description": "A loot container type as the raid planner models it, one per map marker type.\nBuilt from `overlays/containers_overlay.json` and `overlays/arc_loot.json`.",
+      "type": "object",
+      "properties": {
+        "marker": {
+          "description": "The map marker type, as `containers/med_crate`.",
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "group": {
+          "description": "`normal`, `raider`, `arc` or `condition`.",
+          "type": "string"
+        },
+        "loot": {
+          "description": "False for markers that aren't searched for loot, such as Field Crates.",
+          "type": "boolean"
+        },
+        "pool": {
+          "description": "Loot areas (`medical`), item categories (`cat:healing`) or `*` (anything that spawns\nin loot areas), each with how strongly this container favours it.",
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/PoolWeight"
+          }
+        },
+        "items": {
+          "description": "Items named in the container's own loot table.",
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ContainerItem"
+          }
+        },
+        "breach": {
+          "type": "boolean"
+        },
+        "needs": {
+          "description": "A skill or tool needed to open it.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "zone_dependent": {
+          "description": "The zone it sits in changes what it holds.",
+          "type": "boolean"
+        },
+        "conditions": {
+          "description": "Map conditions it's tied to; empty when it's always there.",
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "confidence": {
+          "description": "`confirmed`, `likely`, `unverified` or `in-game`.",
+          "type": "string"
+        },
+        "wiki": {
+          "description": "The wiki's name for it, when that differs or is worth linking.",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "check_name": {
+          "description": "The display name still needs checking in game.",
+          "type": "boolean"
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "marker",
+        "name",
+        "group",
+        "loot",
+        "pool",
+        "items",
+        "breach",
+        "zone_dependent",
+        "conditions",
+        "confidence",
+        "check_name"
+      ]
+    },
+    "PoolWeight": {
+      "type": "object",
+      "properties": {
+        "tag": {
+          "type": "string"
+        },
+        "weight": {
+          "type": "number",
+          "format": "double"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "tag",
+        "weight"
+      ]
+    },
+    "ContainerItem": {
+      "type": "object",
+      "properties": {
+        "item_id": {
+          "type": "string"
+        },
+        "sure": {
+          "description": "On the container's own page and not flagged, or backed by a second source.",
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false,
+      "required": [
+        "item_id",
+        "sure"
+      ]
+    }
+  }
+}

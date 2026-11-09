@@ -84,18 +84,38 @@ Key pages link to their doors by matching map marker names. These keys have no
 matching marker yet. Once a door is found, either rename the marker upstream or add
 its position by hand.
 
-- [ ] **Dam Utility Key** (Dam Battlegrounds): opens closets and small utility rooms in
-      the administration buildings (community key list; shown on the key's page as a
-      note). Find the actual doors.
-- [ ] **Riven Tides Crane Secure Storage Keycard**: only the wiki lists this card, so it
-      may have left the game. The one Secure Storage marker ("inside other keyroom") is
-      already matched to the plain Secure Storage Keycard. Find out whether this card
-      still exists and, if so, which door it opens.
+- [ ] **Dam Utility Key** (Dam Battlegrounds): no door found on any source, MetaForge says
+      "location unknown" and no quest gives it, so it may be unused. The "closets in the
+      administration buildings" note has no backing. Find the doors, or confirm it's unused.
+- [x] **Riven Tides Crane Secure Storage Keycard**: a wiki naming slip. Its page is titled
+      Secure Storage Keycard, MetaForge and RaidTheory list only that card, and the Crane
+      House has its own keycard. Ingest drops the duplicate (2026-11-08).
 - [x] **Emperor Gateway Conduit** (Pendola Pass): the door is on the Emperor's flank by
       Piazza della Rupe, marked in game on 2026-11-06 and added by hand in
       `overlays/notes_overlay.json` at (6675, 8399).
-- [ ] **Flushing Terminal Key** (Spaceport): used at the Flushing Terminal for Celeste's
-      quest. The map has no marker for the terminal, so record where it is.
+- [ ] **Flushing Terminal Key** (Spaceport): a quest item for Shani's The Stench of
+      Corruption, not a door key. Picked up in the Departure Building Staff Locker Room and
+      used on any Flushing Terminal in the tunnels. No source gives a terminal's position,
+      and the map has no marker for one, so record where they are.
+
+Containers, ARC drops and conditions (research of 2026-11-08, `docs/research/2026-11-08`
+in the app repo). Fix anything wrong in `overlays/containers_overlay.json`,
+`overlays/arc_loot.json` or `overlays/conditions_overlay.json`, and set `confidence` to
+`in-game` once checked.
+
+- [ ] **Container names** (`check_name` in the overlay): Medical Bag (MetaForge: Med Crate),
+      Ammo Case (Ammo Crate), Backpack (Bag), Basket (Wicker Basket), First Wave Cache
+      (Hurricane Cache), Security Locker (Security Breach), Grenade Tube (Utility Crate).
+- [ ] **Loot tables the wiki flags unconfirmed:** Medical Bag, Android, Rocketeer Husk. And
+      the Suitcase, which has no table at all.
+- [ ] **ARC drops with one source:** items only MetaForge lists (the ARC Surveyor's seven
+      blueprints, the Matriarch's Aphelion Blueprint, the Comet's Electrical Components, the
+      Leaper's ARC Powercell and Circuitry); the Bombardier's Heavy or Medium Gun Parts; the
+      Rocketeer Husk's Heavy or Launcher Ammo.
+- [ ] **Turbine Compressor:** drops from the ARC Turbine, and from no husk.
+- [ ] **Condition effects:** whether Raider Caches and Probes really multiply under Uncovered
+      Caches and Prospecting Probes, and whether the Harvester still guarantees its blueprints
+      since 2.3.0.
 
 ## Gaps
 

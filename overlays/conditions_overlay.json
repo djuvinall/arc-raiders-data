@@ -1,0 +1,621 @@
+{
+  "_about": "Map conditions (events), researched 2026-11-08 from the official map-conditions tracker, patch notes and the wiki. `major` is Embark's own tag; null means the condition isn't on the tracker now (probably out of rotation). `loot_value` scales the planner's chances for rare-and-up items while the condition is live (the in-game text says increased or decreased loot value, without numbers). `boosts` multiply chances at a marker type because more of them spawn. The numbers are this app's estimate. The \"x2 blueprints in major conditions\" claim isn't supported by any source, so it isn't modelled.",
+  "retrieved": "2026-11-08",
+  "sources": [
+    {
+      "id": "off_tracker",
+      "url": "https://arcraiders.com/map-conditions",
+      "date": "2026-11-08 (live schedule window 2026-11-08 19:00 to 2026-11-10 11:00 UTC; embedded data lists condition type major/minor)"
+    },
+    {
+      "id": "off_2.4.1",
+      "url": "https://store.steampowered.com/news/app/1808500/view/719046905302089863",
+      "date": "2026-11 (hotfix 2.4.1, mirrored at arcraiders.wiki Update:2.4.1)"
+    },
+    {
+      "id": "off_2.4.0",
+      "url": "https://arcraiders.com/news/store-update-2-4-0",
+      "date": "2026-11-03"
+    },
+    {
+      "id": "off_2.3.0",
+      "url": "https://arcraiders.com/news/live-update-2-3-0",
+      "date": "2026-10-27 (fetched directly)"
+    },
+    {
+      "id": "off_2.2.0",
+      "url": "https://arcraiders.com/news/store-update-2-2-0",
+      "date": "2026-10-20 (via wiki mirror Update:2.2.0)"
+    },
+    {
+      "id": "off_2.1.0",
+      "url": "https://arcraiders.com/news/store-update-2-1-0",
+      "date": "2026-10-13 (via wiki mirror)"
+    },
+    {
+      "id": "off_2.0",
+      "url": "https://arcraiders.com/news/frozen-trail-2-0-update",
+      "date": "2026-10-08 (via wiki mirror Update:2.0)"
+    },
+    {
+      "id": "off_ft_preview",
+      "url": "https://arcraiders.com/news/frozen-trail-content-preview",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "off_1.42.0",
+      "url": "https://arcraiders.com/news/live-update-1-42-0",
+      "date": "2026-08-18 (via wiki mirror)"
+    },
+    {
+      "id": "off_1.33.0",
+      "url": "https://arcraiders.com/news/live-update-1-33-0",
+      "date": "2026-06-16 (via wiki mirror)"
+    },
+    {
+      "id": "off_1.26.0",
+      "url": "https://arcraiders.com/news/riven-tides-patch-notes-1-26-0",
+      "date": "2026-04-28 (via wiki mirror)"
+    },
+    {
+      "id": "off_1.22.0",
+      "url": "https://arcraiders.com/news/patch-notes-1-22-0",
+      "date": "2026-03-31 (via wiki mirror)"
+    },
+    {
+      "id": "off_1.18.0",
+      "url": "https://arcraiders.com/news/patch-notes-1-18-0",
+      "date": "2026-03-03 (via wiki mirror)"
+    },
+    {
+      "id": "off_1.17.0",
+      "url": "https://arcraiders.com/en/news/shrouded-sky-patch-notes-1-17-0",
+      "date": "2026-02-24 (via wiki mirror)"
+    },
+    {
+      "id": "off_1.13.0",
+      "url": "https://arcraiders.com/news/patch-notes-1-13-0",
+      "date": "2026-01-27 (via wiki mirror)"
+    },
+    {
+      "id": "off_1.7.0",
+      "url": "https://arcraiders.com/en/news/cold-snap-patch-notes",
+      "date": "2025-12-16 (via wiki mirror)"
+    },
+    {
+      "id": "off_1.2.0",
+      "url": "https://arcraiders.wiki/wiki/Update:1.2.0",
+      "date": "patch 1.2.0 (wiki mirror of official notes)"
+    },
+    {
+      "id": "wiki_maps",
+      "url": "https://arcraiders.wiki/wiki/Maps",
+      "date": "retrieved 2026-11-08"
+    },
+    {
+      "id": "wiki_conditions",
+      "url": "https://arcraiders.wiki/wiki/Night_Raid",
+      "date": "retrieved 2026-11-08; one page per condition (Night_Raid, Electromagnetic_Storm, Cold_Snap, Hidden_Bunker, Locked_Gate, Hurricane, Close_Scrutiny, ARC_Frigate, Beachcombing, Bird_City, Lush_Blooms, Prospecting_Probes, Husk_Graveyard, Uncovered_Caches, Launch_Tower_Loot, Harvester, Matriarch_(map_condition), Redirection). The bullet lists on these pages copy the in-game condition text"
+    },
+    {
+      "id": "wiki_mappages",
+      "url": "https://arcraiders.wiki/wiki/Dam_Battlegrounds",
+      "date": "retrieved 2026-11-08; map pages Dam_Battlegrounds, Buried_City, Spaceport, The_Blue_Gate, Stella_Montis, Riven_Tides, Pendola_Pass"
+    },
+    {
+      "id": "wiki_keys",
+      "url": "https://arcraiders.wiki/wiki/Dam_Control_Tower_Key",
+      "date": "retrieved 2026-11-08; individual key item pages, many are stubs"
+    },
+    {
+      "id": "wiki_blueprints",
+      "url": "https://arcraiders.wiki/wiki/Blueprints",
+      "date": "retrieved 2026-11-08; the page itself says its spawn data is not 100% confirmed"
+    },
+    {
+      "id": "wiki_containers",
+      "url": "https://arcraiders.wiki/wiki/Containers",
+      "date": "retrieved 2026-11-08"
+    },
+    {
+      "id": "wiki_misc",
+      "url": "https://arcraiders.wiki/wiki/Fallen_Emperor",
+      "date": "retrieved 2026-11-08; also Extraction_Points, Raider_Hatch, Ballistic_Gondola, Harvester_Payload, Emperor_Gateway_Conduit, Raider_Cache, First_Wave_Cache, Matriarch, Queen"
+    },
+    {
+      "id": "mf_mapdata",
+      "url": "https://metaforge.app/api/game-map-data?tableID=arc_map_data&mapID=<dam|buried-city|spaceport|blue-gate|stella-montis|riven-tides|pendola-pass>",
+      "date": "retrieved 2026-11-08; community-maintained map markers (records updated through 2026-10)"
+    },
+    {
+      "id": "mf_blueprints",
+      "url": "https://metaforge.app/arc-raiders/how-to-find-every-blueprint-in-arc-raiders",
+      "date": "undated guide; mentions January 2026"
+    }
+  ],
+  "rarity_rules": [
+    {
+      "rule": "Container tier (none, yellow, red) raises the chance of higher-rarity loot but does not guarantee it",
+      "source": "wiki_containers",
+      "confidence": "likely"
+    },
+    {
+      "rule": "Loot tables depend on location: the same container yields loot of its zone type (Residential, Industrial, Medical, Security, Electrical, Commercial, Technological, ARC, Raider, Nature, Exodus, Old World). Not every container type adapts. MetaForge tags containers with the same zone types",
+      "source": "wiki_containers; mf_mapdata",
+      "confidence": "likely"
+    },
+    {
+      "rule": "Pendola Pass Dynamic Loot Zones: a zone's value changes each raid, its loot type stays fixed",
+      "source": "off_2.0",
+      "confidence": "confirmed"
+    },
+    {
+      "rule": "Locked-room loot value rises with key rarity (1.22.0 raised all locked rooms on that scale; 1.7.0 raised Epic key rooms)",
+      "source": "off_1.22.0; off_1.7.0",
+      "confidence": "confirmed"
+    },
+    {
+      "rule": "Fewer weapons spawn on map outskirts. Outskirt weapons can spawn at around 15 durability, versus about 60 in locked rooms",
+      "source": "off_1.26.0",
+      "confidence": "confirmed"
+    },
+    {
+      "rule": "Night Raid, Electromagnetic Storm, Cold Snap and Hurricane show 'Increased loot value' in game. Night Raid's description stresses loot behind locked doors and more keys",
+      "source": "wiki_conditions (in-game text)",
+      "confidence": "confirmed"
+    },
+    {
+      "rule": "ARC Operations (Close Scrutiny, ARC Frigate) show 'Decreased overall loot value' and open all key-locked rooms. Close Scrutiny adds ARC loot; the Frigate has its own containers and Cargo",
+      "source": "wiki_conditions",
+      "confidence": "confirmed"
+    },
+    {
+      "rule": "Dolabra, Bobcat, Equalizer, Jupiter, Tempest and Vulcano blueprints drop in any major condition; that pool's drop chance was slightly lowered",
+      "source": "off_2.3.0",
+      "confidence": "confirmed"
+    },
+    {
+      "rule": "The wiki says 'Blueprints for rare and epic items are more commonly found during x2 Major Map Conditions', with no source and no multiplier. Several third-party sites say the '2x' tag on major conditions means double Trials points, not double loot. Do not model this as 2x blueprints",
+      "source": "wiki_blueprints",
+      "confidence": "unverified"
+    },
+    {
+      "rule": "Some blueprints are condition-only: tier-III attachments (EMS, Locked Gate, Night Raid); Wolfpack (Night Raid); Snap Hook and Surge Coil (EMS); Canto (Hurricane First Wave Caches); Fireworks Box (Cold Snap, disputed by MetaForge). Others are map-only: Stella Montis, Riven Tides, and Stella Montis plus Blue Gate for Mk.3 augments. The wiki says its spawn data is not fully confirmed",
+      "source": "wiki_blueprints; mf_blueprints",
+      "confidence": "likely"
+    },
+    {
+      "rule": "Blueprint families follow container type: weapons and gun parts in Raider containers, explosives in Industrial, medical in Medical, augments in Security (rarely Medical), utilities in Electrical, attachments in Residential",
+      "source": "wiki_blueprints",
+      "confidence": "likely"
+    },
+    {
+      "rule": "1.13.0 reduced the container types that can spawn condition-specific blueprints in EMS, Hidden Bunker and Locked Gate",
+      "source": "off_1.13.0",
+      "confidence": "confirmed"
+    },
+    {
+      "rule": "Fallen Emperor and ARC Frigate: higher-tier loot sits deeper inside",
+      "source": "off_2.3.0",
+      "confidence": "confirmed"
+    },
+    {
+      "rule": "Since 1.42.0 schedules are regional. The official tracker runs conditions in 1-hour slots per map, offset by region (north-america, brazil, east-asia, oceania, ...). In-game countdowns appear only 60 minutes before a condition starts (1.33.0)",
+      "source": "off_1.42.0; off_1.33.0; off_tracker",
+      "confidence": "confirmed"
+    }
+  ],
+  "conditions": [
+    {
+      "name": "Night Raid",
+      "major": true,
+      "maps": [
+        "dam",
+        "buried-city",
+        "spaceport",
+        "blue-gate",
+        "stella-montis",
+        "riven-tides",
+        "pendola-pass"
+      ],
+      "loot_value": 1.25,
+      "boosts": [],
+      "loot_effects": [
+        "In-game description: 'Raiders have been finding especially good loot behind locked doors, and keys have been more plentiful.'",
+        "In-game bullets: Increased loot value; Fewer active Return Points; No active Raider Hatches",
+        "Since 2.3.0 (official): Dolabra, Bobcat, Equalizer, Jupiter, Tempest and Vulcano blueprints can drop in any major condition (that pool's drop chance was slightly lowered)",
+        "Wiki blueprint table (unconfirmed): Wolfpack blueprint drops only in Night Raid; tier-III attachment blueprints (Angled Grip III, Compensator III, Extended Barrel III, Extended Light/Medium/Shotgun Mag III, Muzzle Brake III, Shotgun Choke III, Stable Stock III, Vertical Grip III, Lightweight Stock) drop only in Electromagnetic Storm, Locked Gate or Night Raid; Padded Stock and Shotgun Silencer also drop in Hidden Bunker",
+        "Wiki editorial with no official source: more containers spawn, and more ARC cells and cores drop (Advanced ARC Powercell, Bastion Cell, etc.)"
+      ],
+      "arc_effects": [
+        "In-game description: 'The heightened Raider activity has attracted more ARC than usual.'",
+        "1.22.0 (official): more variety of Leaper, Bombardier, Bastion and Rocketeer spawns during Night Raid"
+      ],
+      "confidence": "confirmed",
+      "source": "off_tracker; wiki_conditions; off_2.3.0; off_1.22.0; off_1.33.0; wiki_blueprints"
+    },
+    {
+      "name": "Electromagnetic Storm",
+      "major": true,
+      "maps": [
+        "dam",
+        "spaceport",
+        "blue-gate"
+      ],
+      "loot_value": 1.25,
+      "boosts": [
+        {
+          "marker": "containers/arc_probe",
+          "factor": 1.5
+        },
+        {
+          "marker": "containers/arc_courier",
+          "factor": 1.5
+        }
+      ],
+      "loot_effects": [
+        "In-game bullets: Increased loot value; Fewer active Return Points; No active Raider Hatches; Lightning strikes",
+        "More crashed Probes and Couriers (wiki)",
+        "Fossilized Lightning appears where lightning strikes; it salvages or recycles into Explosive Compound (wiki)",
+        "Since 2.3.0 (official): Dolabra, Bobcat, Equalizer, Jupiter, Tempest and Vulcano blueprints can drop in any major condition (that pool's drop chance was slightly lowered)",
+        "Wiki blueprint table (unconfirmed): Snap Hook and Surge Coil blueprints drop only in EMS; tier-III attachment blueprints (Angled Grip III, Compensator III, Extended Barrel III, Extended Light/Medium/Shotgun Mag III, Muzzle Brake III, Shotgun Choke III, Stable Stock III, Vertical Grip III, Lightweight Stock) drop only in Electromagnetic Storm, Locked Gate or Night Raid",
+        "1.13.0 (official): fewer container types can spawn condition-specific blueprints during EMS, Hidden Bunker and Locked Gate"
+      ],
+      "arc_effects": [
+        "Lightning can instantly destroy small ARC and briefly disable large ARC; flying ARC such as Rocketeers fall from the sky (wiki)"
+      ],
+      "confidence": "confirmed",
+      "source": "off_tracker; wiki_conditions; off_2.3.0; off_1.13.0; wiki_blueprints"
+    },
+    {
+      "name": "Hurricane",
+      "major": true,
+      "maps": [
+        "dam",
+        "buried-city",
+        "spaceport",
+        "blue-gate"
+      ],
+      "loot_value": 1.25,
+      "boosts": [],
+      "loot_effects": [
+        "In-game bullets: Increased loot value; Debris affects Shields; Higher-threat ARC",
+        "First Wave Caches spawn and give better loot than normal Raider Caches; the wiki says players report tier IV weapons and rare blueprints",
+        "1.18.0 (official): rare blueprint drop rate in First Wave Caches slightly lowered, high-tier material drop rate raised",
+        "Wiki blueprint table (unconfirmed): the Canto blueprint drops only in Hurricane, from First Wave Caches",
+        "Since 2.3.0 (official): Dolabra, Bobcat, Equalizer, Jupiter, Tempest and Vulcano blueprints can drop in any major condition (that pool's drop chance was slightly lowered)"
+      ],
+      "arc_effects": [
+        "'Higher-threat ARC', and the wiki says the storm draws more ARC",
+        "1.22.0 (official): fewer Comets during Hurricane"
+      ],
+      "confidence": "confirmed",
+      "source": "off_tracker; wiki_conditions; off_1.18.0; off_1.22.0; off_2.3.0"
+    },
+    {
+      "name": "Cold Snap",
+      "major": true,
+      "maps": [
+        "dam",
+        "buried-city",
+        "spaceport",
+        "blue-gate"
+      ],
+      "loot_value": 1.25,
+      "boosts": [],
+      "loot_effects": [
+        "In-game bullets: Harvest Candleberries; Increased loot value; Damaging cold",
+        "Raider Caches have better loot and must be breached (wiki)",
+        "Fireworks Box blueprint: the wiki says Cold Snap only, but MetaForge says it is in the Industrial pool and still dropped after Cold Snap ended (Jan 2026). The two sources conflict"
+      ],
+      "arc_effects": [],
+      "confidence": "likely",
+      "source": "wiki_conditions; wiki_maps; off_1.7.0; wiki_blueprints; mf_blueprints"
+    },
+    {
+      "name": "Hidden Bunker",
+      "major": true,
+      "maps": [
+        "spaceport"
+      ],
+      "loot_value": 1,
+      "boosts": [],
+      "loot_effects": [
+        "In-game bullets: Fewer active Return Points; No active Raider Hatches; Activate Rooftop Antennas; Retrieve data from the bunker",
+        "The bunker is west/southwest of the Departure Building. Activate 4 rooftop antennas (progress is shared by the lobby), then download data at 8 terminals inside, each usable once (wiki)",
+        "Wiki blueprint table (unconfirmed): Padded Stock and Shotgun Silencer blueprints",
+        "Since 2.3.0 (official): Dolabra, Bobcat, Equalizer, Jupiter, Tempest and Vulcano blueprints can drop in any major condition (that pool's drop chance was slightly lowered)"
+      ],
+      "arc_effects": [
+        "The first interaction with each antenna spawns Wasps and Hornets; two Bastions and a Bombardier patrol the bunker entrances (wiki)"
+      ],
+      "confidence": "confirmed",
+      "source": "off_tracker; wiki_conditions"
+    },
+    {
+      "name": "Locked Gate",
+      "major": true,
+      "maps": [
+        "blue-gate"
+      ],
+      "loot_value": 1,
+      "boosts": [],
+      "loot_effects": [
+        "In-game bullets: Fewer active Return Points; No active Raider Hatches; Collect Security Codes",
+        "Opens the underground tunnels at Checkpoint. Take 4 security codes (Raider's Refuge, Pilgrim's Peak, Reinforced Reception, Ancient Fort) to the Gate Control Room console (wiki)",
+        "Wiki blueprint table (unconfirmed): tier-III attachment blueprints (Angled Grip III, Compensator III, Extended Barrel III, Extended Light/Medium/Shotgun Mag III, Muzzle Brake III, Shotgun Choke III, Stable Stock III, Vertical Grip III, Lightweight Stock) drop only in Electromagnetic Storm, Locked Gate or Night Raid",
+        "Since 2.3.0 (official): Dolabra, Bobcat, Equalizer, Jupiter, Tempest and Vulcano blueprints can drop in any major condition (that pool's drop chance was slightly lowered)"
+      ],
+      "arc_effects": [
+        "Two Rocketeers guard Pilgrim's Peak; Buried Mines surround each code location (wiki)"
+      ],
+      "confidence": "confirmed",
+      "source": "off_tracker; wiki_conditions"
+    },
+    {
+      "name": "Close Scrutiny",
+      "major": true,
+      "maps": [
+        "dam",
+        "buried-city",
+        "spaceport",
+        "blue-gate"
+      ],
+      "loot_value": 0.85,
+      "boosts": [],
+      "loot_effects": [
+        "In-game bullets: No active locked doors (key rooms open without a key; puzzle rooms stay locked); Decreased overall loot value; Increased ARC loot",
+        "Surveyors, guarded by Vaporizers, call in ARC Assessors. Breach an Assessor's pylons for Assessor Matrix and other ARC loot (wiki)"
+      ],
+      "arc_effects": [
+        "Starting a pylon breach spawns a swarm of flying ARC: Vaporizers, Rocketeers, Fireflies, Hornets and Wasps (wiki)"
+      ],
+      "confidence": "confirmed",
+      "source": "off_tracker; wiki_conditions; off_1.33.0"
+    },
+    {
+      "name": "ARC Frigate",
+      "major": true,
+      "maps": [
+        "dam",
+        "buried-city",
+        "spaceport",
+        "blue-gate",
+        "pendola-pass",
+        "riven-tides"
+      ],
+      "loot_value": 0.85,
+      "boosts": [],
+      "loot_effects": [
+        "In-game bullets: No active locked doors; Decreased overall loot value; No active Raider Hatches",
+        "Frigate containers hold mid-tier ARC loot with a small chance of Amplification Modules, Frigate Inductors and ARC Data. The final Cargo has a much higher rate of Frigate Diagnostic Nodes, Amplification Modules and other amplification parts (wiki)",
+        "2.3.0 (official): areas further inside the Frigate have a higher chance of higher-tier rewards",
+        "Since 2.3.0 (official): Dolabra, Bobcat, Equalizer, Jupiter, Tempest and Vulcano blueprints can drop in any major condition (that pool's drop chance was slightly lowered)"
+      ],
+      "arc_effects": [
+        "Surface ARC spawns are greatly reduced and ARC Turbines do not spawn (wiki)",
+        "Hydras, Rocketeers, Vaporizers, Fireflies, Hornets and Wasps defend the Frigate (wiki)"
+      ],
+      "confidence": "confirmed",
+      "source": "off_tracker; wiki_conditions; off_2.0; off_2.3.0"
+    },
+    {
+      "name": "Harvester",
+      "major": false,
+      "maps": [
+        "dam",
+        "spaceport",
+        "blue-gate"
+      ],
+      "loot_value": 1,
+      "boosts": [],
+      "loot_effects": [
+        "Finishing the Harvester core sequence (3 fusion cores, then 12 yellow targets) guarantees 1 to 3 Equalizer or Jupiter blueprints (wiki)",
+        "The Harvester's breachable containers drop ARC materials such as ARC Alloy, Advanced ARC Powercell and Impure ARC Coolant (wiki)"
+      ],
+      "arc_effects": [
+        "A Queen guards the Harvester (wiki)"
+      ],
+      "confidence": "confirmed",
+      "source": "off_tracker; wiki_conditions"
+    },
+    {
+      "name": "Matriarch",
+      "major": false,
+      "maps": [
+        "dam",
+        "spaceport",
+        "blue-gate"
+      ],
+      "loot_value": 1,
+      "boosts": [],
+      "loot_effects": [
+        "The Matriarch drops high-tier ARC materials, including Advanced ARC Powercell, ARC Motion Core, Magnetic Accelerator, Matriarch Reactor and ARC Insulated Coupler (wiki)",
+        "2.0 (official): higher-tier loot moved from the leg armour to the leg pieces on the Queen and Matriarch",
+        "1.7.0 (official): the Aphelion blueprint drop moved from the Matriarch to Stella Montis"
+      ],
+      "arc_effects": [
+        "Spawns the Matriarch with defending ARC 'children' (official description)"
+      ],
+      "confidence": "confirmed",
+      "source": "off_tracker; wiki_conditions; off_2.0; off_1.7.0"
+    },
+    {
+      "name": "Uncovered Caches",
+      "major": false,
+      "maps": [
+        "dam",
+        "buried-city",
+        "spaceport",
+        "blue-gate",
+        "riven-tides"
+      ],
+      "loot_value": 1,
+      "boosts": [
+        {
+          "marker": "containers/raider_cache",
+          "factor": 2
+        }
+      ],
+      "loot_effects": [
+        "Many more Raider Caches, which explode if left too long, and their loot value is increased (wiki)",
+        "Raider Caches hold ammo, blueprints, grenades, healing items, shields, quick-use items and weapons (wiki)"
+      ],
+      "arc_effects": [],
+      "confidence": "likely",
+      "source": "off_tracker; wiki_conditions"
+    },
+    {
+      "name": "Prospecting Probes",
+      "major": false,
+      "maps": [
+        "dam",
+        "buried-city",
+        "spaceport",
+        "blue-gate",
+        "riven-tides"
+      ],
+      "loot_value": 1,
+      "boosts": [
+        {
+          "marker": "containers/arc_probe",
+          "factor": 2
+        }
+      ],
+      "loot_effects": [
+        "Many more Probes, which are ARC loot containers (wiki)"
+      ],
+      "arc_effects": [
+        "Probes are more often guarded by flying ARC such as Wasps (wiki)"
+      ],
+      "confidence": "confirmed",
+      "source": "off_tracker; wiki_conditions"
+    },
+    {
+      "name": "Lush Blooms",
+      "major": false,
+      "maps": [
+        "dam",
+        "buried-city",
+        "spaceport",
+        "blue-gate",
+        "riven-tides"
+      ],
+      "loot_value": 1,
+      "boosts": [
+        {
+          "marker": "containers/basket",
+          "factor": 1.5
+        }
+      ],
+      "loot_effects": [
+        "More Nature loot and Wicker Baskets (wiki)"
+      ],
+      "arc_effects": [],
+      "confidence": "confirmed",
+      "source": "off_tracker; wiki_conditions"
+    },
+    {
+      "name": "Husk Graveyard",
+      "major": false,
+      "maps": [
+        "dam",
+        "buried-city",
+        "spaceport",
+        "blue-gate",
+        "riven-tides"
+      ],
+      "loot_value": 1,
+      "boosts": [
+        {
+          "marker": "containers/wasp_husk",
+          "factor": 2
+        },
+        {
+          "marker": "containers/rocketeer_husk",
+          "factor": 2
+        },
+        {
+          "marker": "containers/arc_courier",
+          "factor": 1.5
+        }
+      ],
+      "loot_effects": [
+        "Many more Wasp, Rocketeer and Courier husks to loot, and they can be electrified when breached. Baron Husks are unchanged (wiki)"
+      ],
+      "arc_effects": [],
+      "confidence": "likely",
+      "source": "wiki_conditions"
+    },
+    {
+      "name": "Bird City",
+      "major": false,
+      "maps": [
+        "buried-city"
+      ],
+      "loot_value": 1,
+      "boosts": [],
+      "loot_effects": [
+        "More trinkets in rooftop chimney nests, including Duck trinkets found only in this condition (wiki)",
+        "1.17.0 (official): slightly lower chance of rare loot in chimneys"
+      ],
+      "arc_effects": [
+        "Many more ARC drones of all types patrol the sky (wiki)"
+      ],
+      "confidence": "confirmed",
+      "source": "off_tracker; wiki_conditions; off_1.13.0; off_1.17.0"
+    },
+    {
+      "name": "Beachcombing",
+      "major": false,
+      "maps": [
+        "riven-tides"
+      ],
+      "loot_value": 1,
+      "boosts": [],
+      "loot_effects": [
+        "Dig on the north beaches with a Dockmaster's Detector for Weapon Cases, Suitcases (basic materials, ship models) and fruit or fertilizer. Some digs turn up mines or Ticks (wiki)"
+      ],
+      "arc_effects": [
+        "Buried Ticks and more birds (wiki)"
+      ],
+      "confidence": "confirmed",
+      "source": "off_tracker; wiki_conditions; off_1.26.0"
+    },
+    {
+      "name": "Launch Tower Loot",
+      "major": false,
+      "maps": [
+        "spaceport"
+      ],
+      "loot_value": 1,
+      "boosts": [],
+      "loot_effects": [
+        "Extra loot at the top of the Launch Tower. To open the zipline doors, put a fuel cell into the generator at their base (wiki)",
+        "1.22.0 (official): higher chance of high-tier loot from finishing the rooftop activity"
+      ],
+      "arc_effects": [
+        "Official description: ARC 'ramped up their defenses'"
+      ],
+      "confidence": "likely",
+      "source": "wiki_conditions; off_1.22.0"
+    },
+    {
+      "name": "Redirection",
+      "major": false,
+      "maps": [
+        "pendola-pass"
+      ],
+      "loot_value": 1,
+      "boosts": [],
+      "loot_effects": [
+        "In-game bullets: No Flash Freeze; Emperor Relays active; Falling Debris",
+        "Loot and deploy Emperor Beacons to call down Harvester Payloads, breachable containers with ARC materials and parts (wiki)",
+        "Payloads can drop the Emperor Gateway Conduit blueprint. 2.3.0 (official) lowered that chance and added a small chance of ARC parts and high-tier ARC loot instead"
+      ],
+      "arc_effects": [],
+      "confidence": "confirmed",
+      "source": "off_tracker; wiki_conditions; off_2.3.0"
+    }
+  ]
+}
