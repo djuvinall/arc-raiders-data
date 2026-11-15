@@ -1,5 +1,43 @@
 [
   {
+    "dataset_version": "2026-11-15",
+    "game_patch": "2.4.1",
+    "summary": [
+      "items: 0 added, 0 removed, 22 changed."
+    ],
+    "files": [
+      {
+        "file": "items.json",
+        "added": [],
+        "removed": [],
+        "changed": [
+          "Arpeggio I",
+          "Arpeggio II",
+          "Bettina I",
+          "Bettina II",
+          "Ferro IV",
+          "Hullcracker II",
+          "Hullcracker III",
+          "Il Toro I",
+          "Il Toro II",
+          "Kettle I",
+          "Osprey I",
+          "Osprey II",
+          "Osprey III",
+          "Osprey IV",
+          "Renegade I",
+          "Renegade II",
+          "Tempest I",
+          "Tempest II",
+          "Tempest III",
+          "Tempest IV",
+          "Torrente I",
+          "Torrente II"
+        ]
+      }
+    ]
+  },
+  {
     "dataset_version": "2026-11-09.03",
     "game_patch": "2.4.1",
     "summary": [

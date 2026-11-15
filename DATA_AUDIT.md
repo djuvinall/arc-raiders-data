@@ -78,6 +78,25 @@ legendary) and the wiki has one.
   left on 2026-11-07, while the wiki's end date (2026-11-16) gives 9 to 10. Check the end
   date when the event closes.
 
+## Checked in game, 2026-11-14
+
+Weapon cards for 15 guns, read from screenshots. Fixes are in
+`overlays/corrections/ingame-2026-11-14-weapons.json`. Amplification trees, costs and the
+open checks are in `docs/research/2026-11-14/weapons.json` in the app repo.
+
+- **Levels share level IV stats.** The sources give every level the level IV numbers.
+  The game shows each level's own fire rate, stability, agility and range. Corrected for
+  the levels seen: Bettina I-II, Hullcracker II-III, Renegade I-II, Torrente I-II,
+  Arpeggio I-II, Il Toro I-II, Kettle I and Osprey I-II. Every other level below IV is
+  still wrong.
+- **Ferro IV** fire rate is 16.6, not 6.6.
+- **Level II modifiers** list +10 Max Durability and +10 Durability (Repair), with no
+  Reduced Durability Burn Rate line (Renegade II, Torrente II).
+- **Slots:** the Osprey has an underbarrel slot. The Tempest has no stock slot.
+- **Matched:** Anvil IV and Amplified Anvil, Amplified Bettina (Semi-Auto), Dolabra,
+  Tempest IV, the nine level II upgrade costs, and Ochre, Garnet and Dragon's Breath on
+  the Tempest. Fortuna, Garnet, Ochre, Slipstream, Tortoise and Cerulean fit the Anvil.
+
 ## To do in game
 
 Key pages link to their doors by matching map marker names. These keys have no
@@ -122,6 +141,9 @@ in the app repo). Fix anything wrong in `overlays/containers_overlay.json`,
       how many Harvester blueprints drop and the Equalizer/Jupiter split; Assessors per raid;
       what a Redirection Payload holds. The gear lines are a reading of guides, not a game
       minimum. Set `confidence` to `in-game` once an entry is checked.
+- [ ] **Weapon levels:** read the cards of unseen levels (III, and I-III of the rest),
+      the Ferro I-III fire rate, the Burn Rate lines on Renegade and Torrente III/IV, the
+      Hullcracker's slots, and the name of the Anvil's amplification part.
 - [ ] **Raid timing** (`raid.rs`): travel speed in map units per second (estimated 4.5; time
       a run between two markers), and search and breach seconds (estimated 4 and +8).
 - [ ] **Frigate Cargo on Riven Tides:** the Frigate runs there, but MetaForge marks no Cargo

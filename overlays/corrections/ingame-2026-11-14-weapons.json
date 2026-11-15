@@ -1,0 +1,622 @@
+[
+  {
+    "file": "items",
+    "id": "bettina-i",
+    "field": "/stats/fire_rate",
+    "value": 17.5,
+    "was": 22.0,
+    "comment": "In game 2026-11-14 (Devon's screenshots). Sources give every level the level IV numbers; this is the level's own value."
+  },
+  {
+    "file": "items",
+    "id": "bettina-i",
+    "field": "/stats/stability",
+    "value": 74.8,
+    "was": 68.8,
+    "comment": "In game 2026-11-14 (Devon's screenshots). Sources give every level the level IV numbers; this is the level's own value."
+  },
+  {
+    "file": "items",
+    "id": "bettina-ii",
+    "field": "/stats/fire_rate",
+    "value": 19.0,
+    "was": 22.0,
+    "comment": "In game 2026-11-14 (Devon's screenshots). Sources give every level the level IV numbers; this is the level's own value."
+  },
+  {
+    "file": "items",
+    "id": "bettina-ii",
+    "field": "/stats/stability",
+    "value": 72.8,
+    "was": 68.8,
+    "comment": "In game 2026-11-14 (Devon's screenshots). Sources give every level the level IV numbers; this is the level's own value."
+  },
+  {
+    "file": "items",
+    "id": "hullcracker-ii",
+    "field": "/stats/fire_rate",
+    "value": 8.3,
+    "was": 9.3,
+    "comment": "In game 2026-11-14 (Devon's screenshots). Sources give every level the level IV numbers; this is the level's own value."
+  },
+  {
+    "file": "items",
+    "id": "hullcracker-ii",
+    "field": "/stats/stability",
+    "value": 87.2,
+    "was": 96.2,
+    "comment": "In game 2026-11-14 (Devon's screenshots). Sources give every level the level IV numbers; this is the level's own value."
+  },
+  {
+    "file": "items",
+    "id": "hullcracker-ii",
+    "field": "/stats/agility",
+    "value": 77.9,
+    "was": 67.9,
+    "comment": "In game 2026-11-14 (Devon's screenshots). Sources give every level the level IV numbers; this is the level's own value."
+  },
+  {
+    "file": "items",
+    "id": "hullcracker-iii",
+    "field": "/stats/fire_rate",
+    "value": 8.8,
+    "was": 9.3,
+    "comment": "In game 2026-11-14 (Devon's screenshots). Sources give every level the level IV numbers; this is the level's own value."
+  },
+  {
+    "file": "items",
+    "id": "hullcracker-iii",
+    "field": "/stats/stability",
+    "value": 86.7,
+    "was": 96.2,
+    "comment": "In game 2026-11-14 (Devon's screenshots). Sources give every level the level IV numbers; this is the level's own value."
+  },
+  {
+    "file": "items",
+    "id": "hullcracker-iii",
+    "field": "/stats/agility",
+    "value": 77.9,
+    "was": 67.9,
+    "comment": "In game 2026-11-14 (Devon's screenshots). Sources give every level the level IV numbers; this is the level's own value."
+  },
+  {
+    "file": "items",
+    "id": "renegade-i",
+    "field": "/stats/fire_rate",
+    "value": 7.5,
+    "was": 12.0,
+    "comment": "In game 2026-11-14 (Devon's screenshots). Sources give every level the level IV numbers; this is the level's own value."
+  },
+  {
+    "file": "items",
+    "id": "renegade-i",
+    "field": "/stats/stability",
+    "value": 87.4,
+    "was": 80.9,
+    "comment": "In game 2026-11-14 (Devon's screenshots). Sources give every level the level IV numbers; this is the level's own value."
+  },
+  {
+    "file": "items",
+    "id": "renegade-i",
+    "field": "/stats/agility",
+    "value": 42.3,
+    "was": 46.3,
+    "comment": "In game 2026-11-14 (Devon's screenshots). Sources give every level the level IV numbers; this is the level's own value."
+  },
+  {
+    "file": "items",
+    "id": "renegade-ii",
+    "field": "/stats/fire_rate",
+    "value": 9.0,
+    "was": 12.0,
+    "comment": "In game 2026-11-14 (Devon's screenshots). Sources give every level the level IV numbers; this is the level's own value."
+  },
+  {
+    "file": "items",
+    "id": "renegade-ii",
+    "field": "/stats/stability",
+    "value": 85.4,
+    "was": 80.9,
+    "comment": "In game 2026-11-14 (Devon's screenshots). Sources give every level the level IV numbers; this is the level's own value."
+  },
+  {
+    "file": "items",
+    "id": "renegade-ii",
+    "field": "/stats/agility",
+    "value": 43.8,
+    "was": 46.3,
+    "comment": "In game 2026-11-14 (Devon's screenshots). Sources give every level the level IV numbers; this is the level's own value."
+  },
+  {
+    "file": "items",
+    "id": "torrente-i",
+    "field": "/stats/stability",
+    "value": 73.7,
+    "was": 74.7,
+    "comment": "In game 2026-11-14 (Devon's screenshots). Sources give every level the level IV numbers; this is the level's own value."
+  },
+  {
+    "file": "items",
+    "id": "torrente-ii",
+    "field": "/stats/stability",
+    "value": 74.2,
+    "was": 74.7,
+    "comment": "In game 2026-11-14 (Devon's screenshots). Sources give every level the level IV numbers; this is the level's own value."
+  },
+  {
+    "file": "items",
+    "id": "arpeggio-i",
+    "field": "/stats/fire_rate",
+    "value": 7.3,
+    "was": 21.8,
+    "comment": "In game 2026-11-14 (Devon's screenshots). Sources give every level the level IV numbers; this is the level's own value."
+  },
+  {
+    "file": "items",
+    "id": "arpeggio-i",
+    "field": "/stats/stability",
+    "value": 79.5,
+    "was": 75.5,
+    "comment": "In game 2026-11-14 (Devon's screenshots). Sources give every level the level IV numbers; this is the level's own value."
+  },
+  {
+    "file": "items",
+    "id": "arpeggio-ii",
+    "field": "/stats/fire_rate",
+    "value": 13.3,
+    "was": 21.8,
+    "comment": "In game 2026-11-14 (Devon's screenshots). Sources give every level the level IV numbers; this is the level's own value."
+  },
+  {
+    "file": "items",
+    "id": "arpeggio-ii",
+    "field": "/stats/stability",
+    "value": 78.0,
+    "was": 75.5,
+    "comment": "In game 2026-11-14 (Devon's screenshots). Sources give every level the level IV numbers; this is the level's own value."
+  },
+  {
+    "file": "items",
+    "id": "il-toro-i",
+    "field": "/stats/fire_rate",
+    "value": 7.5,
+    "was": 8.5,
+    "comment": "In game 2026-11-14 (Devon's screenshots). Sources give every level the level IV numbers; this is the level's own value."
+  },
+  {
+    "file": "items",
+    "id": "il-toro-i",
+    "field": "/stats/stability",
+    "value": 85.5,
+    "was": 82.0,
+    "comment": "In game 2026-11-14 (Devon's screenshots). Sources give every level the level IV numbers; this is the level's own value."
+  },
+  {
+    "file": "items",
+    "id": "il-toro-i",
+    "field": "/stats/agility",
+    "value": 56.2,
+    "was": 62.2,
+    "comment": "In game 2026-11-14 (Devon's screenshots). Sources give every level the level IV numbers; this is the level's own value."
+  },
+  {
+    "file": "items",
+    "id": "il-toro-ii",
+    "field": "/stats/fire_rate",
+    "value": 8.0,
+    "was": 8.5,
+    "comment": "In game 2026-11-14 (Devon's screenshots). Sources give every level the level IV numbers; this is the level's own value."
+  },
+  {
+    "file": "items",
+    "id": "il-toro-ii",
+    "field": "/stats/agility",
+    "value": 59.7,
+    "was": 62.2,
+    "comment": "In game 2026-11-14 (Devon's screenshots). Sources give every level the level IV numbers; this is the level's own value."
+  },
+  {
+    "file": "items",
+    "id": "kettle-i",
+    "field": "/stats/range",
+    "value": 37.9,
+    "was": 42.9,
+    "comment": "In game 2026-11-14 (Devon's screenshots). Sources give every level the level IV numbers; this is the level's own value."
+  },
+  {
+    "file": "items",
+    "id": "osprey-i",
+    "field": "/stats/fire_rate",
+    "value": 7.4,
+    "was": 8.4,
+    "comment": "In game 2026-11-14 (Devon's screenshots). Sources give every level the level IV numbers; this is the level's own value."
+  },
+  {
+    "file": "items",
+    "id": "osprey-i",
+    "field": "/stats/agility",
+    "value": 54.1,
+    "was": 56.6,
+    "comment": "In game 2026-11-14 (Devon's screenshots). Sources give every level the level IV numbers; this is the level's own value."
+  },
+  {
+    "file": "items",
+    "id": "osprey-ii",
+    "field": "/stats/fire_rate",
+    "value": 7.9,
+    "was": 8.4,
+    "comment": "In game 2026-11-14 (Devon's screenshots). Sources give every level the level IV numbers; this is the level's own value."
+  },
+  {
+    "file": "items",
+    "id": "osprey-ii",
+    "field": "/stats/agility",
+    "value": 55.6,
+    "was": 56.6,
+    "comment": "In game 2026-11-14 (Devon's screenshots). Sources give every level the level IV numbers; this is the level's own value."
+  },
+  {
+    "file": "items",
+    "id": "ferro-iv",
+    "field": "/stats/fire_rate",
+    "value": 16.6,
+    "was": 6.6,
+    "comment": "In game 2026-11-14 (Devon's screenshots). Ferro IV card shows Fire Rate 16.6; every other stat matched."
+  },
+  {
+    "file": "items",
+    "id": "renegade-ii",
+    "field": "/stats/upgrades",
+    "value": [
+      {
+        "label": "Increased Fire Rate",
+        "pct": 25.0
+      },
+      {
+        "label": "Reduced Dispersion Recovery Time",
+        "pct": 16.6
+      }
+    ],
+    "was": [
+      {
+        "label": "Increased Fire Rate",
+        "pct": 25.0
+      },
+      {
+        "label": "Reduced Dispersion Recovery Time",
+        "pct": 16.6
+      },
+      {
+        "label": "Reduced Durability Burn Rate",
+        "pct": 23.0
+      }
+    ],
+    "comment": "In game 2026-11-14 (Devon's screenshots). Level II lists no Reduced Durability Burn Rate; it shows +10 Max Durability and +10 Durability (Repair) instead."
+  },
+  {
+    "file": "items",
+    "id": "torrente-ii",
+    "field": "/stats/upgrades",
+    "value": [
+      {
+        "label": "Reduced Reload Time",
+        "pct": 15.0
+      }
+    ],
+    "was": [
+      {
+        "label": "Reduced Durability Burn Rate",
+        "pct": 23.0
+      },
+      {
+        "label": "Reduced Reload Time",
+        "pct": 15.0
+      }
+    ],
+    "comment": "In game 2026-11-14 (Devon's screenshots). Level II lists no Reduced Durability Burn Rate; it shows +10 Max Durability and +10 Durability (Repair) instead."
+  },
+  {
+    "file": "items",
+    "id": "osprey-i",
+    "field": "/stats/mod_slots",
+    "value": [
+      {
+        "slot": "medium-mag",
+        "tier_max": 3
+      },
+      {
+        "slot": "muzzle",
+        "tier_max": 3
+      },
+      {
+        "slot": "stock",
+        "tier_max": 3
+      },
+      {
+        "slot": "underbarrel",
+        "tier_max": 3
+      }
+    ],
+    "was": [
+      {
+        "slot": "medium-mag",
+        "tier_max": 3
+      },
+      {
+        "slot": "muzzle",
+        "tier_max": 3
+      },
+      {
+        "slot": "stock",
+        "tier_max": 3
+      }
+    ],
+    "comment": "In game 2026-11-14 (Devon's screenshots). Osprey card shows four slots: muzzle, underbarrel, mag, stock. Slots are family-wide; seen on one level."
+  },
+  {
+    "file": "items",
+    "id": "tempest-i",
+    "field": "/stats/mod_slots",
+    "value": [
+      {
+        "slot": "medium-mag",
+        "tier_max": 3
+      },
+      {
+        "slot": "muzzle",
+        "tier_max": 3
+      },
+      {
+        "slot": "underbarrel",
+        "tier_max": 3
+      }
+    ],
+    "was": [
+      {
+        "slot": "medium-mag",
+        "tier_max": 3
+      },
+      {
+        "slot": "muzzle",
+        "tier_max": 3
+      },
+      {
+        "slot": "stock",
+        "tier_max": 3
+      },
+      {
+        "slot": "underbarrel",
+        "tier_max": 3
+      }
+    ],
+    "comment": "In game 2026-11-14 (Devon's screenshots). Tempest IV card shows three slots: muzzle, underbarrel, mag. No stock. Slots are family-wide; seen on one level."
+  },
+  {
+    "file": "items",
+    "id": "osprey-ii",
+    "field": "/stats/mod_slots",
+    "value": [
+      {
+        "slot": "medium-mag",
+        "tier_max": 3
+      },
+      {
+        "slot": "muzzle",
+        "tier_max": 3
+      },
+      {
+        "slot": "stock",
+        "tier_max": 3
+      },
+      {
+        "slot": "underbarrel",
+        "tier_max": 3
+      }
+    ],
+    "was": [
+      {
+        "slot": "medium-mag",
+        "tier_max": 3
+      },
+      {
+        "slot": "muzzle",
+        "tier_max": 3
+      },
+      {
+        "slot": "stock",
+        "tier_max": 3
+      }
+    ],
+    "comment": "In game 2026-11-14 (Devon's screenshots). Osprey card shows four slots: muzzle, underbarrel, mag, stock. Slots are family-wide; seen on one level."
+  },
+  {
+    "file": "items",
+    "id": "tempest-ii",
+    "field": "/stats/mod_slots",
+    "value": [
+      {
+        "slot": "medium-mag",
+        "tier_max": 3
+      },
+      {
+        "slot": "muzzle",
+        "tier_max": 3
+      },
+      {
+        "slot": "underbarrel",
+        "tier_max": 3
+      }
+    ],
+    "was": [
+      {
+        "slot": "medium-mag",
+        "tier_max": 3
+      },
+      {
+        "slot": "muzzle",
+        "tier_max": 3
+      },
+      {
+        "slot": "stock",
+        "tier_max": 3
+      },
+      {
+        "slot": "underbarrel",
+        "tier_max": 3
+      }
+    ],
+    "comment": "In game 2026-11-14 (Devon's screenshots). Tempest IV card shows three slots: muzzle, underbarrel, mag. No stock. Slots are family-wide; seen on one level."
+  },
+  {
+    "file": "items",
+    "id": "osprey-iii",
+    "field": "/stats/mod_slots",
+    "value": [
+      {
+        "slot": "medium-mag",
+        "tier_max": 3
+      },
+      {
+        "slot": "muzzle",
+        "tier_max": 3
+      },
+      {
+        "slot": "stock",
+        "tier_max": 3
+      },
+      {
+        "slot": "underbarrel",
+        "tier_max": 3
+      }
+    ],
+    "was": [
+      {
+        "slot": "medium-mag",
+        "tier_max": 3
+      },
+      {
+        "slot": "muzzle",
+        "tier_max": 3
+      },
+      {
+        "slot": "stock",
+        "tier_max": 3
+      }
+    ],
+    "comment": "In game 2026-11-14 (Devon's screenshots). Osprey card shows four slots: muzzle, underbarrel, mag, stock. Slots are family-wide; seen on one level."
+  },
+  {
+    "file": "items",
+    "id": "tempest-iii",
+    "field": "/stats/mod_slots",
+    "value": [
+      {
+        "slot": "medium-mag",
+        "tier_max": 3
+      },
+      {
+        "slot": "muzzle",
+        "tier_max": 3
+      },
+      {
+        "slot": "underbarrel",
+        "tier_max": 3
+      }
+    ],
+    "was": [
+      {
+        "slot": "medium-mag",
+        "tier_max": 3
+      },
+      {
+        "slot": "muzzle",
+        "tier_max": 3
+      },
+      {
+        "slot": "stock",
+        "tier_max": 3
+      },
+      {
+        "slot": "underbarrel",
+        "tier_max": 3
+      }
+    ],
+    "comment": "In game 2026-11-14 (Devon's screenshots). Tempest IV card shows three slots: muzzle, underbarrel, mag. No stock. Slots are family-wide; seen on one level."
+  },
+  {
+    "file": "items",
+    "id": "osprey-iv",
+    "field": "/stats/mod_slots",
+    "value": [
+      {
+        "slot": "medium-mag",
+        "tier_max": 3
+      },
+      {
+        "slot": "muzzle",
+        "tier_max": 3
+      },
+      {
+        "slot": "stock",
+        "tier_max": 3
+      },
+      {
+        "slot": "underbarrel",
+        "tier_max": 3
+      }
+    ],
+    "was": [
+      {
+        "slot": "medium-mag",
+        "tier_max": 3
+      },
+      {
+        "slot": "muzzle",
+        "tier_max": 3
+      },
+      {
+        "slot": "stock",
+        "tier_max": 3
+      }
+    ],
+    "comment": "In game 2026-11-14 (Devon's screenshots). Osprey card shows four slots: muzzle, underbarrel, mag, stock. Slots are family-wide; seen on one level."
+  },
+  {
+    "file": "items",
+    "id": "tempest-iv",
+    "field": "/stats/mod_slots",
+    "value": [
+      {
+        "slot": "medium-mag",
+        "tier_max": 3
+      },
+      {
+        "slot": "muzzle",
+        "tier_max": 3
+      },
+      {
+        "slot": "underbarrel",
+        "tier_max": 3
+      }
+    ],
+    "was": [
+      {
+        "slot": "medium-mag",
+        "tier_max": 3
+      },
+      {
+        "slot": "muzzle",
+        "tier_max": 3
+      },
+      {
+        "slot": "stock",
+        "tier_max": 3
+      },
+      {
+        "slot": "underbarrel",
+        "tier_max": 3
+      }
+    ],
+    "comment": "In game 2026-11-14 (Devon's screenshots). Tempest IV card shows three slots: muzzle, underbarrel, mag. No stock. Slots are family-wide; seen on one level."
+  }
+]

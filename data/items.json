@@ -9055,9 +9055,9 @@
     "stats": {
       "kind": "weapon",
       "damage": 9.5,
-      "fire_rate": 21.8,
+      "fire_rate": 7.3,
       "range": 55.9,
-      "stability": 75.5,
+      "stability": 79.5,
       "agility": 57.3,
       "stealth": 14.0,
       "magazine_size": 24,
@@ -9143,9 +9143,9 @@
     "stats": {
       "kind": "weapon",
       "damage": 9.5,
-      "fire_rate": 21.8,
+      "fire_rate": 13.3,
       "range": 55.9,
-      "stability": 75.5,
+      "stability": 78.0,
       "agility": 57.3,
       "stealth": 14.0,
       "magazine_size": 24,
@@ -11938,9 +11938,9 @@
     "stats": {
       "kind": "weapon",
       "damage": 16.0,
-      "fire_rate": 22.0,
+      "fire_rate": 17.5,
       "range": 51.6,
-      "stability": 68.8,
+      "stability": 74.8,
       "agility": 49.4,
       "stealth": 14.0,
       "magazine_size": 22,
@@ -12013,9 +12013,9 @@
     "stats": {
       "kind": "weapon",
       "damage": 16.0,
-      "fire_rate": 22.0,
+      "fire_rate": 19.0,
       "range": 51.6,
-      "stability": 68.8,
+      "stability": 72.8,
       "agility": 49.4,
       "stealth": 14.0,
       "magazine_size": 22,
@@ -24989,7 +24989,7 @@
     "stats": {
       "kind": "weapon",
       "damage": 40.0,
-      "fire_rate": 6.6,
+      "fire_rate": 16.6,
       "range": 53.1,
       "stability": 78.1,
       "agility": 31.5,
@@ -30448,10 +30448,10 @@
     "stats": {
       "kind": "weapon",
       "damage": 100.0,
-      "fire_rate": 9.3,
+      "fire_rate": 8.3,
       "range": 38.9,
-      "stability": 96.2,
-      "agility": 67.9,
+      "stability": 87.2,
+      "agility": 77.9,
       "stealth": 1.0,
       "magazine_size": 5,
       "firing_mode": "Pump-Action",
@@ -30524,10 +30524,10 @@
     "stats": {
       "kind": "weapon",
       "damage": 100.0,
-      "fire_rate": 9.3,
+      "fire_rate": 8.8,
       "range": 38.9,
-      "stability": 96.2,
-      "agility": 67.9,
+      "stability": 86.7,
+      "agility": 77.9,
       "stealth": 1.0,
       "magazine_size": 5,
       "firing_mode": "Pump-Action",
@@ -31122,10 +31122,10 @@
     "stats": {
       "kind": "weapon",
       "damage": 63.0,
-      "fire_rate": 8.5,
+      "fire_rate": 7.5,
       "range": 17.0,
-      "stability": 82.0,
-      "agility": 62.2,
+      "stability": 85.5,
+      "agility": 56.2,
       "stealth": 18.0,
       "magazine_size": 5,
       "firing_mode": "Pump-Action",
@@ -31210,10 +31210,10 @@
     "stats": {
       "kind": "weapon",
       "damage": 63.0,
-      "fire_rate": 8.5,
+      "fire_rate": 8.0,
       "range": 17.0,
       "stability": 82.0,
-      "agility": 62.2,
+      "agility": 59.7,
       "stealth": 18.0,
       "magazine_size": 6,
       "firing_mode": "Pump-Action",
@@ -32215,7 +32215,7 @@
       "kind": "weapon",
       "damage": 8.5,
       "fire_rate": 30.0,
-      "range": 42.9,
+      "range": 37.9,
       "stability": 73.3,
       "agility": 58.5,
       "stealth": 26.0,
@@ -37584,10 +37584,10 @@
     "stats": {
       "kind": "weapon",
       "damage": 45.0,
-      "fire_rate": 8.4,
+      "fire_rate": 7.4,
       "range": 79.1,
       "stability": 79.0,
-      "agility": 56.6,
+      "agility": 54.1,
       "stealth": 12.0,
       "magazine_size": 8,
       "firing_mode": "Bolt-Action",
@@ -37603,6 +37603,10 @@
         },
         {
           "slot": "stock",
+          "tier_max": 3
+        },
+        {
+          "slot": "underbarrel",
           "tier_max": 3
         }
       ],
@@ -37668,10 +37672,10 @@
     "stats": {
       "kind": "weapon",
       "damage": 45.0,
-      "fire_rate": 8.4,
+      "fire_rate": 7.9,
       "range": 79.1,
       "stability": 79.0,
-      "agility": 56.6,
+      "agility": 55.6,
       "stealth": 12.0,
       "magazine_size": 8,
       "firing_mode": "Bolt-Action",
@@ -37687,6 +37691,10 @@
         },
         {
           "slot": "stock",
+          "tier_max": 3
+        },
+        {
+          "slot": "underbarrel",
           "tier_max": 3
         }
       ],
@@ -37772,6 +37780,10 @@
         {
           "slot": "stock",
           "tier_max": 3
+        },
+        {
+          "slot": "underbarrel",
+          "tier_max": 3
         }
       ],
       "upgrades": [
@@ -37855,6 +37867,10 @@
         },
         {
           "slot": "stock",
+          "tier_max": 3
+        },
+        {
+          "slot": "underbarrel",
           "tier_max": 3
         }
       ],
@@ -42812,10 +42828,10 @@
     "stats": {
       "kind": "weapon",
       "damage": 35.0,
-      "fire_rate": 12.0,
+      "fire_rate": 7.5,
       "range": 68.8,
-      "stability": 80.9,
-      "agility": 46.3,
+      "stability": 87.4,
+      "agility": 42.3,
       "stealth": 16.0,
       "magazine_size": 8,
       "firing_mode": "Lever-Action",
@@ -42896,10 +42912,10 @@
     "stats": {
       "kind": "weapon",
       "damage": 35.0,
-      "fire_rate": 12.0,
+      "fire_rate": 9.0,
       "range": 68.8,
-      "stability": 80.9,
-      "agility": 46.3,
+      "stability": 85.4,
+      "agility": 43.8,
       "stealth": 16.0,
       "magazine_size": 8,
       "firing_mode": "Lever-Action",
@@ -42926,10 +42942,6 @@
         {
           "label": "Reduced Dispersion Recovery Time",
           "pct": 16.6
-        },
-        {
-          "label": "Reduced Durability Burn Rate",
-          "pct": 23.0
         }
       ],
       "measured": {
@@ -53012,10 +53024,6 @@
           "tier_max": 3
         },
         {
-          "slot": "stock",
-          "tier_max": 3
-        },
-        {
           "slot": "underbarrel",
           "tier_max": 3
         }
@@ -53090,10 +53098,6 @@
         },
         {
           "slot": "muzzle",
-          "tier_max": 3
-        },
-        {
-          "slot": "stock",
           "tier_max": 3
         },
         {
@@ -53181,10 +53185,6 @@
           "tier_max": 3
         },
         {
-          "slot": "stock",
-          "tier_max": 3
-        },
-        {
           "slot": "underbarrel",
           "tier_max": 3
         }
@@ -53266,10 +53266,6 @@
         },
         {
           "slot": "muzzle",
-          "tier_max": 3
-        },
-        {
-          "slot": "stock",
           "tier_max": 3
         },
         {
@@ -54044,7 +54040,7 @@
       "damage": 8.0,
       "fire_rate": 58.3,
       "range": 49.9,
-      "stability": 74.7,
+      "stability": 73.7,
       "agility": 37.7,
       "stealth": 1.0,
       "magazine_size": 60,
@@ -54128,7 +54124,7 @@
       "damage": 8.0,
       "fire_rate": 58.3,
       "range": 49.9,
-      "stability": 74.7,
+      "stability": 74.2,
       "agility": 37.7,
       "stealth": 1.0,
       "magazine_size": 70,
@@ -54149,10 +54145,6 @@
         }
       ],
       "upgrades": [
-        {
-          "label": "Reduced Durability Burn Rate",
-          "pct": 23.0
-        },
         {
           "label": "Reduced Reload Time",
           "pct": 15.0
